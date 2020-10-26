@@ -14,7 +14,7 @@
           我们致力于解决客户在面对中小数量的生产性物料时遇到的问题，提供降低采购流程成本和提高总体效率的供应链方案。睿服拥有完整的产品体系，按照德国工业标准建立，依托在德国和上海的物流中心，持续进行本土优化。 <br><br>
           睿服集团共有员工650人，年销售额2.1亿欧元。
           <div class="home-main-contact-box">
-            <div class="home-main-contact">联系我们</div>
+            <div class="home-main-contact" @click="handleContactUs">联系我们</div>
           </div>
         </div>
       </div>
@@ -50,17 +50,31 @@
         <img src="../assets/images/home/logo.jpg" alt="">
       </div>
     </div>
+    <contact-us @close="handleClose" v-if="contactUsStatus"></contact-us>
   </div>
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue';
+import ContactUs from '../components/contact-us'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
+    ContactUs
   },
+  data() {
+    return {
+      contactUsStatus: false
+    }
+  },
+  methods: {
+    handleClose() {
+      this.contactUsStatus = false;
+    },
+    handleContactUs() {
+      this.contactUsStatus = true;
+    }
+  }
 };
 </script>
 
@@ -81,6 +95,7 @@ export default {
   line-height: 26px;
   display: flex;
   justify-content: center;
+  padding-bottom: 62px;
   .home-main-content-box {
     width: 44vw;
     .home-main-contact-box {
@@ -97,6 +112,7 @@ export default {
       font-size: 18px;
       color: #fff;
       line-height: 60px;
+      cursor: pointer;
     }
   }
 }

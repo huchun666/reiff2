@@ -14,8 +14,8 @@
             <div class="app-header-tabs-item-content"
               v-show="hoverIndex === index"
             >
-              <div class="app-header-tabs-item-content-item" v-for="(childItem, childIndex) in item.data" :key="childIndex">
-                {{childItem}}
+              <div class="app-header-tabs-item-content-item" v-for="(childItem, childIndex) in item.data" :key="childIndex" @click="handleRouteLink(childItem.url)">
+                {{childItem.title}}
               </div>
             </div>
           </div>
@@ -33,38 +33,74 @@ export default {
         {
           title: '产品一览',
           data: [
-            '滚动轴承和直线技术',
-            '带传动',
-            '化学粘合',
-            '橡胶密封合减震',
-            '工业软管',
-            '工程塑料'
+            {
+              title: '滚动轴承和直线技术',
+              url: '/product/1'
+            },
+            {
+              title: '带传动',
+              url: '/product/2'
+            },
+            {
+              title: '化学粘合',
+              url: '/product/3'
+            },
+            {
+              title: '橡胶密封合减震',
+              url: '/product/4'
+            },
+            {
+              title: '工业软管',
+              url: '/product/5'
+            },
+            {
+              title: '工程塑料',
+              url: '/product/6'
+            },
           ],
         },
         {
           title: '应用行业',
           data: [
-            '应用行业'
+            {
+              title: '应用行业',
+              url: '/product/1'
+            },
           ],
         },
         {
           title: '代理和授权',
           data: [
-            '品牌代理',
-            '授权证书'
+            {
+              title: '品牌代理',
+              url: '/product/1'
+            },
+            {
+              title: '品牌代理',
+              url: '/product/1'
+            },
           ]
         },
         {
           title: '危险化学品业务和供应链服务',
           data: [
-            '危险化学品业务',
-            '供应链服务'
+            {
+              title: '危险化学品业务',
+              url: '/product/1'
+            },
+            {
+              title: '供应链服务',
+              url: '/product/1'
+            },
           ]
         },
         {
           title: '资料下载',
           data: [
-            '资料下载'
+            {
+              title: '资料下载',
+              url: '/product/1'
+            },
           ]
         },
       ],
@@ -72,6 +108,13 @@ export default {
       hoverChildIndex: -1,
     };
   },
+  methods: {
+    handleRouteLink(url) {
+      if (this.$route.path !== url) {
+        this.$router.push({path: url})
+      }
+    }
+  }
 };
 </script>
 

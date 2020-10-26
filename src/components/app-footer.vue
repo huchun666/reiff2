@@ -59,7 +59,6 @@ export default {
 <style scoped lang='scss'>
 .app-footer {
   background: #f6f6f6;
-  margin-top: 120px;
 }
 .app-footer-top {
   display: flex;
