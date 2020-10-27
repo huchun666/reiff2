@@ -35,6 +35,143 @@
         </div>
         <img src="../../assets/images/product2/logo-2.png" alt="">
       </div>
+      <div class="product2-content3">
+        <img src="../../assets/images/product2/content1.jpg" alt="" class="product2-content3-img">
+        <div class="product2-content3-text">
+          <div class="product2-content3-text-title">德国Mulco集团</div>
+          <div class="product2-content3-text-sub-title">Breco, Brecoflex, Contitech Synchroflex 品牌</div>
+          <div class="product2-content3-text-main">
+            Mulco集团由在1951年由睿服等四家公司组成，现在拥有欧洲聚氨酯同步带35%的市场份额和多项专利，多年来一直是聚氨酯同步带技术的推动者。<br>
+            无论是汽车、精密机床还是食品制药等高端制造领域都可以看到大量Mulco产品的应用。在德国以外Mulco通过“Mulco业务伙伴”的形式在欧洲建立了广泛的销售渠道，在美国通过Brecoflex Co., L.L.C销售。
+          </div>
+          <div class="product2-content3-text-bottom">
+            <div class="product2-content3-text-bottom1">
+              <a href="">MULCO集团历史</a>
+              <img src="../../assets/images/product2/location.png" alt="">
+            </div>
+            <div class="product2-content3-text-bottom1">
+              <a href="">Mulco集团官网</a>
+              <img src="../../assets/images/product2/location.png" alt="">
+            </div>
+            <div class="product2-content3-text-bottom1">
+              <a href="">Breco官网</a>
+              <img src="../../assets/images/product2/location.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product2-content3">
+        <img src="../../assets/images/product2/content1.jpg" alt="" class="product2-content3-img">
+        <div class="product2-content3-text">
+          <div class="product2-content3-text-title">德国Mulco集团</div>
+          <div class="product2-content3-text-sub-title">Breco, Brecoflex, Contitech Synchroflex 品牌</div>
+          <div class="product2-content3-text-main">
+            Mulco集团由在1951年由睿服等四家公司组成，现在拥有欧洲聚氨酯同步带35%的市场份额和多项专利，多年来一直是聚氨酯同步带技术的推动者。<br>
+            无论是汽车、精密机床还是食品制药等高端制造领域都可以看到大量Mulco产品的应用。在德国以外Mulco通过“Mulco业务伙伴”的形式在欧洲建立了广泛的销售渠道，在美国通过Brecoflex Co., L.L.C销售。
+          </div>
+          <div class="product2-content3-text-bottom">
+            <div class="product2-content3-text-bottom1">
+              <a href="http://www.mulco.de/en">MULCO集团历史</a>
+              <img src="../../assets/images/product2/location.png" alt="">
+            </div>
+            <div class="product2-content3-text-bottom1">
+              <a href="http://www.mulco.de/en">Mulco集团官网</a>
+              <img src="../../assets/images/product2/location.png" alt="">
+            </div>
+            <div class="product2-content3-text-bottom1">
+              <a href="http://www.breco.de/en">Breco官网</a>
+              <img src="../../assets/images/product2/location.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product2-content4">
+        <div class="product2-content4-title">Breco 聚氨酯同步带产品线</div>
+        <ul class="product2-content4-ul">
+          <li>
+            <img src="../../assets/images/product2/001.jpg" alt="">
+            <div class="product2-content4-li-text">
+              <div class="product2-content4-li-text-box">
+                <div>BRECOFLEX® 无缝带、BRECO® M 卷料</div>
+                <div>BRECO® V 接驳带</div>
+                <div>应用领域广泛的标准同步带</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/images/product2/001.jpg" alt="">
+            <div class="product2-content4-li-text">
+              <div class="product2-content4-li-text-box">
+                <div>BRECO® Basic</div>
+                <div>适用于相对简单的使用场景的低成本方案</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/images/product2/003.jpg" alt="">
+            <div class="product2-content4-li-text">
+              <div class="product2-content4-li-text-box">
+                <div>BRECO® Protect</div>
+                <div>为食品和制药行业开发的无菌同步带</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/images/product2/004.jpg" alt="">
+            <div class="product2-content4-li-text">
+              <div class="product2-content4-li-text-box">
+                <div>BRECO® Move</div>
+                <div>适用于高负载的提升装置或者输送应用</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/images/product2/005.jpg" alt="">
+            <div class="product2-content4-li-text">
+              <div class="product2-content4-li-text-box">
+                <div>BRECO® ATN</div>
+                <div>可以灵活定制专属输送方案的各种ATN模块</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/images/product2/006.jpg" alt="">
+            <div class="product2-content4-li-text">
+              <div class="product2-content4-li-text-box">
+                <div>BRECO® 平带</div>
+                <div>更节约成本和安装空间，使用于各种紧凑设计</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/images/product2/007.jpg" alt="">
+            <div class="product2-content4-li-text">
+              <div class="product2-content4-li-text-box">
+                <div>BRECO® 带轮和其它附件</div>
+                <div>进口定时带轮和中国国产带轮，其它同步带辅件</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/images/product2/008.jpg" alt="">
+            <div class="product2-content4-li-text">
+              <div class="product2-content4-li-text-box">
+                <div>BRECO® 深度定制</div>
+                <div>定制齿背厚度、定制特殊形状、特殊涂层、打孔等专属方案</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="../../assets/images/product2/009.jpg" alt="">
+            <div class="product2-content4-li-text">
+              <div class="product2-content4-li-text-box">
+                <div>BRECO® TSM</div>
+                <div>专属张力测试仪</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -118,6 +255,83 @@ export default {
       }
       img {
         width: 529px;
+      }
+    }
+    .product2-content3 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 70px;
+      .product2-content3-img {
+        margin-right: 20px;
+      }
+      .product2-content3-text-title, .product2-content3-text-sub-title {
+        font-size: 20px;
+        color: #3a3a3a;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .product2-content3-text-sub-title {
+        font-size: 18px;
+      }
+      .product2-content3-text-main {
+        color: #828282;
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      .product2-content3-text-bottom {
+        display: flex;
+        .product2-content3-text-bottom1 {
+          display: flex;
+          align-items: center;
+          font-size: 16px;
+          margin-right: 3.8vw;
+          a {
+            margin-right: 8px;
+            color: #3a3a3a;
+          }
+          img {
+            width: 13px;
+            margin-bottom: -2px;
+          }
+        }
+        .product2-content3-text-bottom1:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+    .product2-content4 {
+      width: 100%;
+      .product2-content4-title {
+        font-size: 20px;
+        color: #3a3a3a;
+        margin-bottom: 30px;
+      }
+      .product2-content4-ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        li {
+          width: calc((100% - 40px) / 3);
+          margin-right: 20px;
+          margin-bottom: 20px;
+          img {
+            width: 100%;
+          }
+          .product2-content4-li-text {
+            width: calc(100% - 40px);
+            height: 88px;
+            padding: 0 20px;
+            background: #2A364F;
+            color: #fff;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            margin-top: -4px;
+          }
+        }
+        li:nth-child(3n+3) {
+          margin-right: 0;
+       }
       }
     }
   }
