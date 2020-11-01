@@ -99,7 +99,7 @@
             </div>
           </li>
           <li>
-            <img src="../../assets/images/product2/001.jpg" alt="">
+            <img src="../../assets/images/product2/002.png" alt="">
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® Basic</div>
@@ -172,6 +172,50 @@
           </li>
         </ul>
       </div>
+      <div class="product2-content5">
+        <div class="product2-content5-left">
+          <div class="product2-content5-left-title">康迪泰克传动带</div>
+          <div class="product2-content5-left-content">
+            康迪泰克传动带隶属于马牌集团，是橡胶和塑料技术领域的领先专业供应商，为汽车行业等重要行业开发和生产传动产品，并侧重使用生态环保和资源节约的制造工艺。
+          </div>
+          <div class="product2-content5-left-content2">
+            睿服是康迪泰克传动带在德国的重要合作伙伴，负责德国南方地区的销售；同时也拥有在中国的授权。
+          </div>
+          <div class="product2-content5-left-title">Contitech 同步带型号列表</div>
+          <div class="product2-content5-left-content3">
+            <ul>
+              <li>CONTI® SYNCHROBELT </li>
+              <li>CONTI® SYNCHROFORCE CXP </li>
+              <li>CONTI® SYNCHROFORCE CXA </li>
+              <li>CONTI® SYNCHROFORCE CARBON </li>
+              <li>CONTI® FALCON PD </li>
+              <li>CONTI® SILENTSYNC </li>
+              <li>CONTI® SYNCHROCHAIN </li>
+              <li>CONTI® SYNCHROCHAIN CARBON </li>
+              <li>CONTI® SYNCHROFLEX </li>
+              <li>CONTI® SYNCHROFLEX GEN III </li>
+            </ul>
+            <ul>
+              <li>CONTI® SYNCHROCOLOR </li>
+              <li>CONTI® SYNCHRORIB </li>
+              <li>CONTI® SYNCHROTWIN </li>
+              <li>CONTI® SYNCHROTWIN CXP </li>
+              <li>CONTI® SYNCHROLINE </li>
+              <li>CONTI® POLYFLAT </li>
+              <li>CONTI® SYNCHRODRIVE </li>
+              <li>CONTI® SYNCHRODRIVE N10 </li>
+              <li>CONTI® VSM_1 / VSM_3 张力仪 </li>
+            </ul>
+          </div>
+        </div>
+        <div class="product2-content5-right">
+          <div class="product2-content5-right-title">下载产品资料</div>
+          <div class="product2-content5-right-img-box">
+            <img src="../../assets/images/product1/download.png" alt="">
+            <div class="product2-content5-right-img-text">康迪泰克同步带</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -208,7 +252,7 @@ export default {
     padding: 0 18.6%;
     .product2-content1 {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       margin-top: 40px;
       .product2-content1-left {
         margin-right: 13%;
@@ -254,7 +298,7 @@ export default {
         color: #3a3a3a;
       }
       img {
-        width: 529px;
+        width: 27.6vw;
       }
     }
     .product2-content3 {
@@ -332,6 +376,55 @@ export default {
         li:nth-child(3n+3) {
           margin-right: 0;
        }
+      }
+    }
+    .product2-content5 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      .product2-content5-left {
+        width: 43vw;
+        .product2-content5-left-title {
+          font-weight: bold;
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+        .product2-content5-left-content, .product2-content5-left-content2 {
+          font-size: 16px;
+          color: #828282;
+        }
+        .product2-content5-left-content2 {
+          margin-top: 20px;
+          margin-bottom: 70px;
+        }
+        .product2-content5-left-content3 {
+          display: flex;
+          justify-content: space-between;
+          font-size: 20px;
+          color: #828282;
+          line-height: 36px;
+          margin-bottom: 70px;
+        }
+      }
+      .product2-content5-right {
+        .product2-content5-right-title {
+          font-size: 22px;
+          color: #333;
+          font-weight: bold;
+          margin-bottom: 32px;
+        }
+        .product2-content5-right-img-box {
+          display: flex;
+          align-items: center;
+          img {
+            width: 25px;
+          }
+          .product2-content5-right-img-text {
+            color: #333;
+            font-size: 16px;
+            margin-left: 5px;
+          }
+        }
       }
     }
   }

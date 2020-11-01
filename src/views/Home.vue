@@ -21,28 +21,7 @@
       <div class="home-core-product">
         <div class="home-core-product-title">核心产品线</div>
         <div class="home-core-product-img-box">
-          <div class="home-core-product-img-product1">
-            <img src="../assets/images/home/product1.jpg" alt="">
-            <div class="home-core-product-img-product1-text">德国区和中国区官方授权</div>
-          </div>
-          <div class="home-core-product-img-product1">
-            <img src="../assets/images/home/product2.jpg" alt="">
-            <div class="home-core-product-img-product1-text">德国区和中国区官方授权</div>
-          </div>
-          <div class="home-core-product-img-product1">
-            <img src="../assets/images/home/product3.jpg" alt="">
-            <div class="home-core-product-img-product1-text">睿服橡胶密封和减震</div>
-          </div>
-          <div class="home-core-product-img-product4">
-            <div class="home-core-product-img-product5">
-              <img src="../assets/images/home/product4.png" alt="">
-              <div class="home-core-product-img-product1-text">德国区官方授权/睿服轴承定制</div>
-            </div>
-            <div class="home-core-product-img-product6">
-              <img src="../assets/images/home/product5.jpg" alt="">
-              <div class="home-core-product-img-product1-text">德国区和中国区官方授权/危险化学品经营许可证</div>
-            </div>
-          </div>
+          <img src="../assets/images/home/product-all.png" alt="">
         </div>
       </div>
       <div class="agency-brand">
@@ -129,35 +108,8 @@ export default {
   .home-core-product-img-box {
     display: flex;
     justify-content: center;
-    .home-core-product-img-product1 {
-      display: flex;
-      width: 13.5vw;
-      flex-direction: column;
-      margin-right: 9px;
-      img {
-        width: 100%;
-      }
-    }
-    .home-core-product-img-product1-text {
-      background: #DB2C15;
-      height: 34px;
-      line-height: 34px;
-      color: #fff;
-      font-size: 12px;
-      padding-left: 10px;
-    }
-    .home-core-product-img-product4 {
-      display: flex;
-      flex-direction: column;
-      .home-core-product-img-product5, .home-core-product-img-product6 {
-        width: 16.8vw;
-        img {
-          width: 100%;
-        }
-      }
-      .home-core-product-img-product6 {
-        margin-top: 10px;
-      }
+    img {
+      width: 59vw;
     }
   }
 }
@@ -171,7 +123,7 @@ export default {
     font-weight: bold;
   }
   img {
-    width: 58.8%;
+    width: 59vw;
   }
 }
 </style>

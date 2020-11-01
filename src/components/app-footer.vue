@@ -1,9 +1,9 @@
 <template>
-  <div class='app-footer'>
+  <div class="app-footer">
     <div class="app-footer-top">
       <div class="app-footer-top-left">
         <div class="app-footer-top-left-title">关于睿服集团</div>
-        <ul class="app-footer-top-left-ul">
+        <ul class="app-footer-top-left-ul" @click="handleRouter">
           <li>发展历史</li>
           <li>集团公司一览</li>
           <li>合作伙伴</li>
@@ -12,7 +12,7 @@
       </div>
       <div class="app-footer-top-left">
         <div class="app-footer-top-left-title">法务</div>
-        <ul class="app-footer-top-left-ul">
+        <ul class="app-footer-top-left-ul" @click="handleRouter2">
           <li>版权信息</li>
           <li>一般业务条款</li>
           <li>数据保护声明</li>
@@ -24,7 +24,7 @@
           <li>睿服工业零部件（上海）有限公司</li>
           <li>上海市闵行区都会路1835号6号楼B</li>
           <li>邮编：201108</li>
-          <br>
+          <br />
           <li>电话：021 6220 7582 分机802</li>
           <li>传真：021 6220 7589</li>
           <li>邮箱：shanghai@reiff-tp.cn</li>
@@ -40,20 +40,45 @@
 <script>
 export default {
   data() {
-    return {
-
-    }
+    return {};
   },
-  created() {
-
-  },
+  created() {},
   methods: {
-
+    handleRouter(e) {
+      const { innerHTML } = e.target;
+      let path = "";
+      let currentPath = this.$route.path;
+      if (innerHTML === "发展历史") {
+        path = "/history";
+      }else if (innerHTML === "集团公司一览") {
+        path = "/all-company";
+      }else if (innerHTML === "合作伙伴") {
+        path = "/cooperation";
+      }else if (innerHTML === "公司理念") {
+        path = "/idea";
+      }
+      if (currentPath !== path) {
+        this.$router.push({ path });
+      }
+    },
+    handleRouter2(e) {
+      const { innerHTML } = e.target;
+      let path = "";
+      let currentPath = this.$route.path;
+      if (innerHTML === "版权信息") {
+        path = "/copyright";
+      }else if (innerHTML === "一般业务条款") {
+        path = "/business-rule";
+      }else if (innerHTML === "数据保护声明") {
+        path = "/data-statement";
+      }
+      if (currentPath !== path) {
+        this.$router.push({ path });
+      }
+    },
   },
-  mounted() {
-
-  }
-}
+  mounted() {},
+};
 </script>
 
 <style scoped lang='scss'>
@@ -62,17 +87,19 @@ export default {
 }
 .app-footer-top {
   display: flex;
-  padding: 80px 0 60px 18vw;
+  padding: 80px 0 60px 18.6%;
   .app-footer-top-left {
     margin-right: 9.4vw;
   }
-  .app-footer-top-left-title, .app-footer-top-right-title {
+  .app-footer-top-left-title,
+  .app-footer-top-right-title {
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: left;
   }
   .app-footer-top-left-ul {
+    cursor: pointer;
     li {
       margin-bottom: 10px;
       font-size: 16px;

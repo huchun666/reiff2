@@ -3,7 +3,7 @@
     <div class="app-header-fill"></div>
     <div class="app-header-content">
       <div class="app-header-content-contanier">
-        <img src="../assets/images/header/logo.png" alt="" class="app-header-logo">
+        <img src="../assets/images/header/logo.png" alt="" class="app-header-logo" @click="handleGoHome">
         <div class="app-header-tabs">
           <div class="app-header-tabs-item" v-for="(item, index) in headerData" :key="index"
             @mouseover="hoverIndex = index" 
@@ -64,7 +64,7 @@ export default {
           data: [
             {
               title: '应用行业',
-              url: '/product/1'
+              url: '/product2/1'
             },
           ],
         },
@@ -73,11 +73,11 @@ export default {
           data: [
             {
               title: '品牌代理',
-              url: '/product/1'
+              url: '/product3/1'
             },
             {
-              title: '品牌代理',
-              url: '/product/1'
+              title: '授权证书',
+              url: '/product3/2'
             },
           ]
         },
@@ -86,11 +86,11 @@ export default {
           data: [
             {
               title: '危险化学品业务',
-              url: '/product/1'
+              url: '/product4/1'
             },
             {
               title: '供应链服务',
-              url: '/product/1'
+              url: '/product4/2'
             },
           ]
         },
@@ -99,7 +99,7 @@ export default {
           data: [
             {
               title: '资料下载',
-              url: '/product/1'
+              url: '/product5/1'
             },
           ]
         },
@@ -112,6 +112,11 @@ export default {
     handleRouteLink(url) {
       if (this.$route.path !== url) {
         this.$router.push({path: url})
+      }
+    },
+    handleGoHome() {
+      if (this.$route.path !== '/') {
+        this.$router.push({name: 'Home'})
       }
     }
   }
@@ -143,6 +148,7 @@ export default {
       width: 200px;
       height: 41px;
       margin-right: 8.8vw;
+      cursor: pointer;
     }
     .app-header-tabs {
       display: flex;
