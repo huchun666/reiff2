@@ -38,25 +38,11 @@
       <div class="product2-content3">
         <img src="../../assets/images/product2/content1.jpg" alt="" class="product2-content3-img">
         <div class="product2-content3-text">
-          <div class="product2-content3-text-title">德国Mulco集团</div>
-          <div class="product2-content3-text-sub-title">Breco, Brecoflex, Contitech Synchroflex 品牌</div>
+          <div class="product2-content3-text-title">睿服上海</div>
+          <div class="product2-content3-text-sub-title">Breco, Brecoflex和Synchroflex 中国官方销售渠道</div>
           <div class="product2-content3-text-main">
-            Mulco集团由在1951年由睿服等四家公司组成，现在拥有欧洲聚氨酯同步带35%的市场份额和多项专利，多年来一直是聚氨酯同步带技术的推动者。<br>
-            无论是汽车、精密机床还是食品制药等高端制造领域都可以看到大量Mulco产品的应用。在德国以外Mulco通过“Mulco业务伙伴”的形式在欧洲建立了广泛的销售渠道，在美国通过Brecoflex Co., L.L.C销售。
-          </div>
-          <div class="product2-content3-text-bottom">
-            <div class="product2-content3-text-bottom1">
-              <a href="">MULCO集团历史</a>
-              <img src="../../assets/images/product2/location.png" alt="">
-            </div>
-            <div class="product2-content3-text-bottom1">
-              <a href="">Mulco集团官网</a>
-              <img src="../../assets/images/product2/location.png" alt="">
-            </div>
-            <div class="product2-content3-text-bottom1">
-              <a href="">Breco官网</a>
-              <img src="../../assets/images/product2/location.png" alt="">
-            </div>
+            睿服是Mulco集团的组建成员和核心成员，睿服上海公司是睿服集团在华的全资子公司，是Mulco集团在中国的唯一官方销售渠道。<br>
+            睿服独自拥有超过2000件的齿形带和皮带模具库存。除了标准型号外，我们还可以根据客户需求提供定制、接驳和特殊涂层。
           </div>
         </div>
       </div>
@@ -70,8 +56,8 @@
             无论是汽车、精密机床还是食品制药等高端制造领域都可以看到大量Mulco产品的应用。在德国以外Mulco通过“Mulco业务伙伴”的形式在欧洲建立了广泛的销售渠道，在美国通过Brecoflex Co., L.L.C销售。
           </div>
           <div class="product2-content3-text-bottom">
-            <div class="product2-content3-text-bottom1">
-              <a href="http://www.mulco.de/en">MULCO集团历史</a>
+            <div class="product2-content3-text-bottom1" @click="handleContactUs">
+              <span>MULCO集团历史</span>
               <img src="../../assets/images/product2/location.png" alt="">
             </div>
             <div class="product2-content3-text-bottom1">
@@ -217,24 +203,31 @@
         </div>
       </div>
     </div>
+    <history-alert @close="handleClose" v-if="contactUsStatus"></history-alert>
   </div>
 </template>
 
 <script>
+import HistoryAlert from '../../components/history-alert'
 export default {
   data() {
     return {
-
+      contactUsStatus: false
     }
   },
   created() {
 
   },
   components: {
-
+    HistoryAlert
   },
   methods: {
-
+    handleClose() {
+      this.contactUsStatus = false;
+    },
+    handleContactUs() {
+      this.contactUsStatus = true;
+    }
   },
   mounted() {
 
@@ -329,9 +322,10 @@ export default {
           align-items: center;
           font-size: 16px;
           margin-right: 3.8vw;
-          a {
+          a, span {
             margin-right: 8px;
             color: #3a3a3a;
+            cursor: pointer;
           }
           img {
             width: 13px;

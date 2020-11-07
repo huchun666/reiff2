@@ -97,6 +97,7 @@ export default {
   opacity: 0;
 }
 .component-contact-us {
+  z-index: 2000;
   position: fixed;
   left: 0;
   top: 0;

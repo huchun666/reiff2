@@ -21,7 +21,28 @@
       <div class="home-core-product">
         <div class="home-core-product-title">核心产品线</div>
         <div class="home-core-product-img-box">
-          <img src="../assets/images/home/product-all.png" alt="">
+          <div class="home-core-product-item">
+            <img src="../assets/images/home/product1.jpg" alt="">
+            <div class="home-core-product-item-text">德国区和中国区官方授权</div>
+          </div>
+          <div class="home-core-product-item">
+            <img src="../assets/images/home/product2.jpg" alt="">
+            <div class="home-core-product-item-text">德国区和中国区官方授权</div>
+          </div>
+          <div class="home-core-product-item">
+            <img src="../assets/images/home/product3.jpg" alt="">
+            <div class="home-core-product-item-text">睿服橡胶密封和减震</div>
+          </div>
+          <div class="home-core-product-item-right">
+            <div class="home-core-product-item-right">
+              <img src="../assets/images/home/product4.png" alt="">
+              <div class="home-core-product-item-text">德国区官方授权/睿服轴承定制</div>
+            </div>
+            <div class="home-core-product-item-right-bottom">
+              <img src="../assets/images/home/product5.jpg" alt="">
+              <div class="home-core-product-item-text-right">德国区和中国区官方授权/危险化学品经营许可证</div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="agency-brand">
@@ -97,7 +118,7 @@ export default {
 }
 .home-core-product {
   background: #f6f6f6;
-  padding: 80px 0;
+  padding: 80px 18.6vw;
   .home-core-product-title {
     text-align: center;
     font-size: 32px;
@@ -108,8 +129,25 @@ export default {
   .home-core-product-img-box {
     display: flex;
     justify-content: center;
-    img {
-      width: 59vw;
+    .home-core-product-item, .home-core-product-item-right {
+      width: calc((75vw - 30px) / 3);
+      margin-right: 10px;
+      img {
+        width: 100%;
+      }
+      .home-core-product-item-text, .home-core-product-item-text-right {
+        background: #DB2C15;
+        color: #fff;
+        padding: 11px 9px;
+        font-size: 12px;
+        margin-top: -4px;
+      }
+      .home-core-product-item-right-bottom {
+        margin-top: 10px;
+      }
+    }
+    .home-core-product-item-right {
+      width: 17vw;
     }
   }
 }

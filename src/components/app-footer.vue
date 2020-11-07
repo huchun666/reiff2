@@ -58,6 +58,7 @@ export default {
         path = "/idea";
       }
       if (currentPath !== path) {
+        scrollTo(0,0)
         this.$router.push({ path });
       }
     },
@@ -73,6 +74,7 @@ export default {
         path = "/data-statement";
       }
       if (currentPath !== path) {
+        scrollTo(0,0)
         this.$router.push({ path });
       }
     },

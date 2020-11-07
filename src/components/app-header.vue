@@ -9,12 +9,13 @@
             @mouseover="hoverIndex = index" 
             @mouseout="hoverIndex = -1">
             <div class="app-header-tabs-item-index"
-              :class="{'app-header-tabs-item-index-active': hoverIndex === index}"
+              :class="{'app-header-tabs-item-index-active': hoverIndex === index || currentIndex === index}"
+              @click="handleRouteTitleLink(item.data.length, item.url, index)"
               >{{item.title}}</div>
             <div class="app-header-tabs-item-content"
-              v-show="hoverIndex === index"
+              v-show="hoverIndex === index && item.data.length > 1"
             >
-              <div class="app-header-tabs-item-content-item" v-for="(childItem, childIndex) in item.data" :key="childIndex" @click="handleRouteLink(childItem.url)">
+              <div class="app-header-tabs-item-content-item" v-for="(childItem, childIndex) in item.data" :key="childIndex" @click="handleRouteLink(childItem.url, index)">
                 {{childItem.title}}
               </div>
             </div>
@@ -61,6 +62,7 @@ export default {
         },
         {
           title: '应用行业',
+          url: '/product2/1',
           data: [
             {
               title: '应用行业',
@@ -96,6 +98,7 @@ export default {
         },
         {
           title: '资料下载',
+          url: '/product5/1',
           data: [
             {
               title: '资料下载',
@@ -106,16 +109,27 @@ export default {
       ],
       hoverIndex: -1,
       hoverChildIndex: -1,
+      currentIndex: -1
     };
   },
   methods: {
-    handleRouteLink(url) {
+    handleRouteTitleLink(length, url, index) {
+      if (this.$route.path !== url && length === 1) {
+        this.currentIndex = index;
+        scrollTo(0,0)
+        this.$router.push({path: url})
+      }
+    },
+    handleRouteLink(url, index) {
       if (this.$route.path !== url) {
+        this.currentIndex = index;
+        scrollTo(0,0)
         this.$router.push({path: url})
       }
     },
     handleGoHome() {
       if (this.$route.path !== '/') {
+        scrollTo(0,0)
         this.$router.push({name: 'Home'})
       }
     }
@@ -131,6 +145,7 @@ export default {
     height: 160px;
   }
   .app-header-content {
+    z-index: 1000;
     position: fixed;
     top: 0;
     left: 0;
@@ -160,7 +175,7 @@ export default {
           position: absolute;
           left: 0;
           top: 42px;
-          min-width: 185px;
+          min-width: 200px;
           border-bottom: 1px solid #333;
           .app-header-tabs-item-content-item {
             padding: 10px 20px;
