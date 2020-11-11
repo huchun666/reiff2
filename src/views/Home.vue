@@ -34,9 +34,9 @@
             <div class="home-core-product-item-text">睿服橡胶密封和减震</div>
           </div>
           <div class="home-core-product-item-right">
-            <div class="home-core-product-item-right">
+            <div class="home-core-product-item-right-top">
               <img src="../assets/images/home/product4.png" alt="">
-              <div class="home-core-product-item-text">德国区官方授权/睿服轴承定制</div>
+              <div class="home-core-product-item-text-right">德国区官方授权/睿服轴承定制</div>
             </div>
             <div class="home-core-product-item-right-bottom">
               <img src="../assets/images/home/product5.jpg" alt="">
@@ -124,30 +124,44 @@ export default {
     font-size: 32px;
     font-weight: bold;
     color: #3a3a3a;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
   .home-core-product-img-box {
     display: flex;
     justify-content: center;
+    height: 21.8vw;
     .home-core-product-item, .home-core-product-item-right {
-      width: calc((75vw - 30px) / 3);
       margin-right: 10px;
+      height: 100%;
       img {
-        width: 100%;
+        height: calc(100% - 34px);
       }
-      .home-core-product-item-text, .home-core-product-item-text-right {
+      .home-core-product-item-text {
         background: #DB2C15;
         color: #fff;
         padding: 11px 9px;
         font-size: 12px;
-        margin-top: -4px;
-      }
-      .home-core-product-item-right-bottom {
-        margin-top: 10px;
+        margin-top: -5px;
       }
     }
     .home-core-product-item-right {
-      width: 17vw;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .home-core-product-item-right-top, .home-core-product-item-right-bottom {
+        height: calc((100% - 10px) / 2);
+        img {
+          height: calc(100% - 34px);
+        }
+        .home-core-product-item-text-right {
+          background: #DB2C15;
+          color: #fff;
+          padding: 11px 9px;
+          font-size: 12px;
+          margin-top: -5px;
+        }
+      }
     }
   }
 }

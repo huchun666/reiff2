@@ -106,6 +106,9 @@ export default {
       margin-bottom: 10px;
       font-size: 16px;
     }
+    li:hover {
+      color: #DB2C15;
+    }
   }
   .app-footer-top-right-ul {
     font-size: 16px;
