@@ -20,7 +20,7 @@
       </div>
       <div class="home-core-product">
         <div class="home-core-product-title">核心产品线</div>
-        <img src="../assets/images/home/product-all.png" alt="" class="home-core-product-img-all">
+        <img src="../assets/images/home/product-all.jpg" alt="" class="home-core-product-img-all">
         <!-- <div class="home-core-product-img-box">
           <div class="home-core-product-item">
             <img src="../assets/images/home/product1.jpg" alt="">
