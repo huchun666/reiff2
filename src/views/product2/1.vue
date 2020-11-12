@@ -98,7 +98,7 @@ export default {
     width: 100%;
   }
   .application-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
   }
   .application-content1 {
     .application-content1-title {

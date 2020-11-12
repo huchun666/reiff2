@@ -59,7 +59,7 @@ export default {
     width: 100%;
   }
   .product2-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
   }
   .product2-content1 {
     display: flex;

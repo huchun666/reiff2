@@ -20,7 +20,8 @@
       </div>
       <div class="home-core-product">
         <div class="home-core-product-title">核心产品线</div>
-        <div class="home-core-product-img-box">
+        <img src="../assets/images/home/product-all.png" alt="" class="home-core-product-img-all">
+        <!-- <div class="home-core-product-img-box">
           <div class="home-core-product-item">
             <img src="../assets/images/home/product1.jpg" alt="">
             <div class="home-core-product-item-text">德国区和中国区官方授权</div>
@@ -43,7 +44,7 @@
               <div class="home-core-product-item-text-right">德国区和中国区官方授权/危险化学品经营许可证</div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <div class="agency-brand">
         <div class="agency-brand-title">代理品牌</div>
@@ -119,6 +120,9 @@ export default {
 .home-core-product {
   background: #f6f6f6;
   padding: 80px 18.6vw;
+  .home-core-product-img-all {
+    width: 100%;
+  }
   .home-core-product-title {
     text-align: center;
     font-size: 32px;

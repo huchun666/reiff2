@@ -37,7 +37,7 @@ export default {
     width: 100%;
   }
   .chemistry-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
   }
   .chemistry-content1 {
     .chemistry-content1-title {

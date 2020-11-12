@@ -121,7 +121,7 @@ export default {
     width: 100%;
   }
   .history-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
     .history-title {
       color: #3a3a3a;
       font-weight: bold;

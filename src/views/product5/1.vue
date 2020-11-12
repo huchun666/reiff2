@@ -99,7 +99,7 @@ export default {
     width: 100%;
   }
   .download-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
   }
   ul {
     margin-bottom: 50px;
@@ -114,6 +114,9 @@ export default {
       .download-content2-box-text {
         font-size: 20px;
         color: #828282;
+      }
+      .download-content2-box-text:hover {
+        color: #DB2C15;
       }
     }
   }

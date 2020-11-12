@@ -60,7 +60,7 @@ export default {
     width: 100%;
   }
   .all-company-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
     .all-company-title {
       font-size: 32px;
       font-weight: bold;

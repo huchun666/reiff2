@@ -4,18 +4,18 @@
       <div class="app-footer-top-left">
         <div class="app-footer-top-left-title">关于睿服集团</div>
         <ul class="app-footer-top-left-ul" @click="handleRouter">
-          <li>发展历史</li>
-          <li>集团公司一览</li>
-          <li>合作伙伴</li>
-          <li>公司理念</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 1}">发展历史</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 2}">集团公司一览</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 3}">合作伙伴</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 4}">公司理念</li>
         </ul>
       </div>
       <div class="app-footer-top-left">
         <div class="app-footer-top-left-title">法务</div>
         <ul class="app-footer-top-left-ul" @click="handleRouter2">
-          <li>版权信息</li>
-          <li>一般业务条款</li>
-          <li>数据保护声明</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 5}">版权信息</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 6}">一般业务条款</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 7}">数据保护声明</li>
         </ul>
       </div>
       <div class="app-footer-top-right">
@@ -38,26 +38,36 @@
 </template>
 
 <script>
+import { mapMutations, mapState } from 'vuex'
 export default {
   data() {
     return {};
   },
+  computed: {
+    ...mapState(['currentIndexFooter'])
+  },
   created() {},
   methods: {
+    ...mapMutations(['setCurrentIndexFooter', 'setCurrentIndex']),
     handleRouter(e) {
       const { innerHTML } = e.target;
       let path = "";
       let currentPath = this.$route.path;
       if (innerHTML === "发展历史") {
+        this.setCurrentIndexFooter(1)
         path = "/history";
       }else if (innerHTML === "集团公司一览") {
+        this.setCurrentIndexFooter(2)
         path = "/all-company";
       }else if (innerHTML === "合作伙伴") {
+        this.setCurrentIndexFooter(3)
         path = "/cooperation";
       }else if (innerHTML === "公司理念") {
+        this.setCurrentIndexFooter(4)
         path = "/idea";
       }
       if (currentPath !== path) {
+        this.setCurrentIndex(-1)
         scrollTo(0,0)
         this.$router.push({ path });
       }
@@ -67,13 +77,17 @@ export default {
       let path = "";
       let currentPath = this.$route.path;
       if (innerHTML === "版权信息") {
+        this.setCurrentIndexFooter(5)
         path = "/copyright";
       }else if (innerHTML === "一般业务条款") {
+        this.setCurrentIndexFooter(6)
         path = "/business-rule";
       }else if (innerHTML === "数据保护声明") {
+        this.setCurrentIndexFooter(7)
         path = "/data-statement";
       }
       if (currentPath !== path) {
+        this.setCurrentIndex(-1)
         scrollTo(0,0)
         this.$router.push({ path });
       }
@@ -89,7 +103,7 @@ export default {
 }
 .app-footer-top {
   display: flex;
-  padding: 80px 0 60px 18.6%;
+  padding: 80px 0 60px 15%;
   .app-footer-top-left {
     margin-right: 9.4vw;
   }
@@ -107,6 +121,9 @@ export default {
       font-size: 16px;
     }
     li:hover {
+      color: #DB2C15;
+    }
+    .app-footer-top-left-li-active {
       color: #DB2C15;
     }
   }

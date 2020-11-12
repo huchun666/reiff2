@@ -49,7 +49,7 @@ export default {
     width: 100%;
   }
   .idea-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
   }
   .idea-content1 {
     .idea-content1-title {

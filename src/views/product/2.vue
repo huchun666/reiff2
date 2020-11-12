@@ -38,17 +38,6 @@
       <div class="product2-content3">
         <img src="../../assets/images/product2/content1.jpg" alt="" class="product2-content3-img">
         <div class="product2-content3-text">
-          <div class="product2-content3-text-title">睿服上海</div>
-          <div class="product2-content3-text-sub-title">Breco, Brecoflex和Synchroflex 中国官方销售渠道</div>
-          <div class="product2-content3-text-main">
-            睿服是Mulco集团的组建成员和核心成员，睿服上海公司是睿服集团在华的全资子公司，是Mulco集团在中国的唯一官方销售渠道。<br>
-            睿服独自拥有超过2000件的齿形带和皮带模具库存。除了标准型号外，我们还可以根据客户需求提供定制、接驳和特殊涂层。
-          </div>
-        </div>
-      </div>
-      <div class="product2-content3">
-        <img src="../../assets/images/product2/content1.jpg" alt="" class="product2-content3-img">
-        <div class="product2-content3-text">
           <div class="product2-content3-text-title">德国Mulco集团</div>
           <div class="product2-content3-text-sub-title">Breco, Brecoflex, Contitech Synchroflex 品牌</div>
           <div class="product2-content3-text-main">
@@ -68,6 +57,17 @@
               <a href="http://www.breco.de/en">Breco官网</a>
               <img src="../../assets/images/product2/location.png" alt="">
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="product2-content3">
+        <img src="../../assets/images/product1/shanghai.png" alt="" class="product2-content3-img">
+        <div class="product2-content3-text">
+          <div class="product2-content3-text-title">睿服上海</div>
+          <div class="product2-content3-text-sub-title">Breco, Brecoflex和Synchroflex 中国官方销售渠道</div>
+          <div class="product2-content3-text-main">
+            睿服是Mulco集团的组建成员和核心成员，睿服上海公司是睿服集团在华的全资子公司，是Mulco集团在中国的唯一官方销售渠道。<br>
+            睿服独自拥有超过2000件的齿形带和皮带模具库存。除了标准型号外，我们还可以根据客户需求提供定制、接驳和特殊涂层。
           </div>
         </div>
       </div>
@@ -242,7 +242,7 @@ export default {
     width: 100%;
   }
   .product2-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
     .product2-content1 {
       display: flex;
       justify-content: space-between;
@@ -292,6 +292,7 @@ export default {
       }
       img {
         width: 27.6vw;
+        margin-bottom: 40px;
       }
     }
     .product2-content3 {
@@ -364,7 +365,7 @@ export default {
             font-size: 14px;
             display: flex;
             align-items: center;
-            margin-top: -4px;
+            margin-top: -5px;
           }
         }
         li:nth-child(3n+3) {

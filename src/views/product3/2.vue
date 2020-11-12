@@ -99,7 +99,7 @@ export default {
     width: 100%;
   }
   .agency-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
   }
   .agency-content1 {
     .agency-content1-title {
@@ -129,6 +129,9 @@ export default {
         .agency-content2-box-text {
           font-size: 20px;
           color: #828282;
+        }
+        .agency-content2-box-text:hover {
+          color: #DB2C15;
         }
       }
     }

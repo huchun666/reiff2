@@ -43,7 +43,7 @@ export default {
     width: 100%;
   }
   .service-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
   }
   .service-content1 {
     .service-content1-title {

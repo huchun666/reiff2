@@ -438,7 +438,7 @@ export default {
     width: 100%;
   }
   .product3-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
   }
   .product3-content1 {
     display: flex;
@@ -564,7 +564,7 @@ export default {
       .product3-content3-example-middle {
         display: flex;
         flex-direction: column;
-        width: 20%;
+        width: 15%;
         margin-right: 20px;
         justify-content: center;
         position: relative;

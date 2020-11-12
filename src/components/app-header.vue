@@ -27,6 +27,7 @@
 </template>
 
 <script>
+import { mapState, mapMutations } from 'vuex'
 export default {
   data() {
     return {
@@ -109,26 +110,36 @@ export default {
       ],
       hoverIndex: -1,
       hoverChildIndex: -1,
-      currentIndex: -1
     };
   },
+  computed: {
+    ...mapState(['currentIndex'])
+  },
   methods: {
+    ...mapMutations(['setCurrentIndex', 'setCurrentIndexFooter']),
     handleRouteTitleLink(length, url, index) {
       if (this.$route.path !== url && length === 1) {
-        this.currentIndex = index;
+        this.setCurrentIndex(index)
+        this.setCurrentIndexFooter(-1)
         scrollTo(0,0)
         this.$router.push({path: url})
       }
     },
     handleRouteLink(url, index) {
       if (this.$route.path !== url) {
-        this.currentIndex = index;
+        this.setCurrentIndex(index)
+        this.setCurrentIndexFooter(-1)
         scrollTo(0,0)
         this.$router.push({path: url})
       }
     },
+    handleClearStatus() {
+      this.setCurrentIndex(-1)
+    },
     handleGoHome() {
       if (this.$route.path !== '/') {
+        this.handleClearStatus()
+        this.setCurrentIndexFooter(-1)
         scrollTo(0,0)
         this.$router.push({name: 'Home'})
       }

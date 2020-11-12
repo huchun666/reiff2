@@ -374,8 +374,11 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+.product4-banner {
+  width: 100%;
+}
 .product4-content {
-  padding: 0 18.6%;
+  padding: 0 15%;
 }
 .product4-content1 {
   display: flex;
@@ -422,7 +425,7 @@ export default {
   }
 }
 table tr:nth-child(odd) {
-  background-color:#E8E8E8;
+  background-color:#f6f6f6;
 }
 table tr:nth-child(even) {
   background-color:#fff;
@@ -503,7 +506,7 @@ table {
         background: #DB2C15;
         color: #fff;
         padding: 10px 13px;
-        margin-top: -4px;
+        margin-top: -5px;
         .product4-content4-img-text-title {
           font-size: 14px;
           margin-bottom: 4px;

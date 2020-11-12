@@ -71,7 +71,7 @@ export default {
     width: 100%;
   }
   .cooperation-content {
-    padding: 0 18.6%;
+    padding: 0 15%;
   }
   .cooperation-content1 {
     .cooperation-content1-title {
