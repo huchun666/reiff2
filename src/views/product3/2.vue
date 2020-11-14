@@ -104,13 +104,13 @@ export default {
   .agency-content1 {
     .agency-content1-title {
       font-size: 32px;
-      color: #3a3a3a;
+      color: #000;
       margin: 70px 0 40px;
       font-weight: bold;
     }
     .agency-content1-box {
       font-size: 16px;
-      color: #828282;
+      color: #000;
       line-height: 26px;
       margin-bottom: 70px;
     }
@@ -123,12 +123,12 @@ export default {
         display: flex;
         align-items: center;
         img {
-          height: 16px;
+          height: 14px;
           margin-right: 10px;
         }
         .agency-content2-box-text {
-          font-size: 20px;
-          color: #828282;
+          font-size: 16px;
+          color: #000;
         }
         .agency-content2-box-text:hover {
           color: #DB2C15;

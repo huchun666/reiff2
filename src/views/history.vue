@@ -12,7 +12,7 @@
           睿服是工业领域的大型集成供应商，提供来自全球供应链的高品质产品；包含全系列的传动、密封、输送、粘合、橡胶和塑料等工业产品。<br /><br />
           REIFF集团通过了ISO 9001质量管理体系认证。
         </div>
-        <img src="../assets/images/footer/10.jpg" alt="" />
+        <img src="../assets/images/footer/10.png" alt="" />
       </div>
       <div class="history-content2">
         <div class="history-content2-left">
@@ -123,7 +123,7 @@ export default {
   .history-content {
     padding: 0 15%;
     .history-title {
-      color: #3a3a3a;
+      color: #000;
       font-weight: bold;
       font-size: 32px;
       margin: 70px 0 35px;
@@ -139,7 +139,7 @@ export default {
         background: #F6F6F6;
         padding: 27px 32px;
         font-size: 16px;
-        color: #828282;
+        color: #000;
         line-height: 26px;
       }
       img {

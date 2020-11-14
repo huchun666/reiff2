@@ -20,7 +20,7 @@
       </div>
       <div class="home-core-product">
         <div class="home-core-product-title">核心产品线</div>
-        <img src="../assets/images/home/product-all.jpg" alt="" class="home-core-product-img-all">
+        <img src="../assets/images/home/product-all.png" alt="" class="home-core-product-img-all">
         <!-- <div class="home-core-product-img-box">
           <div class="home-core-product-item">
             <img src="../assets/images/home/product1.jpg" alt="">
@@ -85,20 +85,21 @@ export default {
 }
 .home-main-title {
   font-size: 32px;
-  color: #333;
+  color: #000;
   line-height: 32px;
   padding: 50px 0;
   text-align: center;
+  font-weight: bold;
 }
 .home-main-content {
-  color: #888;
+  color: #000;
   font-size: 16px;
   line-height: 26px;
   display: flex;
   justify-content: center;
   padding-bottom: 62px;
   .home-main-content-box {
-    width: 44vw;
+    width: 70vw;
     .home-main-contact-box {
       width: 100%;
       display: flex;
@@ -127,7 +128,7 @@ export default {
     text-align: center;
     font-size: 32px;
     font-weight: bold;
-    color: #3a3a3a;
+    color: #000;
     margin-bottom: 30px;
   }
   .home-core-product-img-box {

@@ -252,19 +252,19 @@ export default {
         width: 42.3vw;
         .product2-content1-left-title {
           font-size: 32px;
-          color: #3A3A3A;
+          color: #000;
           font-weight: bold;
         }
         .product2-content1-left-text {
           font-size: 16px;
-          color: #828282;
+          color: #000;
           margin-top: 40px;
         }
       }
       .product1-content-right {
         .product1-content-right-title {
           font-size: 22px;
-          color: #333;
+          color: #000;
           margin-bottom: 30px;
         }
         .product1-content-right-download {
@@ -272,7 +272,7 @@ export default {
           align-items: center;
           margin-bottom: 32.5px;
           font-size: 16px;
-          color: #333;
+          color: #000;
           cursor: pointer;
           img {
             width: 24.4px;
@@ -288,7 +288,7 @@ export default {
       padding: 38px 0 70px;
       .product2-content2-left {
         font-size: 18px;
-        color: #3a3a3a;
+        color: #000;
       }
       img {
         width: 27.6vw;
@@ -297,14 +297,16 @@ export default {
     }
     .product2-content3 {
       display: flex;
-      align-items: center;
       margin-bottom: 70px;
+      .product2-content3-text {
+        padding-top: 10px;
+      }
       .product2-content3-img {
         margin-right: 20px;
       }
       .product2-content3-text-title, .product2-content3-text-sub-title {
         font-size: 20px;
-        color: #3a3a3a;
+        color: #000;
         font-weight: bold;
         margin-bottom: 10px;
       }
@@ -312,7 +314,7 @@ export default {
         font-size: 18px;
       }
       .product2-content3-text-main {
-        color: #828282;
+        color: #000;
         font-size: 16px;
         margin-bottom: 20px;
       }
@@ -325,7 +327,7 @@ export default {
           margin-right: 3.8vw;
           a, span {
             margin-right: 8px;
-            color: #3a3a3a;
+            color: #000;
             cursor: pointer;
           }
           img {
@@ -342,7 +344,7 @@ export default {
       width: 100%;
       .product2-content4-title {
         font-size: 20px;
-        color: #3a3a3a;
+        color: #000;
         margin-bottom: 30px;
       }
       .product2-content4-ul {
@@ -386,7 +388,7 @@ export default {
         }
         .product2-content5-left-content, .product2-content5-left-content2 {
           font-size: 16px;
-          color: #828282;
+          color: #000;
         }
         .product2-content5-left-content2 {
           margin-top: 20px;
@@ -396,7 +398,7 @@ export default {
           display: flex;
           justify-content: space-between;
           font-size: 20px;
-          color: #828282;
+          color: #000;
           line-height: 36px;
           margin-bottom: 70px;
         }
@@ -404,7 +406,7 @@ export default {
       .product2-content5-right {
         .product2-content5-right-title {
           font-size: 22px;
-          color: #333;
+          color: #000;
           font-weight: bold;
           margin-bottom: 32px;
         }
@@ -415,7 +417,7 @@ export default {
             width: 25px;
           }
           .product2-content5-right-img-text {
-            color: #333;
+            color: #000;
             font-size: 16px;
             margin-left: 5px;
           }

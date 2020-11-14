@@ -48,7 +48,7 @@ export default {
               url: '/product/3'
             },
             {
-              title: '橡胶密封合减震',
+              title: '橡胶密封和减震',
               url: '/product/4'
             },
             {
@@ -193,7 +193,7 @@ export default {
             border-top: 1px solid #333;
             font-size: 16px;
             cursor: pointer;
-            color: #3a3a3a;
+            color: #333;
             background: #fff;
           }
           .app-header-tabs-item-content-item:hover {

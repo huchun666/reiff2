@@ -43,13 +43,13 @@ export default {
   .idea-content1 {
     .idea-content1-title {
       font-size: 32px;
-      color: #3a3a3a;
+      color: #000;
       margin: 70px 0 40px;
       font-weight: bold;
     }
     .idea-content1-box {
       font-size: 16px;
-      color: #828282;
+      color: #000;
       line-height: 26px;
       margin-bottom: 70px;
     }

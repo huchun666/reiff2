@@ -76,13 +76,13 @@ export default {
   .cooperation-content1 {
     .cooperation-content1-title {
       font-size: 32px;
-      color: #3a3a3a;
+      color: #000;
       margin: 70px 0 40px;
       font-weight: bold;
     }
     .cooperation-content1-box {
       font-size: 16px;
-      color: #3a3a3a;
+      color: #000;
       line-height: 26px;
       margin-bottom: 70px;
     }
@@ -94,7 +94,7 @@ export default {
     }
     .cooperation-content2-box {
       font-size: 16px;
-      color: #3a3a3a;
+      color: #000;
     }
   }
 }

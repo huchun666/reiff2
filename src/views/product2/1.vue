@@ -103,13 +103,13 @@ export default {
   .application-content1 {
     .application-content1-title {
       font-size: 32px;
-      color: #3a3a3a;
+      color: #000;
       margin: 70px 0 40px;
       font-weight: bold;
     }
     .application-content1-box {
       font-size: 16px;
-      color: #828282;
+      color: #000;
       line-height: 26px;
       margin-bottom: 50px;
     }
@@ -119,23 +119,23 @@ export default {
     width: 100%;
     margin-bottom: 40px;
     img {
-      width: 26vw;
+      width: 18vw;
       margin-right: 10px;
     }
     .application-content2-text-box {
-      width: calc(100% - 26vw - 10px);
+      width: calc(100% - 18vw - 10px);
       background: #F6F6F6;
-      padding: 40px;
+      padding: 20px;
       .application-content2-text-title {
         font-size: 20px;
-        color: #3A3A3A;
+        color: #000;
         font-weight: bold;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
       .application-content2-text {
         font-size: 16px;
-        color: #828282;
-        line-height: 22px;
+        color: #000;
+        line-height: 15px;
       }
     }
   }
@@ -144,23 +144,23 @@ export default {
     width: 100%;
     margin-bottom: 40px;
     img {
-      width: 26vw;
+      width: 18vw;
       margin-left: 10px;
     }
     .application-content3-text-box {
-      width: calc(100% - 26vw - 10px);
+      width: calc(100% - 18vw - 10px);
       background: #F6F6F6;
-      padding: 40px;
+      padding: 20px;
       .application-content3-text-title {
         font-size: 20px;
-        color: #3A3A3A;
+        color: #000;
         font-weight: bold;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
       }
       .application-content3-text {
         font-size: 16px;
-        color: #828282;
-        line-height: 22px;
+        color: #000;
+        line-height: 15px;
       }
     }
   }

@@ -191,7 +191,7 @@ export default {
     .contact-us-container {
       padding: 50px;
       .contact-us-title {
-        color: #333;
+        color: #000;
         font-weight: bold;
         font-size: 32px;
         margin-bottom: 50px;

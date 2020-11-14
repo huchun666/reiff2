@@ -49,7 +49,7 @@ export default {
   .idea-content1 {
     .idea-content1-title {
       font-size: 32px;
-      color: #3a3a3a;
+      color: #000;
       margin: 70px 0 40px;
       font-weight: bold;
     }
@@ -59,7 +59,7 @@ export default {
     }
     .idea-content1-box {
       font-size: 16px;
-      color: #3a3a3a;
+      color: #000;
       line-height: 26px;
       margin-bottom: 70px;
       margin-bottom: 30px;
@@ -72,7 +72,7 @@ export default {
     display: flex;
     align-items: center;
     font-size: 18px;
-    color: #888888;
+    color: #000;
     margin: 15px 0 24px;
     img {
       height: 16px;

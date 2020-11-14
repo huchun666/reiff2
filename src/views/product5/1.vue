@@ -113,7 +113,7 @@ export default {
       }
       .download-content2-box-text {
         font-size: 20px;
-        color: #828282;
+        color: #000;
       }
       .download-content2-box-text:hover {
         color: #DB2C15;
@@ -122,14 +122,14 @@ export default {
   }
   .download-title {
     font-size: 32px;
-    color: #3a3a3a;
+    color: #000;
     font-weight: bold;
     margin: 70px 0 50px;
   }
   .download-sub-title {
     margin-bottom: 23px;
     font-size: 20px;
-    color: #333;
+    color: #000;
     font-weight: bold;
   }
 }

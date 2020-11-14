@@ -389,19 +389,19 @@ export default {
     width: 35vw;
     .product4-content1-left-title {
       font-size: 32px;
-      color: #3a3a3a;
+      color: #000;
       font-weight: bold;
     }
     .product4-content1-left-text {
       font-size: 16px;
-      color: #828282;
+      color: #000;
       margin-top: 40px;
     }
   }
   .product1-content-right {
     .product1-content-right-title {
       font-size: 22px;
-      color: #333;
+      color: #000;
       margin-bottom: 30px;
     }
     .product1-content-right-box {
@@ -412,7 +412,7 @@ export default {
       align-items: center;
       margin-bottom: 32.5px;
       font-size: 16px;
-      color: #333;
+      color: #000;
       cursor: pointer;
       img {
         width: 24.4px;
@@ -447,7 +447,7 @@ table {
   margin-bottom: 70px;
 }
 .product4-content2-title {
-  color: #3a3a3a;
+  color: #000;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 14px;
@@ -462,14 +462,14 @@ table {
     width: 45%;
     .product4-content3-left-title {
       font-size: 20px;
-      color: #3a3a3a;
+      color: #000;
       font-weight: bold;
       line-height: 36px;
       margin-bottom: 30px;
     }
     .product4-content3-left-content {
       font-size: 16px;
-      color: #828282;
+      color: #000;
       line-height: 26px;
     }
   }
@@ -485,11 +485,11 @@ table {
     margin-bottom: 40px;
     font-size: 32px;
     font-weight: bold;
-    color: #3a3a3a;
+    color: #000;
   }
   .product4-content4-text {
     font-size: 16px;
-    color: #828282;
+    color: #000;
     margin-bottom: 40px;
   }
   .product4-content4-img-container {
@@ -507,6 +507,7 @@ table {
         color: #fff;
         padding: 10px 13px;
         margin-top: -5px;
+        height: 55px;
         .product4-content4-img-text-title {
           font-size: 14px;
           margin-bottom: 4px;

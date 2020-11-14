@@ -24,7 +24,6 @@
           <li>睿服工业零部件（上海）有限公司</li>
           <li>上海市闵行区都会路1835号6号楼B</li>
           <li>邮编：201108</li>
-          <br />
           <li>电话：021 6220 7582 分机802</li>
           <li>传真：021 6220 7589</li>
           <li>邮箱：shanghai@reiff-tp.cn</li>
@@ -104,6 +103,7 @@ export default {
 .app-footer-top {
   display: flex;
   padding: 80px 0 60px 15%;
+  color: #333;
   .app-footer-top-left {
     margin-right: 9.4vw;
   }
@@ -129,18 +129,18 @@ export default {
   }
   .app-footer-top-right-ul {
     font-size: 16px;
-    color: #888;
+    color: #333;
     li {
-      margin-bottom: 5px;
+      margin-bottom: 10px;
     }
   }
 }
 .app-footer-bottom {
   border-top: 1px solid #828282;
-  padding-left: 18vw;
+  padding-left: 15%;
   height: 77px;
   line-height: 77px;
   font-size: 16px;
-  color: #888;
+  color: #333;
 }
 </style>

@@ -68,11 +68,11 @@ export default {
       .product1-content-left-title {
         font-weight: bold;
         font-size: 32px;
-        color: #3a3a3a;
+        color: #000;
         margin-bottom: 40px;
       }
       .product1-content-left-text {
-        color: #828282;
+        color: #000;
         font-size: 16px;
         margin-bottom: 35px;
       }
@@ -80,7 +80,7 @@ export default {
     .product1-content-right {
       .product1-content-right-title {
         font-size: 22px;
-        color: #333;
+        color: #000;
         margin-bottom: 30px;
       }
       .product1-content-right-download {
@@ -88,7 +88,7 @@ export default {
         align-items: center;
         margin-bottom: 32.5px;
         font-size: 16px;
-        color: #333;
+        color: #000;
         cursor: pointer;
         img {
           width: 24.4px;
