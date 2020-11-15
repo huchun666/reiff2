@@ -35,7 +35,7 @@
         </div>
         <img src="../../assets/images/product2/logo-2.png" alt="">
       </div>
-      <div class="product2-content3">
+      <div class="product2-content3" id="maodian1">
         <img src="../../assets/images/product2/content1.jpg" alt="" class="product2-content3-img">
         <div class="product2-content3-text">
           <div class="product2-content3-text-title">德国Mulco集团</div>
@@ -159,7 +159,7 @@
         </ul>
       </div>
       <div class="product2-content5">
-        <div class="product2-content5-left">
+        <div class="product2-content5-left" id="maodian2">
           <div class="product2-content5-left-title">康迪泰克传动带</div>
           <div class="product2-content5-left-content">
             康迪泰克传动带隶属于马牌集团，是橡胶和塑料技术领域的领先专业供应商，为汽车行业等重要行业开发和生产传动产品，并侧重使用生态环保和资源节约的制造工艺。
@@ -230,7 +230,11 @@ export default {
     }
   },
   mounted() {
-
+    let { fullPath } = this.$route;
+    if (fullPath.indexOf('#') > -1) {
+      let maodian = fullPath.split('#')[1]
+      scrollTo(0, document.getElementById(maodian).offsetTop - 160)
+    }
   }
 }
 </script>
@@ -397,7 +401,7 @@ export default {
         .product2-content5-left-content3 {
           display: flex;
           justify-content: space-between;
-          font-size: 20px;
+          font-size: 16px;
           color: #000;
           line-height: 36px;
           margin-bottom: 70px;
