@@ -112,7 +112,7 @@ export default {
         margin-right: 10px;
       }
       .download-content2-box-text {
-        font-size: 20px;
+        font-size: 16px;
         color: #000;
       }
       .download-content2-box-text:hover {

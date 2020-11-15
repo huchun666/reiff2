@@ -111,7 +111,7 @@ export default {
 .home-main-title {
   font-size: 32px;
   color: #000;
-  line-height: 32px;
+  line-height: 14px;
   padding: 50px 0;
   text-align: center;
   font-weight: bold;
@@ -172,7 +172,7 @@ export default {
         background: #DB2C15;
         color: #fff;
         padding: 11px 9px;
-        font-size: 12px;
+        font-size: 16px;
         margin-top: -5px;
       }
     }
@@ -195,7 +195,7 @@ export default {
         background: #DB2C15;
         color: #fff;
         padding: 11px 9px;
-        font-size: 12px;
+        font-size: 16px;
         margin-top: -5px;
       }
     }

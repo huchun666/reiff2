@@ -105,12 +105,12 @@ export default {
       height: 90vh;
     }
     .contact-us-container {
-      padding: 50px;
+      padding: 30px;
       .contact-us-title {
         color: #000;
         font-weight: bold;
         font-size: 32px;
-        margin-bottom: 37px;
+        margin-bottom: 16px;
       }
       .contact-us-footer {
         display: flex;
@@ -119,9 +119,14 @@ export default {
           font-size: 13px;
           .contact-us-footer-left-title {
             color: #DB2C15;
-            margin-bottom: 16px;
+            margin-bottom: 10px;
             font-size: 18px;
             height: 24px;
+          }
+          .contact-us-footer-left-content {
+            li {
+              height: 17px;
+            }
           }
           .contact-us-footer-left-title-hidden {
             opacity: 0;
