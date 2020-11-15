@@ -33,32 +33,6 @@
                   <li>www.reiff-tp.de</li>
                 </ul>
               </div>
-              <div class="contact-us-footer-left">
-                <div class="contact-us-footer-left-title contact-us-footer-left-title-hidden">中国</div>
-                <ul class="contact-us-footer-left-content">
-                  <li>R.E.T. GmbH</li>
-                  <li>Aspenhaustraße 15</li>
-                  <li>D- 72770 Reutlingen</li>
-                  <br>
-                  <li>Tel: +49 7121 5101-0</li>
-                  <li>Fax: +49 7121 5101-199</li>
-                  <li>Email: info@ret-gmbh.de</li>
-                  <li>www.ret-gmbh.de</li>
-                </ul>
-              </div>
-              <div class="contact-us-footer-left">
-                <div class="contact-us-footer-left-title contact-us-footer-left-title-hidden">1</div>
-                <ul class="contact-us-footer-left-content">
-                  <li>KREMER GmbH</li>
-                  <li>Kinzigstr. 9 </li>
-                  <li>D-63607 Wächtersbach</li>
-                  <br>
-                  <li>Tel: +49 6053 6161 0 </li>
-                  <li>Fax: + 49 6053 9739</li>
-                  <li>Email: info@kremer-tec.de</li>
-                  <li>www.kremer-tec.de</li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>

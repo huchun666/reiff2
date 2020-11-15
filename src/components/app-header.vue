@@ -1,6 +1,5 @@
 <template>
   <div class='app-header'>
-    <div class="app-header-fill"></div>
     <div class="app-header-content">
       <div class="app-header-content-contanier">
         <img src="../assets/images/header/logo.png" alt="" class="app-header-logo" @click="handleGoHome">
@@ -151,15 +150,7 @@ export default {
 <style scoped lang='scss'>
 .app-header {
   width: 100%;
-  .app-header-fill {
-    width: 100%;
-    height: 160px;
-  }
   .app-header-content {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 160px;
     display: flex;

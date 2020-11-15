@@ -19,7 +19,7 @@
           <div class="application-content2-text-title">汽车行业</div>
           <div class="application-content2-text">
             Breco 齿形带广泛地应用在生产线上，例如车身冲压和输送，是整车厂设备维护的指定品牌。<br><br>
-            睿服的R.E.T和Kremer子公司多年为汽车行业设计和生产橡胶产品，例如ABS/ESP系统和电气件的密封。<br><br>
+            睿服的R.E.T和Kremer子公司多年为汽车行业设计和生产橡胶产品。<br><br>例如ABS/ESP系统和电气件的密封。<br><br>
             马牌Contitech齿形带。 Epple全系列不含硅胶水。
           </div>
         </div>
