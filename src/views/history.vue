@@ -2,7 +2,7 @@
   <div class="history">
     <img src="../assets/images/footer/13.jpg" alt="" class="history-banner" />
     <div class="history-content">
-      <div class="history-title">发展历史</div>
+      <div class="history-title">关于我们</div>
       <div class="history-content1">
         <div class="history-content1-left">
           睿服已有百年历史。早在1910年，Albert

@@ -21,7 +21,7 @@
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="" download="密封圈和抽封.pdf">密封圈和抽封</a>
+                <a href="" download="密封圈和抽封.pdf">密封圈和轴封</a>
               </div>
             </div>
             <div class="product1-content-right-download">
@@ -115,7 +115,7 @@
             <td>良</td>
           </tr>
           <tr>
-            <td>压缩永久变形</td>
+            <td>抗压缩变形</td>
             <td>好</td>
             <td>很好</td>
             <td>好</td>
@@ -143,7 +143,7 @@
             <td>良</td>
           </tr>
           <tr>
-            <td>一般性风化抗力</td>
+            <td>抗风化</td>
             <td>良</td>
             <td>优</td>
             <td>优</td>
@@ -171,7 +171,7 @@
             <td>优</td>
           </tr>
           <tr>
-            <td>耐矿物油和矿物脂</td>
+            <td>耐矿物油脂</td>
             <td>优</td>
             <td>优</td>
             <td>不适宜</td>
@@ -185,7 +185,7 @@
             <td>很好</td>
           </tr>
           <tr>
-            <td>耐燃料性</td>
+            <td>燃油稳定性</td>
             <td>好</td>
             <td>优</td>
             <td>不适宜</td>
@@ -227,7 +227,7 @@
             <td>良</td>
           </tr>
           <tr>
-            <td>耐温（摄氏度）</td>
+            <td>耐温</td>
             <td>–30 至 +100</td>
             <td>–20 至+200</td>
             <td>–40 至+130</td>
@@ -282,7 +282,7 @@
             <img src="../../assets/images/product4/01.jpg" alt="">
             <div class="product4-content4-img-text">
               <div class="product4-content4-img-text-title">窗户、房屋门面和温室</div>
-              <div class="product4-content4-img-text-content">EPDM型材、EPDM橡胶封条、EPDM成型件以及</div>
+              <div class="product4-content4-img-text-content">EPDM型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
@@ -303,55 +303,55 @@
             <img src="../../assets/images/product4/04.jpg" alt="">
             <div class="product4-content4-img-text">
               <div class="product4-content4-img-text-title">车身和客舱制造</div>
-              <div class="product4-content4-img-text-content">EPDM型材、TPE型材、塑料型材、EPDM密封条NBR型材</div>
+              <div class="product4-content4-img-text-content">EPDM型材、TPE型材、塑料型材、EPDM密封条、NBR型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/05.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">塑料型材、TPE、EPDM型材和NBR型材</div>
+              <div class="product4-content4-img-text-title">汽车发动机室和室内空间<br>EPDM型材、TPE型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/06.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">硅树脂型材、硅树脂边缘保护型材和FRM</div>
+              <div class="product4-content4-img-text-title">可再生能源<br>EPDM型材、EPDM密封条、NBP型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/07.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">电子技术EPDM型材</div>
+              <div class="product4-content4-img-text-title">设备制造<br>硅胶型材、FPM型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/08.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">硅树脂型材、硅树脂边缘保护型材和FRM型材</div>
+              <div class="product4-content4-img-text-title">机械制造<br>塑料、TPE、EPDM、NBP型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/09.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">硅树脂型材、硅树脂边缘保护型材和FRM型材</div>
+              <div class="product4-content4-img-text-title">电子器材<br>EPDM型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/10.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">硅树脂型材、硅树脂边缘保护型材和FRM型材</div>
+              <div class="product4-content4-img-text-title">医疗设备<br>硅胶型材、塑料型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/11.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">硅树脂型材、硅树脂边缘保护型材和FRM型材</div>
+              <div class="product4-content4-img-text-title">食品设备<br>硅胶型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/12.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">硅树脂型材、硅树脂边缘保护型材和FRM型材</div>
+              <div class="product4-content4-img-text-title">管道密封<br>EPDM型材、CR型材</div>
             </div>
           </div>
         </div>

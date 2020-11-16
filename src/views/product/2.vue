@@ -41,8 +41,8 @@
           <div class="product2-content3-text-title">德国Mulco集团</div>
           <div class="product2-content3-text-sub-title">Breco, Brecoflex, Contitech Synchroflex 品牌</div>
           <div class="product2-content3-text-main">
-            Mulco集团由在1951年由睿服等四家公司组成，现在拥有欧洲聚氨酯同步带35%的市场份额和多项专利，多年来一直是聚氨酯同步带技术的推动者。<br>
-            无论是汽车、精密机床还是食品制药等高端制造领域都可以看到大量Mulco产品的应用。在德国以外Mulco通过“Mulco业务伙伴”的形式在欧洲建立了广泛的销售渠道，在美国通过Brecoflex Co., L.L.C销售。
+            Mulco集团在1951年由睿服等四家公司组建，现在拥有欧洲聚氨酯同步带35%的市场份额和多项专利，多年来一直是聚氨酯同步带技术的推动者。<br>
+            无论是在汽车、精密机床还是食品制药等高端制造领域都可以看到大量Mulco产品的应用。在德国以外Mulco通过“Mulco业务伙伴”的形式在欧洲建立了广泛的销售渠道，在美国通过Brecoflex Co., L.L.C销售。
           </div>
           <div class="product2-content3-text-bottom">
             <div class="product2-content3-text-bottom1" @click="handleContactUs">
@@ -89,7 +89,7 @@
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® Basic</div>
-                <div>适用于相对简单的使用场景的低成本方案</div>
+                <div>适用于简单使用场景的低成本方案</div>
               </div>
             </div>
           </li>
@@ -125,16 +125,16 @@
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® 平带</div>
-                <div>更节约成本和安装空间，使用于各种紧凑设计</div>
+                <div>节约成本和安装空间，适用于各种紧凑设计</div>
               </div>
             </div>
           </li>
           <li>
-            <img src="../../assets/images/product2/007.jpg" alt="">
+            <img src="../../assets/images/product2/009.jpg" alt="">
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® 带轮和其它附件</div>
-                <div>进口定时带轮和中国国产带轮，其它同步带辅件</div>
+                <div>进口带轮和中国产带轮</div>
               </div>
             </div>
           </li>
@@ -143,16 +143,16 @@
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® 深度定制</div>
-                <div>定制齿背厚度、定制特殊形状、特殊涂层、打孔等专属方案</div>
+                <div>定制齿背厚度、特殊形状、特殊涂层、打孔等专属方案</div>
               </div>
             </div>
           </li>
           <li>
-            <img src="../../assets/images/product2/009.jpg" alt="">
+            <img src="../../assets/images/product2/007.jpg" alt="">
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® TSM</div>
-                <div>专属张力测试仪</div>
+                <div>张力测试仪</div>
               </div>
             </div>
           </li>
@@ -162,7 +162,7 @@
         <div class="product2-content5-left" id="maodian2">
           <div class="product2-content5-left-title">康迪泰克传动带</div>
           <div class="product2-content5-left-content">
-            康迪泰克传动带隶属于马牌集团，是橡胶和塑料技术领域的领先专业供应商，为汽车行业等重要行业开发和生产传动产品，并侧重使用生态环保和资源节约的制造工艺。
+            康迪泰克隶属于马牌集团，是橡胶和塑料技术领域的领先专业供应商，为汽车等重要行业开发和生产传动产品，并侧重使用生态环保和资源节约的制造工艺。
           </div>
           <div class="product2-content5-left-content2">
             睿服是康迪泰克传动带在德国的重要合作伙伴，负责德国南方地区的销售；同时也拥有在中国的授权。
@@ -291,7 +291,7 @@ export default {
       justify-content: space-between;
       padding: 38px 0 70px;
       .product2-content2-left {
-        font-size: 18px;
+        font-size: 16px;
         color: #000;
       }
       img {
@@ -350,6 +350,7 @@ export default {
         font-size: 20px;
         color: #000;
         margin-bottom: 30px;
+        font-weight: bold;
       }
       .product2-content4-ul {
         display: flex;

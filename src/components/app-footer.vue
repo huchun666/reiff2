@@ -4,7 +4,7 @@
       <div class="app-footer-top-left">
         <div class="app-footer-top-left-title">关于睿服集团</div>
         <ul class="app-footer-top-left-ul" @click="handleRouter">
-          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 1}">发展历史</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 1}">关于我们</li>
           <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 2}">集团公司一览</li>
           <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 3}">合作伙伴</li>
           <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 4}">公司理念</li>
@@ -31,7 +31,8 @@
       </div>
     </div>
     <div class="app-footer-bottom">
-      @2020 REIFF Technical Products Shanghai Co,. Ltd
+      @2020 REIFF Technical Products Shanghai Co,. Ltd.
+      <a href="http://beian.miit.gov.cn/">沪ICP备202031752号-1</a>
     </div>
   </div>
 </template>
@@ -52,7 +53,7 @@ export default {
       const { innerHTML } = e.target;
       let path = "";
       let currentPath = this.$route.path;
-      if (innerHTML === "发展历史") {
+      if (innerHTML === "关于我们") {
         this.setCurrentIndexFooter(1)
         path = "/history";
       }else if (innerHTML === "集团公司一览") {
@@ -142,5 +143,9 @@ export default {
   line-height: 77px;
   font-size: 16px;
   color: #333;
+  a {
+    color: #333;
+    margin-left: 40px;
+  }
 }
 </style>

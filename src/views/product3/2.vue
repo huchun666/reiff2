@@ -40,21 +40,15 @@
         <ul>
           <li class="agency-content2-box">
             <img src="../../assets/images/product2/location.png" alt="">
-            <div class="agency-content2-box-text">Trelleborg特瑞堡密封业务介绍</div>
-          </li>
-        </ul>
-        <ul>
-          <li class="agency-content2-box">
-            <img src="../../assets/images/product2/location.png" alt="">
             <div class="agency-content2-box-text">汉高德国卓越合作伙伴</div>
           </li>
           <li class="agency-content2-box">
             <img src="../../assets/images/product2/location.png" alt="">
-            <div class="agency-content2-box-text">汉高中国区经销商授权-通用工业</div>
+            <div class="agency-content2-box-text">汉高中国区经销商授权(通用工业)</div>
           </li>
           <li class="agency-content2-box">
             <img src="../../assets/images/product2/location.png" alt="">
-            <div class="agency-content2-box-text">汉高中国经销商授权-表面处理</div>
+            <div class="agency-content2-box-text">汉高中国经销商授权(表面处理)</div>
           </li>
           <li class="agency-content2-box">
             <img src="../../assets/images/product2/location.png" alt="">

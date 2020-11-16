@@ -37,7 +37,7 @@
       <div class="cooperation-content2">
         <img src="../assets/images/footer/09.png" alt="">
         <div class="cooperation-content2-box">
-          VTH工业技术贸易协会是德国和奥地利唯一的工业技术贸易协会，有着百年的辉煌历史。<br>
+          VTH工业技术贸易协会是德国和奥地利的工业技术贸易协会，有着百年的辉煌历史。<br>
           www.vth-verband.de
         </div>
       </div>

@@ -5,7 +5,7 @@
       <div class="product3-content1">
         <div class="product3-content1-left">
           <div class="product3-content1-left-title">化学粘合和密封</div>
-          <div class="product3-content1-left-text">睿服提供全系列的汉高乐泰(Loctite)、Epple站粘合密封胶、Technicoll 粘合剂、Wacker瓦克硅橡胶、Sika密封胶、OKS润滑剂、Tesa胶带等高质量的德系解决方案。</div>
+          <div class="product3-content1-left-text">睿服提供全系列的汉高乐泰(Loctite)、Epple粘合密封胶、Technicoll粘合剂、Wacker瓦克硅橡胶、Sika密封胶、OKS润滑剂、Tesa胶带等高质量的德系解决方案。</div>
         </div>
         <div class="product1-content-right">
           <div class="product1-content-right-title">下载产品手册</div>
@@ -20,21 +20,21 @@
       <div class="product3-content2">
         <div class="product3-content2-left">
           <div class="product3-content2-left-top" :class="{'product3-content2-left-top-active': content1}" @mouseover="handleHoverContent('content1')" @mouseout="handleOutContent('content1')">
-            <div class="product3-content2-left-top-title">汉高在德国最大的工业销售商之一德国区和中国区授权经销商</div>
+            <div class="product3-content2-left-top-title">汉高德国最大的工业经销商之一 中国区授权经销商</div>
             <div class="product3-content2-left-top-content">汉高乐泰是全球粘合剂、密封剂和功能涂层材料领域的重要供应商。睿服同时拥有德国汉高和中国汉高的官方授权，是汉高通用工业重要的合作伙伴。睿服为中国客户提供全系列的汉高产品和更优化的供货渠道。</div>
           </div>
           <div class="product3-content2-left-bottom" :class="{'product3-content2-left-top-active': content3}" @mouseover="handleHoverContent('content3')" @mouseout="handleOutContent('content3')">
-            <div class="product3-content2-left-top-title">Technicoll品牌官方授权中国区总代理</div>
+            <div class="product3-content2-left-top-title">Technicoll中国区总代理</div>
             <div class="product3-content2-left-top-content">Technicoll 系列粘和剂在塑料、金属、发泡材料、纺织物、皮革、橡胶、陶瓷和绝缘等材料的大面积粘接上有着广泛的应用。</div>
           </div>
         </div>
         <div class="product3-content2-middle">
           <div class="product3-content2-left-top" :class="{'product3-content2-left-top-active': content2}" @mouseover="handleHoverContent('content2')" @mouseout="handleOutContent('content2')">
-            <div class="product3-content2-left-top-title">Wacker瓦克品牌官方授权德国区授权经销商 中国区项目授权</div>
+            <div class="product3-content2-left-top-title">Wacker德国区授权经销商 中国区项目授权</div>
             <div class="product3-content2-left-top-content">瓦克公司的有机硅系列产品以其多样化及卓越性能享誉整个行业，在汽车电子、消费电子、通讯和半导体行业中有着广泛应用。</div>
           </div>
           <div class="product3-content2-left-bottom" :class="{'product3-content2-left-top-active': content4}" @mouseover="handleHoverContent('content4')" @mouseout="handleOutContent('content4')">
-            <div class="product3-content2-left-top-title">Epple品牌官方授权中国区总代理</div>
+            <div class="product3-content2-left-top-title">Epple中国区总代理</div>
             <div class="product3-content2-left-top-content">Epple产品耐酸碱等化学侵蚀性，同时具有高耐热性，可承受高达800℃的温度。Epple密封胶可在不同温度和化学腐蚀条件下实现可靠的密封效果。Epple的全系列产品都不含硅，在喷涂、化工和汽车等领域应用广泛。</div>
           </div>
         </div>
@@ -98,7 +98,7 @@
             <div class="product3-content3-example-text-box">
               <div class="product3-content3-example-text-title">氰基丙烯酸酯（瞬干胶）</div>
               <div class="product3-content3-example-text-box-text">
-                可以在粘接材料表面非常快的固化。基材表面的湿气可以引发胶水的固化反应，反应会从基材表面向胶水中间进行。瞬干胶被广泛用于有快速固定要求的小部件粘接。由于它的间隙填充能力有限，所以在粘接过程中需要与被粘接表面紧密配合。对于绝大数基材瞬干胶都有非常好的粘接力，在剪切轻度和拉伸强度上都有非常优异的表现。
+                可以在粘接材料表面非常快的固化。基材表面的湿气可以引发胶水的固化反应，反应会从基材表面向胶水中间进行。瞬干胶被广泛用于有快速固定要求的小部件粘接。由于它的间隙填充能力有限，所以在粘接过程中需要与被粘接表面紧密配合。对于绝大数基材瞬干胶都有非常好的粘接力，在剪切强度和拉伸强度上都有非常优异的表现。
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product7')" @mouseout="handleOutImage('product7')">
             <img src="../../assets/images/product3/003.png" alt="">
-            <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">SikaFast®-5215 NT双组份丙烯…</div></div>
+            <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">SikaFast®-5215 NT</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product7">双组份丙烯酸快速固化结构胶可粘接玻璃、玻纤、木材、铝板、钢铁、塑料材料，例如修整后的PU表面、光亮油漆面、蜂窝板等。快干，粘结力超强，可代替焊接和铆接。</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product8')" @mouseout="handleOutImage('product8')">
@@ -189,7 +189,7 @@
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product13')" @mouseout="handleOutImage('product13')">
             <img src="../../assets/images/product3/013.png" alt="">
-            <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">Wacker ELASTOSIL® E43 有机硅橡胶</div></div>
+            <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">Wacker E43</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product13">单组份，常温24小时完全固化。具有良好的耐温性和优质的密封粘接性能。对许多材质都不需底涂剂，尤其适合硅橡胶与硅橡胶制品间的相互粘接。同时该产品具有绝缘性、抗辐射性以及化学稳定性能，E43N符合美国FDA食品标注，而且环保。广泛应用于电子、橡胶制品、生物、医疗和食品加工领域。</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product14')" @mouseout="handleOutImage('product14')">
