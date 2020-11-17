@@ -293,6 +293,7 @@ export default {
       .product2-content2-left {
         font-size: 16px;
         color: #000;
+        font-weight: bold;
       }
       img {
         width: 27.6vw;

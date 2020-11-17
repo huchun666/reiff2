@@ -509,8 +509,9 @@ table {
         margin-top: -5px;
         height: 55px;
         .product4-content4-img-text-title {
-          font-size: 14px;
+          font-size: 12px;
           margin-bottom: 4px;
+          font-weight: bold;
         }
         .product4-content4-img-text-content {
           font-size: 12px;

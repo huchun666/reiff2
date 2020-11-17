@@ -69,7 +69,7 @@
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2000 -</div>
                   <div class="contact-us--text-item2-right">
-                    新型TN运输带研发成功并申请专利
+                    新型ATN输送带研发成功并申请专利
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
@@ -81,7 +81,7 @@
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2002 -</div>
                   <div class="contact-us--text-item2-right">
-                    C在市场上推出新型高性能同步带GEN III
+                    在市场上推出新型高性能同步带GEN III
                   </div>
                 </div>
                 <div class="contact-us--text-item2">

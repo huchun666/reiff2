@@ -20,7 +20,7 @@
       <div class="product3-content2">
         <div class="product3-content2-left">
           <div class="product3-content2-left-top" :class="{'product3-content2-left-top-active': content1}" @mouseover="handleHoverContent('content1')" @mouseout="handleOutContent('content1')">
-            <div class="product3-content2-left-top-title">汉高德国最大的工业经销商之一 中国区授权经销商</div>
+            <div class="product3-content2-left-top-title">汉高德国最大的工业经销商之一<br>中国区授权经销商</div>
             <div class="product3-content2-left-top-content">汉高乐泰是全球粘合剂、密封剂和功能涂层材料领域的重要供应商。睿服同时拥有德国汉高和中国汉高的官方授权，是汉高通用工业重要的合作伙伴。睿服为中国客户提供全系列的汉高产品和更优化的供货渠道。</div>
           </div>
           <div class="product3-content2-left-bottom" :class="{'product3-content2-left-top-active': content3}" @mouseover="handleHoverContent('content3')" @mouseout="handleOutContent('content3')">
@@ -30,7 +30,7 @@
         </div>
         <div class="product3-content2-middle">
           <div class="product3-content2-left-top" :class="{'product3-content2-left-top-active': content2}" @mouseover="handleHoverContent('content2')" @mouseout="handleOutContent('content2')">
-            <div class="product3-content2-left-top-title">Wacker德国区授权经销商 中国区项目授权</div>
+            <div class="product3-content2-left-top-title">Wacker德国区授权经销商<br>中国区项目授权</div>
             <div class="product3-content2-left-top-content">瓦克公司的有机硅系列产品以其多样化及卓越性能享誉整个行业，在汽车电子、消费电子、通讯和半导体行业中有着广泛应用。</div>
           </div>
           <div class="product3-content2-left-bottom" :class="{'product3-content2-left-top-active': content4}" @mouseover="handleHoverContent('content4')" @mouseout="handleOutContent('content4')">
