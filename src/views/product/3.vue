@@ -122,7 +122,7 @@
             </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product7')" @mouseout="handleOutImage('product7')">
-            <img src="../../assets/images/product3/003.png" alt="">
+            <img src="../../assets/images/product7/1.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">SikaFast®-5215 NT</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product7">双组份丙烯酸快速固化结构胶可粘接玻璃、玻纤、木材、铝板、钢铁、塑料材料，例如修整后的PU表面、光亮油漆面、蜂窝板等。快干，粘结力超强，可代替焊接和铆接。</div>
           </div>
@@ -167,7 +167,7 @@
             <div class="product3-content3-example-middle-text-hover" v-show="product11">以聚氯丁烯为基础的溶剂型粘合剂，产品具有良好的初始强度和很高的最终强度。粘接效果为柔性粘接，同时具有防水性和耐热性。适用于整车厂的玻璃粘接、密封、隔音防震等。</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product12')" @mouseout="handleOutImage('product12')">
-            <img src="../../assets/images/product3/010.png" alt="">
+            <img src="../../assets/images/product7/2.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">technicoll® 8055</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product12">快速起效的溶剂型胶水，初始粘性很高，有很好的附着性, 效果持久。同时具有防水性和耐热性。</div>
           </div>
@@ -188,12 +188,12 @@
             </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product13')" @mouseout="handleOutImage('product13')">
-            <img src="../../assets/images/product3/013.png" alt="">
+            <img src="../../assets/images/product7/3.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">Wacker E43</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product13">单组份，常温24小时完全固化。具有良好的耐温性和优质的密封粘接性能。对许多材质都不需底涂剂，尤其适合硅橡胶与硅橡胶制品间的相互粘接。同时该产品具有绝缘性、抗辐射性以及化学稳定性能，E43N符合美国FDA食品标注，而且环保。广泛应用于电子、橡胶制品、生物、医疗和食品加工领域。</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product14')" @mouseout="handleOutImage('product14')">
-            <img src="../../assets/images/product3/006.png" alt="">
+            <img src="../../assets/images/product7/4.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">TEROSON® SI 33</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product14">无溶剂单组份硅胶密封完全固化后无臭、耐光，并具有良好的粘合性能和良好的耐化学性。应用于金属、铝材、硬质PVC、陶瓷或玻璃的粘接和密封。</div>
           </div>
@@ -207,12 +207,12 @@
             </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product15')" @mouseout="handleOutImage('product15')">
-            <img src="../../assets/images/product3/003.png" alt="">
+            <img src="../../assets/images/product7/5.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">Sikaflex 252</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product15">适合于高负载部位的结构性粘接，包括木材、金属、尤其是铝(包括阳极氧化的部分) 、钢板(包括磷化过、镀铬和镀锌的部件) 、金属底漆和漆面(双组份) 、陶瓷材料及塑料。表面可喷漆，具有良好的填缝性能。</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product16')" @mouseout="handleOutImage('product16')">
-            <img src="../../assets/images/product3/008.png" alt="">
+            <img src="../../assets/images/product7/6.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">TEROSON PU 92</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product16">对涂漆表面、许多金属和塑料有良好的附着力，无需底涂，可以直接涂漆，即使在尚未固化时。</div>
           </div>
@@ -227,12 +227,12 @@
             </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product17')" @mouseout="handleOutImage('product17')">
-            <img src="../../assets/images/product3/009.png" alt="">
+            <img src="../../assets/images/product7/7.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">TEROSON MS 939 单组份胶合剂</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product17">用于弹性密封，固化后形成一种耐UV的热固性弹性体。 它抗流挂，初粘性强，无腐蚀性，不含溶剂、异氰酸酯、硅酮和聚氯乙烯。使用 LOCTITE MS 9371B 可加快固化速度。</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product18')" @mouseout="handleOutImage('product18')">
-            <img src="../../assets/images/product3/010.png" alt="">
+            <img src="../../assets/images/product7/8.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">UHU POLY MAX EXPRESS</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product18">多用途高性能密封材料适用于绝大部分材料和各种应用场景。始终保持弹性，粘接后可对施工位置进行修正。100%防水。可用于室外环境。无收缩，可用于缝隙处。不含溶剂。抗真菌。固化后表面可涂漆。</div>
           </div>
@@ -253,12 +253,12 @@
             </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product19')" @mouseout="handleOutImage('product19')">
-            <img src="../../assets/images/product3/005.png" alt="">
+            <img src="../../assets/images/product7/9.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">epple 22</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product19">单组份含溶剂的聚合物特别适用于对密封的强度和附着能力要求很高的环境。胶水本身粘度很低，在狭窄的缝隙间可以顺利进入，起到出色的密封效果。溶剂挥发后可形成坚固的密封膜，效果持久。耐温范围</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product20')" @mouseout="handleOutImage('product20')">
-            <img src="../../assets/images/product3/006.png" alt="">
+            <img src="../../assets/images/product7/10.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">epple 33 单组份含溶剂的聚合物</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product20">适用于各种苛刻的使用环境。固化后形成高弹性的密封膜，可以密封工件间很宽的缝隙。最高耐温到320°C。</div>
           </div>
@@ -272,12 +272,12 @@
             </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product21')" @mouseout="handleOutImage('product21')">
-            <img src="../../assets/images/product3/003.png" alt="">
+            <img src="../../assets/images/product7/11.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">Loctite 511</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product21">单组分、低强度、具有快速固化性能的触变性厌氧型密封胶。在隔绝空气的情况下，乐泰511平面密封胶可在金属表面间快速固化。用于密封金属螺纹配件。</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product22')" @mouseout="handleOutImage('product22')">
-            <img src="../../assets/images/product3/008.png" alt="">
+            <img src="../../assets/images/product7/12.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">epple 37 单组份含溶剂的聚合物</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product22">对金属材料和塑料材料有很高的粘接强度。在超过120°C时仍具有良好弹性，超过400°C逐渐开始硬化。</div>
           </div>
@@ -292,12 +292,12 @@
             </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product23')" @mouseout="handleOutImage('product23')">
-            <img src="../../assets/images/product3/009.png" alt="">
+            <img src="../../assets/images/product7/13.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">epple stucarit 309</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product23">始终保持膏体状态，不会形成固化膜。使用stucarit 309后安装和拆卸都非常轻松。特别适用于精密组件或者复杂形状的工件，例如30-80微米的间隙。膏状的stucarit 309可以在需要密封的表面均匀分布，提高复杂组件的安装效率，不需过度计算预紧力和安装扭力。 </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product24')" @mouseout="handleOutImage('product24')">
-            <img src="../../assets/images/product3/010.png" alt="">
+            <img src="../../assets/images/product7/14.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">epple 28</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product24">特别添加塑料成分的含溶剂的聚合物密封胶，很好地解决了由于振动或温度变化引起密封胶膨胀。不含硅。有弹性。固化后可以拆卸。耐矿物油。</div>
           </div>
@@ -317,12 +317,12 @@
             </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product25')" @mouseout="handleOutImage('product25')">
-            <img src="../../assets/images/product3/005.png" alt="">
+            <img src="../../assets/images/product7/15.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">OKS 3570 </div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product25">一种专门为食品技术中的高温用途所研发的链条润滑剂。适用于包装和食品加工行业的喷漆、烘干和干燥设备的输送系统。在高达 250°C 的使用温度下不会形成硬质残留物。粘附能力强，无滴落倾向，耐水和水蒸汽，对酸性介质呈惰性，不含固体润滑剂，适用于自动润滑系统。</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product26')" @mouseout="handleOutImage('product26')">
-            <img src="../../assets/images/product3/006.png" alt="">
+            <img src="../../assets/images/product7/16.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">OKS 8601 生物多功能润滑油</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product26">对暴露在外的链条和机器部件进行润滑，也可用于高温环境。拥有良好的润滑特性和渗透性能，可生物降解、在高达 160℃ 条件下使用，不含硅。</div>
           </div>
@@ -336,12 +336,12 @@
             </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product27')" @mouseout="handleOutImage('product27')">
-            <img src="../../assets/images/product3/003.png" alt="">
+            <img src="../../assets/images/product7/17.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">OKS 480</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product27">用于食品技术设备的防水高压润滑脂，例如设备中的高负荷滚动和滑动轴承。 出色的耐热水和冷水、消毒剂和清洁剂。 具有出色的防腐蚀性。 耐高温且具有氧化稳定性。</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product28')" @mouseout="handleOutImage('product28')">
-            <img src="../../assets/images/product3/008.png" alt="">
+            <img src="../../assets/images/product7/18.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">OKS 1110 </div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product28">适用于冷热水、暖气阀门和管道的密封和润滑，亦可用于汽车的冷却系统，O型圈、油封的装配，能兼容各类塑料和橡胶。可用作阻力油，提供缓冲、锁紧、微调、抗磨、润滑等功能，具有良好的防水性能。 长效润滑和密封作用，不干固、不硬化、不渗出。使用温度范围广，能与塑料、橡胶等兼容。</div>
           </div>
@@ -356,12 +356,12 @@
             </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product29')" @mouseout="handleOutImage('product29')">
-            <img src="../../assets/images/product3/009.png" alt="">
+            <img src="../../assets/images/product7/19.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">OKS 250 高温润滑膏</div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product29">始终保持膏体状态，不会形成固化膜。使用stucarit 309后安装和拆卸都非常轻松。特别适用于精密组件或者复杂形状的工件，例如30-80微米的间隙。膏状的stucarit 309可以在需要密封的表面均匀分布，提高复杂组件的安装效率，不需过度计算预紧力和安装扭力。 </div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product30')" @mouseout="handleOutImage('product30')">
-            <img src="../../assets/images/product3/010.png" alt="">
+            <img src="../../assets/images/product7/20.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">OKS 240 铜基高温螺钉油膏 </div></div>
             <div class="product3-content3-example-middle-text-hover" v-show="product30">用于装配承受高温和腐蚀性影响的螺栓连接、管道接头、法兰接头和配件螺纹接头。即使在高使用温度和环境温度下运行长时间后，仍可进行可靠的、无破坏性的拆卸，提供螺栓预应力与拧紧力矩的最佳比例，导电。</div>
           </div>
