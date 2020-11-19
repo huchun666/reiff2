@@ -32,7 +32,9 @@
     </div>
     <div class="app-footer-bottom">
       @2020 REIFF Technical Products Shanghai Co,. Ltd.
-      <a href="http://beian.miit.gov.cn/">沪ICP备202031752号-1</a>
+      <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011202013081">
+        <span>沪ICP备202031752号-1</span>
+      </a>
     </div>
   </div>
 </template>
@@ -144,7 +146,7 @@ export default {
   font-size: 16px;
   color: #333;
   a {
-    color: #333;
+    color:#939393;
     margin-left: 40px;
   }
 }

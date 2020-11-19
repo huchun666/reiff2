@@ -303,55 +303,63 @@
             <img src="../../assets/images/product4/04.jpg" alt="">
             <div class="product4-content4-img-text">
               <div class="product4-content4-img-text-title">车身和客舱制造</div>
-              <div class="product4-content4-img-text-content">EPDM型材、TPE型材、塑料型材、EPDM密封条、NBR型材</div>
+              <div class="product4-content4-img-text-content">EPDM型材、塑料型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/05.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">汽车发动机室和室内空间<br>EPDM型材、TPE型材</div>
+              <div class="product4-content4-img-text-title">汽车发动机室和室内空间</div>
+              <div class="product4-content4-img-text-content">EPDM型材、TPE型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/06.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">可再生能源<br>EPDM型材、EPDM密封条、NBP型材</div>
+              <div class="product4-content4-img-text-title">可再生能源</div>
+              <div class="product4-content4-img-text-content">EPDM型材、EPDM密封条、NBP型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/07.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">设备制造<br>硅胶型材、FPM型材</div>
+              <div class="product4-content4-img-text-title">设备制造</div>
+              <div class="product4-content4-img-text-content">硅胶型材、FPM型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/08.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">机械制造<br>塑料、TPE、EPDM、NBP型材</div>
+              <div class="product4-content4-img-text-title">机械制造</div>
+              <div class="product4-content4-img-text-content">塑料、TPE、EPDM、NBP型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/09.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">电子器材<br>EPDM型材</div>
+              <div class="product4-content4-img-text-title">电子器材</div>
+              <div class="product4-content4-img-text-content">EPDM型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/10.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">医疗设备<br>硅胶型材、塑料型材</div>
+              <div class="product4-content4-img-text-title">医疗设备</div>
+              <div class="product4-content4-img-text-content">硅胶型材、塑料型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/11.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">食品设备<br>硅胶型材</div>
+              <div class="product4-content4-img-text-title">食品设备</div>
+              <div class="product4-content4-img-text-content">硅胶型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/12.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">管道密封<br>EPDM型材、CR型材</div>
+              <div class="product4-content4-img-text-title">管道密封</div>
+              <div class="product4-content4-img-text-content">EPDM型材、CR型材</div>
             </div>
           </div>
         </div>
@@ -509,12 +517,13 @@ table {
         margin-top: -5px;
         height: 55px;
         .product4-content4-img-text-title {
-          font-size: 12px;
+          font-size: 14px;
           margin-bottom: 4px;
           font-weight: bold;
         }
         .product4-content4-img-text-content {
-          font-size: 12px;
+          font-size: 14px;
+          font-weight: normal;
         }
       }
     }

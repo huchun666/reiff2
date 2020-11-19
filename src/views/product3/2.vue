@@ -44,11 +44,15 @@
           </li>
           <li class="agency-content2-box">
             <img src="../../assets/images/product2/location.png" alt="">
-            <div class="agency-content2-box-text">汉高中国区经销商授权(通用工业)</div>
+            <div class="agency-content2-box-text">汉高中国经销商授权(通用工业)</div>
           </li>
           <li class="agency-content2-box">
             <img src="../../assets/images/product2/location.png" alt="">
             <div class="agency-content2-box-text">汉高中国经销商授权(表面处理)</div>
+          </li>
+          <li class="agency-content2-box">
+            <img src="../../assets/images/product2/location.png" alt="">
+            <div class="agency-content2-box-text">Wacker瓦克硅胶德国经销商授权</div>
           </li>
           <li class="agency-content2-box">
             <img src="../../assets/images/product2/location.png" alt="">

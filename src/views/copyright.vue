@@ -8,7 +8,7 @@
     <div class="idea-content">
       <div class="idea-content1">
         <div class="idea-content1-title">版权信息</div>
-        <div class="idea-content1-sub-title">Copyright</div>
+        <div class="idea-content1-sub-title idea-content1-sub-title1">Copyright</div>
         <div class="idea-content1-box">
           1998-2020 REIFF Group. All rights reserved. All texts, images, graphs, audio, video and animation files in addition to their arrangements are subject to copyright and other laws for the protection of intellectual property. They may not be copied for commercial purposes or for circulation, or modified and used on other Internet pages. Some REIFF Group Internet pages also contain images subject to the copyright of those providing such images.<br>
           Group Internet pages also contain images subject to the copyright of those providing such images.either of the REIFF Group, one of the companies of the REIFF Group, or of the companies that have provided us with these images. This applies also to all company logos and emblems.
@@ -61,6 +61,9 @@ export default {
     .idea-content1-sub-title {
       font-size: 18px;
       font-weight: bold;
+    }
+    .idea-content1-sub-title1 {
+      margin-bottom: 3px;
     }
     .idea-content1-box {
       font-size: 16px;
