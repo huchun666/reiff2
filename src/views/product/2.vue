@@ -41,7 +41,7 @@
           <div class="product2-content3-text-title">德国Mulco集团</div>
           <div class="product2-content3-text-sub-title">Breco, Brecoflex, Contitech Synchroflex 品牌</div>
           <div class="product2-content3-text-main">
-            Mulco集团在1951年由睿服等四家公司组建，现在拥有欧洲聚氨酯同步带35%的市场份额和多项专利，多年来一直是聚氨酯同步带技术的推动者。<br>
+            Mulco集团在1951年由睿服等四家公司组建，现在拥有欧洲聚氨酯齿形带35%的市场份额和多项专利，多年来一直是聚氨酯齿形带技术的推动者。<br>
             无论是在汽车、精密机床还是食品制药等高端制造领域都可以看到大量Mulco产品的应用。在德国以外Mulco通过“Mulco业务伙伴”的形式在欧洲建立了广泛的销售渠道，在美国通过Brecoflex Co., L.L.C销售。
           </div>
           <div class="product2-content3-text-bottom">
@@ -72,7 +72,7 @@
         </div>
       </div>
       <div class="product2-content4">
-        <div class="product2-content4-title">Breco 聚氨酯同步带产品线</div>
+        <div class="product2-content4-title">Breco 聚氨酯齿形带产品线</div>
         <ul class="product2-content4-ul">
           <li>
             <img src="../../assets/images/product2/001.jpg" alt="">
@@ -80,7 +80,7 @@
               <div class="product2-content4-li-text-box">
                 <div>BRECOFLEX® 无缝带、BRECO® M 卷料</div>
                 <div>BRECO® V 接驳带</div>
-                <div>应用领域广泛的标准同步带</div>
+                <div>应用领域广泛的标准齿形带</div>
               </div>
             </div>
           </li>
@@ -98,7 +98,7 @@
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® Protect</div>
-                <div>为食品和制药行业开发的无菌同步带</div>
+                <div>为食品和制药行业开发的无菌齿形带</div>
               </div>
             </div>
           </li>
@@ -167,7 +167,7 @@
           <div class="product2-content5-left-content2">
             睿服是康迪泰克传动带在德国的重要合作伙伴，负责德国南方地区的销售；同时也拥有在中国的授权。
           </div>
-          <div class="product2-content5-left-title">Contitech 同步带型号列表</div>
+          <div class="product2-content5-left-title">Contitech 齿形带型号列表</div>
           <div class="product2-content5-left-content3">
             <ul>
               <li>CONTI® SYNCHROBELT </li>
@@ -198,7 +198,7 @@
           <div class="product2-content5-right-title">下载产品资料</div>
           <div class="product2-content5-right-img-box">
             <img src="../../assets/images/product1/download.png" alt="">
-            <div class="product2-content5-right-img-text">康迪泰克同步带</div>
+            <div class="product2-content5-right-img-text">康迪泰克齿形带</div>
           </div>
         </div>
       </div>

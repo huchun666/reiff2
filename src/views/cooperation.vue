@@ -16,7 +16,7 @@
       <div class="cooperation-content2">
         <img src="../assets/images/footer/05.png" alt="">
         <div class="cooperation-content2-box">
-          MULCO集团成立于1951年，提供高品质的聚氨酯同步带，睿服是4个初始创建成员之一。在国内MULCO集团Breco，Brecoflex 和Synchroflex 这3个品牌的同步带广泛应用在精密机械、食品制药、烟草和汽车行业中，也是进口设备中常见的同步带品牌。<br>
+          MULCO集团成立于1951年，提供高品质的聚氨酯齿形带，睿服是4个初始创建成员之一。在国内MULCO集团Breco，Brecoflex 和Synchroflex 这3个品牌的齿形带广泛应用在精密机械、食品制药、烟草和汽车行业中，也是进口设备中常见的齿形带品牌。<br>
           www.mulco.net     www.breco.de/en/
         </div>
       </div>

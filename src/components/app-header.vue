@@ -39,7 +39,7 @@ export default {
               url: '/product/1'
             },
             {
-              title: '带传动',
+              title: '传动带',
               url: '/product/2'
             },
             {

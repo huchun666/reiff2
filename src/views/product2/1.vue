@@ -28,7 +28,7 @@
         <div class="application-content3-text-box">
           <div class="application-content3-text-title">医疗行业</div>
           <div class="application-content3-text">
-            以Breco为核心的带传动方案。<br><br>
+            以Breco为核心的传动带方案。<br><br>
             符合医疗行业要求的橡胶产品，例如密封、减震、边角保护和输送软管。<br><br>
             斯凯孚、舍弗勒和睿服订制轴承。<br><br>
             符合医疗行业要求的化学品，例如胶水、密封和润滑油脂。

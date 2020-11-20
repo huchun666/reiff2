@@ -73,7 +73,7 @@
         </li>
         <li>
           <img src="../../assets/images/product2/location.png" alt="" />
-          <div class="download-content2-box-text">02 Epple_粘合产品</div>
+          <div class="download-content2-box-text">02 Epple粘合产品</div>
         </li>
       </ul>
     </div>

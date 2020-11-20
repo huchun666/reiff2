@@ -16,7 +16,7 @@
                 <div class="contact-us--text-item1">
                   <div class="contact-us--text-item1-left">1951 -</div>
                   <div class="contact-us--text-item1-right">
-                    <div>Willhelm Herm. Müller研发出第一代可浇注聚氨酯同步带</div>
+                    <div>Willhelm Herm. Müller研发出第一代可浇注聚氨酯齿形带</div>
                     <div>以下4家企业在10月1日组成了Mulco集团：</div>
                     <div>- Willhelm Herm. Müller</div>
                     <div>- Hilger u. Kern</div>
@@ -27,19 +27,19 @@
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1954 -</div>
                   <div class="contact-us--text-item2-right">
-                    第一代双齿面PU同步带问世
+                    第一代双齿面PU齿形带问世
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1965 -</div>
                   <div class="contact-us--text-item2-right">
-                    委托Contitech代工在市场上推出T型材同步带
+                    委托Contitech代工在市场上推出T型材齿形带
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1967 -</div>
                   <div class="contact-us--text-item2-right">
-                    委托Breco代工的第一代BRECO同步带成功问世
+                    委托Breco代工的第一代BRECO齿形带成功问世
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
@@ -51,19 +51,19 @@
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1986 -</div>
                   <div class="contact-us--text-item2-right">
-                    研发出SFAT新型同步带并获得专利
+                    研发出SFAT新型齿形带并获得专利
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1992 -</div>
                   <div class="contact-us--text-item2-right">
-                    Contitech在市场上推出ATP型同步带
+                    Contitech在市场上推出ATP型齿形带
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1997 -</div>
                   <div class="contact-us--text-item2-right">
-                    研发出传输及运行性能显著提高的BAT弧形同步带并申请专利
+                    研发出传输及运行性能显著提高的BAT弧形齿形带并申请专利
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
@@ -75,13 +75,13 @@
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2001 -</div>
                   <div class="contact-us--text-item2-right">
-                    进一步深化研发ATN模块化系统在市场上推出 ATN同步带和传动带
+                    进一步深化研发ATN模块化系统在市场上推出 ATN齿形带和传动带
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2002 -</div>
                   <div class="contact-us--text-item2-right">
-                    在市场上推出新型高性能同步带GEN III
+                    在市场上推出新型高性能齿形带GEN III
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
@@ -95,13 +95,13 @@
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2004 -</div>
                   <div class="contact-us--text-item2-right">
-                    Contitech在市场上推出ATP型同步带
+                    Contitech在市场上推出ATP型齿形带
                   </div>
                 </div>
                 <div class="contact-us--text-item1">
                   <div class="contact-us--text-item1-left">2005 -</div>
                   <div class="contact-us--text-item1-right">
-                    <div>BRECOFLEX-同步带型号StandartPlus 投入市场</div>
+                    <div>BRECOFLEX-齿形带型号StandartPlus 投入市场</div>
                     <div>
                       SYNCHROCHAIN作为GATES生产的Polychain的竞争对手进入市场
                     </div>
@@ -110,9 +110,9 @@
                 <div class="contact-us--text-item1">
                   <div class="contact-us--text-item1-left">2007 -</div>
                   <div class="contact-us--text-item1-right">
-                    <div>为驱动技术和线性技术单独设计的新型同步带ATS15面世</div>
+                    <div>为驱动技术和线性技术单独设计的新型齿形带ATS15面世</div>
                     <div>
-                      新型小功率驱动的AT3 BRECOFLEX-同步带进入市场
+                      新型小功率驱动的AT3 BRECOFLEX-齿形带进入市场
                     </div>
                   </div>
                 </div>
