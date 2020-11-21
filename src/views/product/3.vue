@@ -358,7 +358,7 @@
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product29')" @mouseout="handleOutImage('product29')">
             <img src="../../assets/images/product7/19.png" alt="">
             <div class="product3-content3-example-middle-text"><div class="product3-content3-example-middle-text-box">OKS 250 高温润滑膏</div></div>
-            <div class="product3-content3-example-middle-text-hover" v-show="product29">始终保持膏体状态，不会形成固化膜。使用stucarit 309后安装和拆卸都非常轻松。特别适用于精密组件或者复杂形状的工件，例如30-80微米的间隙。膏状的stucarit 309可以在需要密封的表面均匀分布，提高复杂组件的安装效率，不需过度计算预紧力和安装扭力。 </div>
+            <div class="product3-content3-example-middle-text-hover" v-show="product29">用于润滑承受高应力的滑动表面。特别适用于润滑低速或振动表面，具有突出的防腐蚀功能。能防冷热水及大部分酸碱腐蚀。</div>
           </div>
           <div class="product3-content3-example-middle" @mouseover="handleHoverImage('product30')" @mouseout="handleOutImage('product30')">
             <img src="../../assets/images/product7/20.png" alt="">

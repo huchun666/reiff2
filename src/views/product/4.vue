@@ -317,7 +317,7 @@
             <img src="../../assets/images/product4/06.jpg" alt="">
             <div class="product4-content4-img-text">
               <div class="product4-content4-img-text-title">可再生能源</div>
-              <div class="product4-content4-img-text-content">EPDM型材、EPDM密封条、NBP型材</div>
+              <div class="product4-content4-img-text-content">EPDM型材、NBR型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
@@ -331,7 +331,7 @@
             <img src="../../assets/images/product4/08.jpg" alt="">
             <div class="product4-content4-img-text">
               <div class="product4-content4-img-text-title">机械制造</div>
-              <div class="product4-content4-img-text-content">塑料、TPE、EPDM、NBP型材</div>
+              <div class="product4-content4-img-text-content">塑料、TPE、EPDM、NBR型材</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
