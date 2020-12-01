@@ -12,13 +12,13 @@
           <div class="product1-content-right-download">
             <img src="../../assets/images/product1/download.png" alt="">
             <div class="product1-content-right-download-text">
-              <a href="" download="齿形带.pdf">齿形带</a>
+              <a href="http://139.224.105.40/download/产品一览&资料下载/1.2/产品手册_齿形带.pdf" download="齿形带.pdf">齿形带</a>
             </div>
           </div>
           <div class="product1-content-right-download">
             <img src="../../assets/images/product1/download.png" alt="">
             <div class="product1-content-right-download-text">
-              <a href="" download="三角带.pdf">三角带</a>
+              <a href="http://139.224.105.40/download/产品一览&资料下载/1.2/产品手册_三角带.pdf" download="三角带.pdf">三角带</a>
             </div>
           </div>
         </div>
@@ -198,7 +198,9 @@
           <div class="product2-content5-right-title">下载产品资料</div>
           <div class="product2-content5-right-img-box">
             <img src="../../assets/images/product1/download.png" alt="">
-            <div class="product2-content5-right-img-text">康迪泰克齿形带</div>
+            <div class="product2-content5-right-img-text">
+              <a href="http://139.224.105.40/download/产品一览&资料下载/1.2/1.2-康迪泰克传动带资料.pdf" download="康迪泰克齿形带.pdf">康迪泰克齿形带</a>
+            </div>
           </div>
         </div>
       </div>
