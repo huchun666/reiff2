@@ -16,13 +16,13 @@
         <div class="product1-content-right-download">
           <img src="../../assets/images/product1/download.png" alt="">
           <div class="product1-content-right-download-text">
-            <a href="http://139.224.105.40/download/产品一览&资料下载/1.1/产品手册_轴承和导轨.pdf" download="轴承和导轨.pdf">轴承和导轨</a>
+            <a href="http://139.224.105.40/download/产品一览&资料下载/1.1/产品手册_轴承和导轨.pdf" target="_blank" download="轴承和导轨.pdf">轴承和导轨</a>
           </div>
         </div>
         <div class="product1-content-right-download">
           <img src="../../assets/images/product1/download.png" alt="">
           <div class="product1-content-right-download-text">
-            <a href="http://139.224.105.40/download/产品一览&资料下载/1.1/产品手册_轴承工具和维护化学品.pdf" download="轴承工具维护化学品.pdf">轴承工具维护化学品</a>
+            <a href="http://139.224.105.40/download/产品一览&资料下载/1.1/产品手册_轴承工具和维护化学品.pdf" target="_blank" download="轴承工具维护化学品.pdf">轴承工具维护化学品</a>
           </div>
         </div>
       </div>

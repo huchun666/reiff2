@@ -21,27 +21,13 @@
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_密封圈和轴封.pdf" download="密封圈和抽封.pdf">密封圈和轴封</a>
+                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_密封圈和轴封.pdf" target="_blank" download="密封圈和抽封.pdf">密封圈和轴封</a>
               </div>
             </div>
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_边缘保护.pdf" download="边缘保护.pdf">边缘保护</a>
-              </div>
-            </div>
-          </div>
-          <div class="product1-content-right-box">
-            <div class="product1-content-right-download">
-              <img src="../../assets/images/product1/download.png" alt="" />
-              <div class="product1-content-right-download-text">
-                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_液压气动密封.pdf" download="液压气动密封.pdf">液压气动密封</a>
-              </div>
-            </div>
-            <div class="product1-content-right-download">
-              <img src="../../assets/images/product1/download.png" alt="" />
-              <div class="product1-content-right-download-text">
-                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_隔音和绝缘材料.pdf" download="隔音和绝缘材料.pdf">隔音和绝缘材料</a>
+                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_边缘保护.pdf" target="_blank" download="边缘保护.pdf">边缘保护</a>
               </div>
             </div>
           </div>
@@ -49,7 +35,21 @@
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_减震和缓冲.pdf" download="减震和缓冲.pdf">减震和缓冲</a>
+                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_液压气动密封.pdf" target="_blank" download="液压气动密封.pdf">液压气动密封</a>
+              </div>
+            </div>
+            <div class="product1-content-right-download">
+              <img src="../../assets/images/product1/download.png" alt="" />
+              <div class="product1-content-right-download-text">
+                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_隔音和绝缘材料.pdf" target="_blank" download="隔音和绝缘材料.pdf">隔音和绝缘材料</a>
+              </div>
+            </div>
+          </div>
+          <div class="product1-content-right-box">
+            <div class="product1-content-right-download">
+              <img src="../../assets/images/product1/download.png" alt="" />
+              <div class="product1-content-right-download-text">
+                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_减震和缓冲.pdf" target="_blank" download="减震和缓冲.pdf">减震和缓冲</a>
               </div>
             </div>
           </div>

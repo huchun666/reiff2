@@ -12,7 +12,7 @@
         <div class="idea-content1-title-content">
           <img src="../assets/images/product2/location.png" alt="">
           <div class="idea-content1-title-content-text">
-            <a href="http://139.224.105.40/download/一般业务条款/REIFF General Terms and Conditions.pdf" download="REIFF General Terms and Conditions.pdf">REIFF General Terms and Conditions.pdf</a>
+            <a href="http://139.224.105.40/download/一般业务条款/REIFF General Terms and Conditions.pdf" target="_blank" download="REIFF General Terms and Conditions.pdf">REIFF General Terms and Conditions.pdf</a>
           </div>
         </div>
         <div class="idea-content1-box">
