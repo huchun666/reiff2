@@ -50,11 +50,11 @@
               <img src="../../assets/images/product2/location.png" alt="">
             </div>
             <div class="product2-content3-text-bottom1">
-              <a href="http://www.mulco.de/en">Mulco集团官网</a>
+              <a href="http://www.mulco.de/en" target="_blank">Mulco集团官网</a>
               <img src="../../assets/images/product2/location.png" alt="">
             </div>
             <div class="product2-content3-text-bottom1">
-              <a href="http://www.breco.de/en">Breco官网</a>
+              <a href="http://www.breco.de/en" target="_blank">Breco官网</a>
               <img src="../../assets/images/product2/location.png" alt="">
             </div>
           </div>
