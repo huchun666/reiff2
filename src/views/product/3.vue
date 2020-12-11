@@ -12,7 +12,7 @@
           <div class="product1-content-right-download">
             <img src="../../assets/images/product1/download.png" alt="">
             <div class="product1-content-right-download-text">
-              <a href="http://139.224.105.40/download/产品一览&资料下载/1.3/产品手册_化学粘合和密封.pdf" target="_blank" download="化学粘合和密封.pdf">化学粘合和密封</a>
+              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.3/产品手册_化学粘合和密封.pdf" target="_blank" download="化学粘合和密封.pdf">化学粘合和密封</a>
             </div>
           </div>
         </div>
