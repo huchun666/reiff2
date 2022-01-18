@@ -1,0 +1,53 @@
+{
+  "menu": {
+    "bearing": "Bearing and Guide Rail",
+    "belt": "V-Belt and Timing Belt",
+    "adhesive": "Adhesive, Sealant and Lubricant",
+    "rubber": "Rubber Sealing, Damping and Protection",
+    "industrial": "Industrial Hose",
+    "engineering": "Engineering Plastic",
+    "product": "Products",
+    "applications": "Applications",
+    "distribution": "Distribution and License",
+    "productDistribution": "Product Distribution",
+    "certificateOfAuthorization": "Certificate of Authorization",
+    "hazardous": "Hazardous Chemical and Supply Chain Service",
+    "hazardousChemical": "Hazardous chemical",
+    "supplyChainService": "Supply Chain Service",
+    "download": "Download"
+  },
+  "footer": {
+    "aboutREIFFGroup": "About REIFF Group",
+    "aboutUs": "About us",
+    "companies": "Companies",
+    "cooperativePartners": "Cooperative partners",
+    "companyPhilosophy": "Company philosophy",
+    "legal": "Legal",
+    "copyrightInformation": "Copyright information",
+    "generalTermsOfBusiness": "General Terms of Business",
+    "dataProtectionDeclaration": "Data protection declaration",
+    "contactUs": "Contact us",
+    "company": "REIFF Technical Products (Shanghai) Co., Ltd.",
+    "location": "Building 6-B, No.1835 Duhui Road, Shanghai",
+    "postcode": "Postcode",
+    "Tel": "Tel",
+    "TelValue": "+8621 6220 7582 ex 801",
+    "Fax": "Fax",
+    "FaxValue": "+8621 6220 7589",
+    "Email": "Email"
+  },
+  "home": {
+    "wideRange": "Wide Range of Industrial Products",
+    "SupplyChain": "Supply Chain Total Solution",
+    "TheHeadquarter": "The headquarter of REIFF Group is located in Reutlingen, south of Stuttgart, Germany. Since 1910, over four generations, we have been providing high-quality components and modern supply chain services to more than 60,000 manufacturing companies. We are one of the most important sales channels and partners for many leading industrial manufactures. We meet our customers' procurement needs from bearings, linear components, drive belts, chemicals, rubber products, hoses, engineering plastics to precision assemblies. Our production lines allow for flexible product development and customization. The group company Kremer have over 50 years of experience in the design and production of technical sealing.",
+    "REIFFHas": "REIFF has a warehouse space of 122,000 square meters in Germany and more than 80,000 articles, a real-time inventory of more than 20 million Euro and an average of 12,000 pallets shipped per month, of which 75% are direct production materials.",
+    "WeAreCommitted": "We are committed to solving the problems faced by our customers when dealing with small and medium quantities of production materials, providing supply chain solutions that reduce the cost of the procurement process and improve overall efficiency. We have a wide range of products, established in accordance with German industry standards, and continue to optimize the localization in China, with the help of the logistics centers in both Germany and Shanghai.",
+    "REIFFGroup": "REIFF Group has 650 employees and annual sales of 210 million Euro",
+    "ContactUs": "Contact us",
+    "CoreProductLines": "Core Product Lines",
+    "OfficialDistributor": "Official Distributor in Germany and China",
+    "REIFFRubberProducts": "REIFF Rubber Products",
+    "OfficialDistributorSpecial": "Official Distributor in Germany / REIFF Special Bearings",
+    "DistributionBrands": "Distribution Brands"
+  }
+}

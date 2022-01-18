@@ -2,31 +2,31 @@
   <div class="app-footer">
     <div class="app-footer-top">
       <div class="app-footer-top-left">
-        <div class="app-footer-top-left-title">关于睿服集团</div>
+        <div class="app-footer-top-left-title">{{ $t('footer.aboutREIFFGroup') }}</div>
         <ul class="app-footer-top-left-ul" @click="handleRouter">
-          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 1}">关于我们</li>
-          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 2}">集团公司一览</li>
-          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 3}">合作伙伴</li>
-          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 4}">公司理念</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 1}">{{ $t('footer.aboutUs') }}</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 2}">{{ $t('footer.companies') }}</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 3}">{{ $t('footer.cooperativePartners') }}</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 4}">{{ $t('footer.companyPhilosophy') }}</li>
         </ul>
       </div>
       <div class="app-footer-top-left">
-        <div class="app-footer-top-left-title">法务</div>
+        <div class="app-footer-top-left-title">{{ $t('footer.legal') }}</div>
         <ul class="app-footer-top-left-ul" @click="handleRouter2">
-          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 5}">版权信息</li>
-          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 6}">一般业务条款</li>
-          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 7}">数据保护声明</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 5}">{{ $t('footer.copyrightInformation') }}</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 6}">{{ $t('footer.generalTermsOfBusiness') }}</li>
+          <li :class="{'app-footer-top-left-li-active': currentIndexFooter === 7}">{{ $t('footer.dataProtectionDeclaration') }}</li>
         </ul>
       </div>
       <div class="app-footer-top-right">
-        <div class="app-footer-top-right-title">联系我们</div>
+        <div class="app-footer-top-right-title">{{ $t('footer.contactUs') }}</div>
         <ul class="app-footer-top-right-ul">
-          <li>睿服工业零部件（上海）有限公司</li>
-          <li>上海市闵行区都会路1835号6号楼B</li>
-          <li>邮编：201108</li>
-          <li>电话：021 6220 7582 分机 801</li>
-          <li>传真：021 6220 7589</li>
-          <li>邮箱：shanghai@reiff-tp.cn</li>
+          <li>{{ $t('footer.company') }}</li>
+          <li>{{ $t('footer.location') }}</li>
+          <li>{{ $t('footer.postcode') }}：201108</li>
+          <li>{{ $t('footer.Tel') }}：{{ $t('footer.TelValue') }}</li>
+          <li>{{ $t('footer.Fax') }}：{{ $t('footer.FaxValue') }}</li>
+          <li>{{ $t('footer.Email') }}：shanghai@reiff-tp.cn</li>
         </ul>
       </div>
     </div>

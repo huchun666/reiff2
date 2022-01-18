@@ -1,0 +1,53 @@
+{
+  "menu": {
+    "bearing": "滚动轴承和直线技术",
+    "belt": "传动带",
+    "adhesive": "化学粘合",
+    "rubber": "橡胶密封和减震",
+    "industrial": "工业软管",
+    "engineering": "工程塑料",
+    "product": "产品一览",
+    "applications": "应用行业",
+    "distribution": "代理和授权",
+    "productDistribution": "品牌代理",
+    "certificateOfAuthorization": "授权证书",
+    "hazardous": "危险化学品业务和供应链服务",
+    "hazardousChemical": "危险化学品业务",
+    "supplyChainService": "供应链服务",
+    "download": "资料下载"
+  },
+  "footer": {
+    "aboutREIFFGroup": "关于睿服集团",
+    "aboutUs": "关于我们",
+    "companies": "集团公司一览",
+    "cooperativePartners": "合作伙伴",
+    "companyPhilosophy": "公司理念",
+    "legal": "法务",
+    "copyrightInformation": "版权信息",
+    "generalTermsOfBusiness": "一般业务条款",
+    "dataProtectionDeclaration": "数据保护声明",
+    "contactUs": "联系我们",
+    "company": "睿服工业零部件(上海)有限公司",
+    "location": "上海市闵行区都会路1835号6号楼B",
+    "postcode": "邮编",
+    "Tel": "电话",
+    "TelValue": "021 6220 7582分机801",
+    "Fax": "传真",
+    "FaxValue": "021 6220 7589",
+    "Email": "邮箱"
+  },
+  "home": {
+    "wideRange": "大型工业零部件平台",
+    "SupplyChain": "供应链整体方案供应商",
+    "TheHeadquarter": "睿服集团总部位于德国斯图加特南部的罗伊特林根。自1910年以来，历经四代传承，为超过6万家制造企业提供高品质的零部件和现代化供应链服务，是众多国际一线工业品牌重要的销售渠道和合作伙伴之一；满足客户从轴承、导轨、传动带、化学品、橡胶类产品、软管、工程塑料到精密组装件等方面的采购需求。我们的自有产线可以进行灵活的产品开发和定制，睿服集团子公司Kremer拥有超过50年的专业密封设计和生产经验。",
+    "REIFFHas": "睿服在德国拥有122000平方米的仓储面积，常备库存超过80,000件，实时库存超过2亿人民币，平均每月出货12,000个托盘，其中75%是直接生产性物料。",
+    "WeAreCommitted": "我们致力于解决客户在面对中小数量的生产性物料时遇到的问题，提供降低采购流程成本和提高总体效率的供应链方案。睿服拥有完整的产品体系，按照德国工业标准建立，依托在德国和上海的物流中心，持续进行本土优化。",
+    "REIFFGroup": "睿服集团共有员工650人，年销售额2.1亿欧元。",
+    "ContactUs": "联系我们",
+    "CoreProductLines": "核心产品线",
+    "OfficialDistributor": "德国区和中国区官方授权",
+    "REIFFRubberProducts": "睿服橡胶密封和减震",
+    "OfficialDistributorSpecial": "德国区官方授权/睿服轴承定制",
+    "DistributionBrands": "代理品牌"
+  }
+}

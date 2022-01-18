@@ -263,7 +263,7 @@
           </div>
           <div class="product4-content3-left-content">
             我们是特瑞宝密封 (Trelleborg Sealing Solution) 在德国最大的分销商之一，同时也提供科德宝（Freundenberg）系列的密封产品。<br>
-            我们拥有专业的技术和生产团队，睿服集团的Kremer和R.E.T两家公司有超过50年的密封设计和生产经验，是众多国际知名企业的合作伙伴。
+            我们拥有专业的技术和生产团队，睿服集团的Kremer公司有超过50年的密封设计和生产经验，是众多国际知名企业的合作伙伴。
           </div>
         </div>
         <div class="product4-content3-right">

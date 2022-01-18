@@ -93,8 +93,9 @@
             <div class="history-content2-text">Alec Reiff进入睿服管理层</div>
           </div>
           <div class="history-content2-box">
-            <div class="history-content2-year">2017</div>
-            <div class="history-content2-text">建立R.E.T. 罗马尼亚工厂</div>
+            <div class="history-content2-year">2021</div>
+            <div class="history-content2-text">整理集团产品线</div>
+            <div class="history-content2-text">出售子公司R.E.T</div>
           </div>
         </div>
       </div>

@@ -14,10 +14,20 @@
             <div class="app-header-tabs-item-content"
               v-show="hoverIndex === index && item.data.length > 1"
             >
-              <div class="app-header-tabs-item-content-item" v-for="(childItem, childIndex) in item.data" :key="childIndex" @click="handleRouteLink(childItem.url, index)">
+              <div
+                class="app-header-tabs-item-content-item"
+                v-for="(childItem, childIndex) in item.data"
+                :key="childIndex"
+                @click="handleRouteLink(childItem.url, index, childIndex)"
+                :class="{'app-header-tabs-item-content-item-selected': currentChildIndex === childIndex && currentIndex === index}"
+              >
                 {{childItem.title}}
               </div>
             </div>
+          </div>
+          <div class="app-header-tabs-item app-header-lang">
+            <img v-if="isShowLang" src="../assets/images/home/icon-ch.png" alt="" @click="handleChange('zh')">
+            <img v-else src="../assets/images/home/icon-en.png" alt="" @click="handleChange('en')">
           </div>
         </div>
       </div>
@@ -30,92 +40,106 @@ import { mapState, mapMutations } from 'vuex'
 export default {
   data() {
     return {
-      headerData: [
+      hoverIndex: -1,
+      hoverChildIndex: -1,
+      isShowLang: false,
+    };
+  },
+  computed: {
+    ...mapState(['currentIndex', 'currentChildIndex']),
+    headerData() {
+      return [
         {
-          title: '产品一览',
+          title: this.$t('menu.product'),
           data: [
             {
-              title: '滚动轴承和直线技术',
+              title: this.$t('menu.bearing'),
               url: '/product/1'
             },
             {
-              title: '传动带',
+              title: this.$t('menu.belt'),
               url: '/product/2'
             },
             {
-              title: '化学粘合',
+              title: this.$t('menu.adhesive'),
               url: '/product/3'
             },
             {
-              title: '橡胶密封和减震',
+              title: this.$t('menu.rubber'),
               url: '/product/4'
             },
             {
-              title: '工业软管',
+              title: this.$t('menu.industrial'),
               url: '/product/5'
             },
             {
-              title: '工程塑料',
+              title: this.$t('menu.engineering'),
               url: '/product/6'
             },
           ],
         },
         {
-          title: '应用行业',
+          title: this.$t('menu.applications'),
           url: '/product2/1',
           data: [
             {
-              title: '应用行业',
+              title: this.$t('menu.applications'),
               url: '/product2/1'
             },
           ],
         },
         {
-          title: '代理和授权',
+          title: this.$t('menu.distribution'),
           data: [
             {
-              title: '品牌代理',
+              title: this.$t('menu.productDistribution'),
               url: '/product3/1'
             },
             {
-              title: '授权证书',
+              title: this.$t('menu.certificateOfAuthorization'),
               url: '/product3/2'
             },
           ]
         },
         {
-          title: '危险化学品业务和供应链服务',
+          title: this.$t('menu.hazardous'),
           data: [
             {
-              title: '危险化学品业务',
+              title: this.$t('menu.hazardousChemical'),
               url: '/product4/1'
             },
             {
-              title: '供应链服务',
+              title: this.$t('menu.supplyChainService'),
               url: '/product4/2'
             },
           ]
         },
         {
-          title: '资料下载',
+          title: this.$t('menu.download'),
           url: '/product5/1',
           data: [
             {
-              title: '资料下载',
+              title: this.$t('menu.download'),
               url: '/product5/1'
             },
           ]
         },
-      ],
-      hoverIndex: -1,
-      hoverChildIndex: -1,
-    };
-  },
-  computed: {
-    ...mapState(['currentIndex'])
+      ]
+    }
   },
   methods: {
-    ...mapMutations(['setCurrentIndex', 'setCurrentIndexFooter']),
+    ...mapMutations(['setCurrentIndex', 'setCurrentIndexFooter', 'setCurrentChildIndex']),
+    handleChange(lang) {
+      if(lang === 'zh') {
+        localStorage.setItem('locale', 'zh')
+        this.$i18n.locale = localStorage.getItem('locale')
+        this.isShowLang = false
+      }else if(lang === 'en') {
+        localStorage.setItem('locale', 'en')
+        this.$i18n.locale = localStorage.getItem('locale')
+        this.isShowLang = true
+      }
+    },
     handleRouteTitleLink(length, url, index) {
       if (this.$route.path !== url && length === 1) {
         this.setCurrentIndex(index)
@@ -124,9 +148,10 @@ export default {
         this.$router.push({path: url})
       }
     },
-    handleRouteLink(url, index) {
+    handleRouteLink(url, index, childIndex) {
       if (this.$route.path !== url) {
         this.setCurrentIndex(index)
+        this.setCurrentChildIndex(childIndex)
         this.setCurrentIndexFooter(-1)
         scrollTo(0,0)
         this.$router.push({path: url})
@@ -164,7 +189,7 @@ export default {
     .app-header-logo {
       width: 200px;
       height: 41px;
-      margin-right: 8.8vw;
+      margin-right: 3vw;
       cursor: pointer;
     }
     .app-header-tabs {
@@ -172,7 +197,7 @@ export default {
       margin-bottom: -10px;
       .app-header-tabs-item {
         position: relative;
-        margin-left: 3.9vw;
+        margin-left: 3.2vw;
         .app-header-tabs-item-content {
           position: absolute;
           left: 0;
@@ -187,6 +212,9 @@ export default {
             color: #333;
             background: #fff;
           }
+          .app-header-tabs-item-content-item-selected {
+            color: #DB2C15;
+          }
           .app-header-tabs-item-content-item:hover {
             color: #DB2C15;
           }
@@ -198,6 +226,16 @@ export default {
         }
         .app-header-tabs-item-index-active {
           color: #DB2C15;
+        }
+      }
+      .app-header-lang {
+        margin-left: 3.8vw;
+        display: flex;
+        align-items: center;
+        img {
+          width: 48px;
+          height: 18px;
+          cursor: pointer;
         }
       }
     }
