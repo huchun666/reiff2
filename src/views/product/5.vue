@@ -22,13 +22,13 @@
           <div class="product1-content-right-download">
             <img src="../../assets/images/product1/download.png" alt="" />
             <div class="product1-content-right-download-text">
-              <a href="http://139.224.105.40/download/产品一览&资料下载/1.5/产品手册_输送软管.pdf" target="_blank" download="输送软管.pdf">输送软管</a>
+              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.5/产品手册_输送软管.pdf" target="_blank" download="输送软管.pdf">输送软管</a>
             </div>
           </div>
           <div class="product1-content-right-download">
             <img src="../../assets/images/product1/download.png" alt="" />
             <div class="product1-content-right-download-text">
-              <a href="http://139.224.105.40/download/产品一览&资料下载/1.5/产品手册_液压软管.pdf" target="_blank" download="液压软管.pdf">液压软管</a>
+              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.5/产品手册_液压软管.pdf" target="_blank" download="液压软管.pdf">液压软管</a>
             </div>
           </div>
         </div>

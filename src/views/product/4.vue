@@ -21,27 +21,13 @@
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_密封圈和轴封.pdf" target="_blank" download="密封圈和抽封.pdf">密封圈和轴封</a>
+                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_密封圈和轴封.pdf" target="_blank" download="密封圈和抽封.pdf">密封圈和轴封</a>
               </div>
             </div>
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_边缘保护.pdf" target="_blank" download="边缘保护.pdf">边缘保护</a>
-              </div>
-            </div>
-          </div>
-          <div class="product1-content-right-box">
-            <div class="product1-content-right-download">
-              <img src="../../assets/images/product1/download.png" alt="" />
-              <div class="product1-content-right-download-text">
-                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_液压气动密封.pdf" target="_blank" download="液压气动密封.pdf">液压气动密封</a>
-              </div>
-            </div>
-            <div class="product1-content-right-download">
-              <img src="../../assets/images/product1/download.png" alt="" />
-              <div class="product1-content-right-download-text">
-                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_隔音和绝缘材料.pdf" target="_blank" download="隔音和绝缘材料.pdf">隔音和绝缘材料</a>
+                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_边缘保护.pdf" target="_blank" download="边缘保护.pdf">边缘保护</a>
               </div>
             </div>
           </div>
@@ -49,7 +35,21 @@
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://139.224.105.40/download/产品一览&资料下载/1.4/产品手册_减震和缓冲.pdf" target="_blank" download="减震和缓冲.pdf">减震和缓冲</a>
+                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_液压气动密封.pdf" target="_blank" download="液压气动密封.pdf">液压气动密封</a>
+              </div>
+            </div>
+            <div class="product1-content-right-download">
+              <img src="../../assets/images/product1/download.png" alt="" />
+              <div class="product1-content-right-download-text">
+                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_隔音和绝缘材料.pdf" target="_blank" download="隔音和绝缘材料.pdf">隔音和绝缘材料</a>
+              </div>
+            </div>
+          </div>
+          <div class="product1-content-right-box">
+            <div class="product1-content-right-download">
+              <img src="../../assets/images/product1/download.png" alt="" />
+              <div class="product1-content-right-download-text">
+                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_减震和缓冲.pdf" target="_blank" download="减震和缓冲.pdf">减震和缓冲</a>
               </div>
             </div>
           </div>
@@ -263,7 +263,7 @@
           </div>
           <div class="product4-content3-left-content">
             我们是特瑞宝密封 (Trelleborg Sealing Solution) 在德国最大的分销商之一，同时也提供科德宝（Freundenberg）系列的密封产品。<br>
-            我们拥有专业的技术和生产团队，睿服集团的Kremer公司有超过50年的密封设计和生产经验，是众多国际知名企业的合作伙伴。
+            我们拥有专业的技术和生产团队，睿服集团的Kremer和R.E.T两家公司有超过50年的密封设计和生产经验，是众多国际知名企业的合作伙伴。
           </div>
         </div>
         <div class="product4-content3-right">
