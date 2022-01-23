@@ -9,25 +9,25 @@
       <div class="product4-content1">
         <div class="product4-content1-left">
           <div class="product4-content1-left-title">
-            橡胶产品综合方案供应商
+            {{ $t('Rubber.Rubber') }}
           </div>
           <div class="product4-content1-left-text">
-            睿服提供全系列橡胶材料的密封圈、轴封、液压密封、气动密封、减震、密封条和绝缘产品，同时也为客户进行开发定制。
+            {{ $t('Rubber.REIFFOffers') }}
           </div>
         </div>
         <div class="product1-content-right">
-          <div class="product1-content-right-title">下载产品手册</div>
+          <div class="product1-content-right-title">{{ $t('Rubber.ProductCatalog') }}</div>
           <div class="product1-content-right-box">
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_密封圈和轴封.pdf" target="_blank" download="密封圈和抽封.pdf">密封圈和轴封</a>
+                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_密封圈和轴封.pdf" target="_blank" download="密封圈和抽封.pdf">{{ $t('Rubber.SealingRing') }}</a>
               </div>
             </div>
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_边缘保护.pdf" target="_blank" download="边缘保护.pdf">边缘保护</a>
+                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_边缘保护.pdf" target="_blank" download="边缘保护.pdf">{{ $t('Rubber.EdgeProtection') }}</a>
               </div>
             </div>
           </div>
@@ -35,13 +35,13 @@
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_液压气动密封.pdf" target="_blank" download="液压气动密封.pdf">液压气动密封</a>
+                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_液压气动密封.pdf" target="_blank" download="液压气动密封.pdf">{{ $t('Rubber.Hydraulic') }}</a>
               </div>
             </div>
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_隔音和绝缘材料.pdf" target="_blank" download="隔音和绝缘材料.pdf">隔音和绝缘材料</a>
+                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_隔音和绝缘材料.pdf" target="_blank" download="隔音和绝缘材料.pdf">{{ $t('Rubber.NoiseProtection') }}</a>
               </div>
             </div>
           </div>
@@ -49,14 +49,14 @@
             <div class="product1-content-right-download">
               <img src="../../assets/images/product1/download.png" alt="" />
               <div class="product1-content-right-download-text">
-                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_减震和缓冲.pdf" target="_blank" download="减震和缓冲.pdf">减震和缓冲</a>
+                <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.4/产品手册_减震和缓冲.pdf" target="_blank" download="减震和缓冲.pdf">{{ $t('Rubber.Vibration') }}</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="product4-content2">
-        <div class="product4-content2-title">常用橡胶材料一览</div>
+      <!-- <div class="product4-content2">
+        <div class="product4-content2-title">{{ $t('Rubber.Material') }}</div>
         <table cellpadding="0" pixels="0">
           <tr>
             <td>材料名称</td>
@@ -255,15 +255,15 @@
             <td>140°C 饱和蒸汽</td>
           </tr>
         </table>
-      </div>
+      </div> -->
       <div class="product4-content3">
         <div class="product4-content3-left">
           <div class="product4-content3-left-title">
-            很多因素会影响密封的方案选择，例如产品的定位、密封位置的重要程度、需求数量、总体预算。睿服致力于为客户提供量身定制的解决方案。
+            {{ $t('Rubber.ManyFactors') }}
           </div>
           <div class="product4-content3-left-content">
-            我们是特瑞宝密封 (Trelleborg Sealing Solution) 在德国最大的分销商之一，同时也提供科德宝（Freundenberg）系列的密封产品。<br>
-            我们拥有专业的技术和生产团队，睿服集团的Kremer和R.E.T两家公司有超过50年的密封设计和生产经验，是众多国际知名企业的合作伙伴。
+            {{ $t('Rubber.distributors') }}<br>
+            {{ $t('Rubber.distributors2') }}
           </div>
         </div>
         <div class="product4-content3-right">
@@ -272,94 +272,94 @@
       </div>
       <div class="product4-content4">
         <div class="product4-content4-title">
-          橡胶型材、减震和绝缘
+          {{ $t('Rubber.Rubberprofiles') }}
         </div>
         <div class="product4-content4-text">
-          睿服高品质的型材、减震和绝缘产品完全符合REACH和RoSH法规和规范。产品广泛应用于设备的边角保护、门窗密封、机械减震和高温、高压、隔音等领域。
+          {{ $t('Rubber.highQuality') }}
         </div>
         <div class="product4-content4-img-container">
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/01.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">窗户、房屋门面和温室</div>
-              <div class="product4-content4-img-text-content">EPDM型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.conservatories') }}</div>
+              <div class="product4-content4-img-text-content">EPDM</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/02.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">房门和大门</div>
-              <div class="product4-content4-img-text-content">塑料型材、TPE型材、EPDM型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.RoomDoors') }}</div>
+              <div class="product4-content4-img-text-content">{{ $t('Rubber.PlasticProfiles') }}、TPE、EPDM</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/03.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">室内扩建/系统空间</div>
-              <div class="product4-content4-img-text-content">塑料型材、TPE型材、EPDM型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.InteriorExtensions') }}</div>
+              <div class="product4-content4-img-text-content">{{ $t('Rubber.PlasticProfiles') }}、TPE、EPDM</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/04.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">车身和客舱制造</div>
-              <div class="product4-content4-img-text-content">EPDM型材、塑料型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.Bodies') }}</div>
+              <div class="product4-content4-img-text-content">EPDM、{{ $t('Rubber.PlasticProfiles') }}</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/05.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">汽车发动机室和室内空间</div>
-              <div class="product4-content4-img-text-content">EPDM型材、TPE型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.Engine') }}</div>
+              <div class="product4-content4-img-text-content">EPDM、TPE</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/06.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">可再生能源</div>
-              <div class="product4-content4-img-text-content">EPDM型材、NBR型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.Renewable') }}</div>
+              <div class="product4-content4-img-text-content">EPDM、NBR</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/07.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">设备制造</div>
-              <div class="product4-content4-img-text-content">硅胶型材、FPM型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.Equipment') }}</div>
+              <div class="product4-content4-img-text-content">{{ $t('Rubber.PlasticProfiles') }}、FPM</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/08.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">机械制造</div>
-              <div class="product4-content4-img-text-content">塑料、TPE、EPDM、NBR型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.Machinery') }}</div>
+              <div class="product4-content4-img-text-content">{{ $t('Rubber.PlasticProfiles') }}、TPE、EPDM、NBR</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/09.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">电子器材</div>
-              <div class="product4-content4-img-text-content">EPDM型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.ElectronicEquipment') }}</div>
+              <div class="product4-content4-img-text-content">EPDM</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/10.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">医疗设备</div>
-              <div class="product4-content4-img-text-content">硅胶型材、塑料型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.MedicalEquipment') }}</div>
+              <div class="product4-content4-img-text-content">{{ $t('Rubber.Silicon') }}、{{ $t('Rubber.PlasticProfiles') }}</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/11.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">食品设备</div>
-              <div class="product4-content4-img-text-content">硅胶型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.FoodEquipment') }}</div>
+              <div class="product4-content4-img-text-content">{{ $t('Rubber.Silicon') }}</div>
             </div>
           </div>
           <div class="product4-content4-img-box">
             <img src="../../assets/images/product4/12.jpg" alt="">
             <div class="product4-content4-img-text">
-              <div class="product4-content4-img-text-title">管道密封</div>
-              <div class="product4-content4-img-text-content">EPDM型材、CR型材</div>
+              <div class="product4-content4-img-text-title">{{ $t('Rubber.PipeSealing') }}</div>
+              <div class="product4-content4-img-text-content">EPDM、CR</div>
             </div>
           </div>
         </div>

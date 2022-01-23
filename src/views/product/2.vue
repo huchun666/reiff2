@@ -4,57 +4,57 @@
     <div class="product2-content">
       <div class="product2-content1">
         <div class="product2-content1-left">
-          <div class="product2-content1-left-title">欧洲一线品牌组成的传动带方案</div>
-          <div class="product2-content1-left-text">我们是传动带的大型销售渠道、Mulco集团核心成员、欧皮特和马牌在德国最大的分销商之一。为客户提供综合的产品方案。</div>
+          <div class="product2-content1-left-title">{{ $t('Driving.DrivingBeltsFrom') }}</div>
+          <div class="product2-content1-left-text">{{ $t('Driving.WeAreTheLarge') }}</div>
         </div>
         <div class="product1-content-right">
-          <div class="product1-content-right-title">下载产品手册</div>
+          <div class="product1-content-right-title">{{ $t('bearing.ProductCatalog') }}</div>
           <div class="product1-content-right-download">
             <img src="../../assets/images/product1/download.png" alt="">
             <div class="product1-content-right-download-text">
-              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.2/产品手册_齿形带.pdf" target="_blank" download="齿形带.pdf">齿形带</a>
+              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.2/产品手册_齿形带.pdf" target="_blank" download="齿形带.pdf">{{ $t('Driving.TimingBelts') }}</a>
             </div>
           </div>
           <div class="product1-content-right-download">
             <img src="../../assets/images/product1/download.png" alt="">
             <div class="product1-content-right-download-text">
-              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.2/产品手册_三角带.pdf" target="_blank" download="三角带.pdf">三角带</a>
+              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.2/产品手册_三角带.pdf" target="_blank" download="三角带.pdf">{{ $t('Driving.V-belts') }}</a>
             </div>
           </div>
         </div>
       </div>
       <div class="product2-content2">
         <div class="product2-content2-left">
-          <p>Mulco集团Breco, Brecoflex, Contitech Sychroflex 聚氨酯齿形带</p>
-          <p>马牌Contitech齿形带</p>
-          <p>欧皮特Optibelt三角带</p>
-          <p>马牌Contitech三角带</p>
-          <p>Esband输送带、抽吸带和烟草行业特种皮带</p>
-          <p>开天KTR联轴器</p>
-          <p>Rexnord Tollok涨紧套</p>
+          <p>{{ $t('Driving.BrecoBrecolex') }}</p>
+          <p>{{ $t('Driving.ContitechTimingBelts') }}</p>
+          <p>{{ $t('Driving.Optibelt') }}</p>
+          <p>{{ $t('Driving.Contitech') }}</p>
+          <p>{{ $t('Driving.EsbandConveyor') }}</p>
+          <p>{{ $t('Driving.KTRCouplings') }}</p>
+          <p>{{ $t('Driving.Rexnord') }}</p>
         </div>
         <img src="../../assets/images/product2/logo-2.png" alt="">
       </div>
       <div class="product2-content3" id="maodian1">
         <img src="../../assets/images/product2/content1.jpg" alt="" class="product2-content3-img">
         <div class="product2-content3-text">
-          <div class="product2-content3-text-title">德国Mulco集团</div>
-          <div class="product2-content3-text-sub-title">Breco, Brecoflex, Contitech Synchroflex 品牌</div>
+          <div class="product2-content3-text-title">{{ $t('Driving.MulcoGroup') }}</div>
+          <div class="product2-content3-text-sub-title">{{ $t('Driving.BrecoContitech') }}</div>
           <div class="product2-content3-text-main">
-            Mulco集团在1951年由睿服等四家公司组建，现在拥有欧洲聚氨酯齿形带35%的市场份额和多项专利，多年来一直是聚氨酯齿形带技术的推动者。<br>
-            无论是在汽车、精密机床还是食品制药等高端制造领域都可以看到大量Mulco产品的应用。在德国以外Mulco通过“Mulco业务伙伴”的形式在欧洲建立了广泛的销售渠道，在美国通过Brecoflex Co., L.L.C销售。
+            {{ $t('Driving.MulcoGroupWasFounded') }}<br>
+            {{ $t('Driving.MulcoProducts') }}
           </div>
           <div class="product2-content3-text-bottom">
             <div class="product2-content3-text-bottom1" @click="handleContactUs">
-              <span>MULCO集团历史</span>
+              <span>{{ $t('Driving.HistoryOfMULCO') }}</span>
               <img src="../../assets/images/product2/location.png" alt="">
             </div>
             <div class="product2-content3-text-bottom1">
-              <a href="http://www.mulco.de/en" target="_blank">Mulco集团官网</a>
+              <a href="http://www.mulco.de/en" target="_blank">{{ $t('Driving.OfficialHomepage') }}</a>
               <img src="../../assets/images/product2/location.png" alt="">
             </div>
             <div class="product2-content3-text-bottom1">
-              <a href="http://www.breco.de/en" target="_blank">Breco官网</a>
+              <a href="http://www.breco.de/en" target="_blank">{{ $t('Driving.OfficialHomepageBreco') }}</a>
               <img src="../../assets/images/product2/location.png" alt="">
             </div>
           </div>
@@ -63,24 +63,24 @@
       <div class="product2-content3">
         <img src="../../assets/images/product1/shanghai.png" alt="" class="product2-content3-img">
         <div class="product2-content3-text">
-          <div class="product2-content3-text-title">睿服上海</div>
-          <div class="product2-content3-text-sub-title">Breco, Brecoflex和Synchroflex 中国官方销售渠道</div>
+          <div class="product2-content3-text-title">{{ $t('Driving.REIFFShanghai') }}</div>
+          <div class="product2-content3-text-sub-title">{{ $t('Driving.TheOfficialDistribution') }}</div>
           <div class="product2-content3-text-main">
-            睿服是Mulco集团的组建成员和核心成员，睿服上海公司是睿服集团在华的全资子公司，是Mulco集团在中国的唯一官方销售渠道。<br>
-            睿服独自拥有超过2000件的齿形带和皮带模具库存。除了标准型号外，我们还可以根据客户需求提供定制、接驳和特殊涂层。
+            {{ $t('Driving.REIFFIsTheFounding') }}<br>
+            {{ $t('Driving.REIFFAlone') }}
           </div>
         </div>
       </div>
       <div class="product2-content4">
-        <div class="product2-content4-title">Breco 聚氨酯齿形带产品线</div>
+        <div class="product2-content4-title">{{ $t('Driving.BrecoPolyurethane') }}</div>
         <ul class="product2-content4-ul">
           <li>
             <img src="../../assets/images/product2/001.jpg" alt="">
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
-                <div>BRECOFLEX® 无缝带、BRECO® M 卷料</div>
-                <div>BRECO® V 接驳带</div>
-                <div>应用领域广泛的标准齿形带</div>
+                <div>{{ $t('Driving.BRECOFLEXFlex') }}</div>
+                <div>{{ $t('Driving.BRECObelt') }}</div>
+                <div>{{ $t('Driving.StandardTiming') }}</div>
               </div>
             </div>
           </li>
@@ -89,7 +89,7 @@
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® Basic</div>
-                <div>适用于简单使用场景的低成本方案</div>
+                <div>{{ $t('Driving.Low-cost') }}</div>
               </div>
             </div>
           </li>
@@ -98,7 +98,7 @@
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® Protect</div>
-                <div>为食品和制药行业开发的无菌齿形带</div>
+                <div>{{ $t('Driving.SterileTiming') }}</div>
               </div>
             </div>
           </li>
@@ -107,7 +107,7 @@
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® Move</div>
-                <div>适用于高负载的提升装置或者输送应用</div>
+                <div>{{ $t('Driving.SuitableFor') }}</div>
               </div>
             </div>
           </li>
@@ -116,7 +116,7 @@
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® ATN</div>
-                <div>可以灵活定制专属输送方案的各种ATN模块</div>
+                <div>{{ $t('Driving.VariousATM') }}</div>
               </div>
             </div>
           </li>
@@ -124,8 +124,8 @@
             <img src="../../assets/images/product2/006.jpg" alt="">
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
-                <div>BRECO® 平带</div>
-                <div>节约成本和安装空间，适用于各种紧凑设计</div>
+                <div>{{ $t('Driving.BRECOFlatBelt') }}</div>
+                <div>{{ $t('Driving.CostSaving') }}</div>
               </div>
             </div>
           </li>
@@ -133,8 +133,8 @@
             <img src="../../assets/images/product2/009.jpg" alt="">
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
-                <div>BRECO® 带轮和其它附件</div>
-                <div>进口带轮和中国产带轮</div>
+                <div>{{ $t('Driving.BRECOBeltPulleys') }}</div>
+                <div>{{ $t('Driving.ImportedPulleys') }}</div>
               </div>
             </div>
           </li>
@@ -142,8 +142,8 @@
             <img src="../../assets/images/product2/008.jpg" alt="">
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
-                <div>BRECO® 深度定制</div>
-                <div>定制齿背厚度、特殊形状、特殊涂层、打孔等专属方案</div>
+                <div>{{ $t('Driving.BRECOExclusive') }}</div>
+                <div>{{ $t('Driving.CustomizedTooth') }}</div>
               </div>
             </div>
           </li>
@@ -152,7 +152,7 @@
             <div class="product2-content4-li-text">
               <div class="product2-content4-li-text-box">
                 <div>BRECO® TSM</div>
-                <div>张力测试仪</div>
+                <div>{{ $t('Driving.TensionTester') }}</div>
               </div>
             </div>
           </li>
@@ -160,14 +160,14 @@
       </div>
       <div class="product2-content5">
         <div class="product2-content5-left" id="maodian2">
-          <div class="product2-content5-left-title">康迪泰克传动带</div>
+          <div class="product2-content5-left-title">{{ $t('Driving.ContitechDriving') }}</div>
           <div class="product2-content5-left-content">
-            康迪泰克隶属于马牌集团，是橡胶和塑料技术领域的领先专业供应商，为汽车等重要行业开发和生产传动产品，并侧重使用生态环保和资源节约的制造工艺。
+            {{ $t('Driving.ContitechMember') }}
           </div>
           <div class="product2-content5-left-content2">
-            睿服是康迪泰克传动带在德国的重要合作伙伴，负责德国南方地区的销售；同时也拥有在中国的授权。
+            {{ $t('Driving.REIFFkey') }}
           </div>
-          <div class="product2-content5-left-title">Contitech 齿形带型号列表</div>
+          <div class="product2-content5-left-title">{{ $t('Driving.ContitechTiming') }}</div>
           <div class="product2-content5-left-content3">
             <ul>
               <li>CONTI® SYNCHROBELT </li>
@@ -195,11 +195,11 @@
           </div>
         </div>
         <div class="product2-content5-right">
-          <div class="product2-content5-right-title">下载产品资料</div>
+          <div class="product2-content5-right-title">{{ $t('Driving.ProductInformation') }}</div>
           <div class="product2-content5-right-img-box">
             <img src="../../assets/images/product1/download.png" alt="">
             <div class="product2-content5-right-img-text">
-              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.2/1.2-康迪泰克传动带资料.pdf" target="_blank" download="康迪泰克齿形带.pdf">康迪泰克齿形带</a>
+              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.2/1.2-康迪泰克传动带资料.pdf" target="_blank" download="康迪泰克齿形带.pdf">{{ $t('Driving.ContitechTimingBelts2') }}</a>
             </div>
           </div>
         </div>

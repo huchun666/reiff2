@@ -8,18 +8,18 @@
     <div class="product2-content">
       <div class="product2-content1">
         <div class="product2-content1-left">
-          <div class="product2-content1-left-title">工程塑料</div>
+          <div class="product2-content1-left-title">{{ $t('Engineering.EngineeringPlastic') }}</div>
           <div class="product2-content1-left-text">
-            我们致力于细分市场，在工程塑料领域专注来自德国和瑞士的高端工程塑料，为客户提供采购到交付的高水平服务。<br><br>
-            我们是K4-Plus组织的成员。K4-Plus是四家德国企业组成的大型工程塑料采购和销售组织。
+            {{ $t('Engineering.segmentation') }}<br><br>
+            {{ $t('Engineering.organization') }}
           </div>
         </div>
         <div class="product1-content-right">
-          <div class="product1-content-right-title">下载产品手册</div>
+          <div class="product1-content-right-title">{{ $t('Engineering.ProductCatalog') }}</div>
           <div class="product1-content-right-download">
             <img src="../../assets/images/product1/download.png" alt="" />
             <div class="product1-content-right-download-text">
-              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.6/产品手册_工程塑料.pdf" target="_blank" download="工程塑料.pdf">工程塑料</a>
+              <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.6/产品手册_工程塑料.pdf" target="_blank" download="工程塑料.pdf">{{ $t('Engineering.EngineeringPlastic') }}</a>
             </div>
           </div>
         </div>
