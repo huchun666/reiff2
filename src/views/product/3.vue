@@ -20,7 +20,7 @@
       <div class="product3-content2">
         <div class="product3-content2-left">
           <div class="product3-content2-left-top" :class="{'product3-content2-left-top-active': content1}" @mouseover="handleHoverContent('content1')" @mouseout="handleOutContent('content1')">
-            <div class="product3-content2-left-top-title">汉高德国最大工业经销商之一<br>{{ $t('Adhesive.OfficialHenkel') }}</div>
+            <div class="product3-content2-left-top-title">{{ $t('Adhesive.OfficialHenkel') }}</div>
             <div class="product3-content2-left-top-content">{{ $t('Adhesive.HenkelLoctite') }}</div>
           </div>
           <div class="product3-content2-left-bottom" :class="{'product3-content2-left-top-active': content3}" @mouseover="handleHoverContent('content3')" @mouseout="handleOutContent('content3')">
@@ -590,6 +590,8 @@ export default {
             -webkit-line-clamp: 2;
             line-clamp: 2;
             -webkit-box-orient: vertical;
+            display: flex;
+            align-items: center;
           }
         }
         .product3-content3-example-middle-text-hover {

@@ -34,7 +34,8 @@
     "TelValue": "+8621 6220 7582 ex 801",
     "Fax": "Fax",
     "FaxValue": "+8621 6220 7589",
-    "Email": "Email"
+    "Email": "Email",
+    "china": "China"
   },
   "home": {
     "wideRange": "Wide Range of Industrial Products",
@@ -42,7 +43,7 @@
     "TheHeadquarter": "The headquarter of REIFF Group is located in Reutlingen, south of Stuttgart, Germany. Since 1910, over four generations, we have been providing high-quality components and modern supply chain services to more than 60,000 manufacturing companies. We are one of the most important sales channels and partners for many leading industrial manufactures. We meet our customers' procurement needs from bearings, linear components, drive belts, chemicals, rubber products, hoses, engineering plastics to precision assemblies. Our production lines allow for flexible product development and customization. The group company Kremer have over 50 years of experience in the design and production of technical sealing.",
     "REIFFHas": "REIFF has a warehouse space of 122,000 square meters in Germany and more than 80,000 articles, a real-time inventory of more than 20 million Euro and an average of 12,000 pallets shipped per month, of which 75% are direct production materials.",
     "WeAreCommitted": "We are committed to solving the problems faced by our customers when dealing with small and medium quantities of production materials, providing supply chain solutions that reduce the cost of the procurement process and improve overall efficiency. We have a wide range of products, established in accordance with German industry standards, and continue to optimize the localization in China, with the help of the logistics centers in both Germany and Shanghai.",
-    "REIFFGroup": "REIFF Group has 650 employees and annual sales of 210 million Euro",
+    "REIFFGroup": "REIFF Group has 650 employees and annual sales of 210 million Euro.",
     "ContactUs": "Contact us",
     "CoreProductLines": "Core Product Lines",
     "OfficialDistributor": "Official Distributor in Germany and China",
@@ -77,7 +78,7 @@
     "HistoryOfMULCO": "History of MULCO Group",
     "OfficialHomepage": "Official Homepage of Mulco Group",
     "OfficialHomepageBreco": "Official Homepage of Breco",
-    "REIFFShanghai ": "REIFF Shanghai",
+    "REIFFShanghai": "REIFF Shanghai",
     "TheOfficialDistribution": "The official distribution channel for Breco, Brecoflex and Synchroflex in China",
     "REIFFIsTheFounding": "REIFF is the founding member and the core member of Mulco Group, REIFF Technical Products (Shanghai) Co., Ltd. is a wholly-owned subsidiary of REIFF Group and the only official distribution channel for the Mulco Group in China.",
     "REIFFAlone": "REIFF alone possesses a stock of over 2,000 tools of timing belts. In addition to standard types, we can also supply customization, connection and special coatings according to customer requirements.",
@@ -214,7 +215,7 @@
     "BrecoPolyurethaneTiming": "Breco polyurethane timing belts.",
     "RubberProducts": "Rubber products that meet the requirements of the medical industry, such as seals, vibration damping, edge protection and transport hoses.",
     "Customized": "Customized bearings from SKF, Schaeffler and REIFF.",
-    "ChemicalProducts": "Chemical products that meet the requirements of the medical industry, such as glues, seals, and lubricating greases",
+    "ChemicalProducts": "Chemical products that meet the requirements of the medical industry, such as glues, seals, and lubricating greases.",
     "FoodAndPharmaceutical": "Food and pharmaceutical machinery, automatic packaging lines",
     "Optibelt": "Contitech and Optibelt belts.",
     "industries": "Rubber products that meet the requirements of the food and pharmaceutical industries, such as seals, vibration damping and edge protection.",

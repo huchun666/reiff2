@@ -6,18 +6,18 @@
         <div class="contact-us-container-box">
           <img src="../assets/images/home/contact-us.jpg" alt="" class="contact-us-img">
           <div class="contact-us-container">
-            <div class="contact-us-title">联系我们</div>
+            <div class="contact-us-title">{{ $t('footer.contactUs') }}</div>
             <div class="contact-us-footer">
               <div class="contact-us-footer-left">
-                <div class="contact-us-footer-left-title">中国</div>
+                <div class="contact-us-footer-left-title">{{ $t('footer.china') }}</div>
                 <ul class="contact-us-footer-left-content">
-                  <li>睿服工业零部件（上海）有限公司</li>
-                  <li>上海市闵行区都会路1835号6号楼B</li>
-                  <li>邮编：201108</li>
+                  <li>{{ $t('footer.company') }}</li>
+                  <li>{{ $t('footer.location') }}</li>
+                  <li>{{ $t('footer.postcode') }}：201108</li>
                   <br>
-                  <li>电话：+86 21 6220 7582 ex 801</li>
-                  <li>传真：+86 21 6220 7589</li>
-                  <li>邮箱：shanghai@reiff-tp.cn</li>
+                  <li>{{ $t('footer.Tel') }}：{{ $t('footer.TelValue') }}</li>
+                  <li>{{ $t('footer.Fax') }}：{{ $t('footer.FaxValue') }}</li>
+                  <li>{{ $t('footer.Email') }}：shanghai@reiff-tp.cn</li>
                 </ul>
               </div>
               <div class="contact-us-footer-left">

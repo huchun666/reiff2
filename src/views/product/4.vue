@@ -391,7 +391,7 @@ export default {
 .product4-content1 {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin: 40px 0;
   .product4-content1-left {
     margin-right: 13%;
     width: 35vw;

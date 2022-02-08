@@ -34,7 +34,8 @@
     "TelValue": "021 6220 7582分机801",
     "Fax": "传真",
     "FaxValue": "021 6220 7589",
-    "Email": "邮箱"
+    "Email": "邮箱",
+    "china": "中国"
   },
   "home": {
     "wideRange": "大型工业零部件平台",
@@ -77,7 +78,7 @@
     "HistoryOfMULCO": "MULCO集团历史",
     "OfficialHomepage": "Mulco集团官网>>",
     "OfficialHomepageBreco": "Breco官网>>",
-    "REIFFShanghai ": "睿服上海",
+    "REIFFShanghai": "睿服上海",
     "TheOfficialDistribution": "Breco, Brecoflex和Synchroflex中国官方销售渠道",
     "REIFFIsTheFounding": "睿服是Mulco集团的组建成员和核心成员，睿服上海公司是睿服集团在华的全资子公司，是Mulco集团在中国的唯一官方销售渠道",
     "REIFFAlone": "睿服独自拥有超2000件的齿形带和皮带模具库存。除了标准型号外，我们还可以根据客户需求提供定制、接驳和特殊涂层。",
@@ -168,7 +169,7 @@
     "Material": "常用橡胶材料一览",
     "ManyFactors": "很多因素会影响密封的方案选择，例如产品的定位、密封位置的重要程度、需求数量、总体预算。睿服致力于为客户提供量身定制的解决方案。",
     "distributors": "我们是特瑞宝密封(Trelleborg Sealing Solution)在德国最大的分销商之一，同时也提供科德宝(Freudenberg) 系列的密封产品。",
-    "distributors2": "我们拥有专业的技术和生产团队，睿服集团的Kremer和R.E.T两家公司有超过50年的密封设计和生产经验，是众多国际知名企业的合作伙伴。",
+    "distributors2": "我们拥有专业的技术和生产团队，睿服集团的Kremer公司有超过50年的密封设计和生产经验，是众多国际知名企业的合作伙伴。",
     "Rubberprofiles": "橡胶型材、减震和绝缘",
     "highQuality": "睿服高品质的型材、减震和绝缘产品完全符合REACH和RoSH法规和规范。产品广泛应用于设备的边角保护、门窗密封、机械减震和高温、高压、隔音等领域。",
     "conservatories": "窗户、房屋门面和温室",
@@ -206,7 +207,7 @@
     "perspective": "从产品应用角度分析，睿服的客户主要集中在精密制造、医疗设备、食品和制药设备、全自动包装线、汽车和工程机械等领域；从供应链服务和供应链持续优化角度分析，大型制造企业和跨国集团是睿服重要的客户群体。",
     "AutomotiveIndustry": "汽车行业",
     "BrecoTiming": "Breco齿形带广泛地应用在生产线上，例如车身冲压和输送，是整车厂设备维护的指定品牌。",
-    "REIFFSubsidiary": "睿服的R. E.T和Kremer子公司多年为汽车行业设计和生产橡胶产品。",
+    "REIFFSubsidiary": "睿服的Kremer子公司多年为汽车行业设计和生产橡胶产品。",
     "system": "例如ABS/ESP系统和电气件的密封。",
     "Contitech": "马牌Contitech齿形带。Epple全系列不含硅胶水。",
     "MedicalIndustry": "医疗行业",
