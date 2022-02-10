@@ -201,7 +201,7 @@ export default {
         .app-header-tabs-item-content {
           position: absolute;
           left: 0;
-          top: 42px;
+          top: 40px;
           min-width: 200px;
           border-bottom: 1px solid #333;
           .app-header-tabs-item-content-item {

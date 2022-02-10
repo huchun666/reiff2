@@ -324,6 +324,7 @@ export default {
         color: #000;
         font-size: 16px;
         margin-bottom: 20px;
+        line-height: 26px;
       }
       .product2-content3-text-bottom {
         display: flex;
@@ -397,6 +398,7 @@ export default {
         .product2-content5-left-content, .product2-content5-left-content2 {
           font-size: 16px;
           color: #000;
+          line-height: 26px;
         }
         .product2-content5-left-content2 {
           margin-top: 20px;

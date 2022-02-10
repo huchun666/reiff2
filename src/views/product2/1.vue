@@ -135,7 +135,7 @@ export default {
       .application-content2-text {
         font-size: 16px;
         color: #000;
-        line-height: 15px;
+        line-height: 26px;
       }
     }
   }
@@ -160,7 +160,7 @@ export default {
       .application-content3-text {
         font-size: 16px;
         color: #000;
-        line-height: 15px;
+        line-height: 26px;
       }
     }
   }

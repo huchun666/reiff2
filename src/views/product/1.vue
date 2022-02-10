@@ -75,6 +75,7 @@ export default {
         color: #000;
         font-size: 16px;
         margin-bottom: 35px;
+        line-height: 26px;
       }
     }
     .product1-content-right {

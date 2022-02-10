@@ -68,6 +68,7 @@ export default {
         font-size: 16px;
         color: #000;
         margin-top: 40px;
+        line-height: 26px;
       }
     }
     .product1-content-right {
