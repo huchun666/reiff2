@@ -7,7 +7,7 @@
     />
     <div class="idea-content">
       <div class="idea-content1">
-        <div class="idea-content1-title">版权信息</div>
+        <div class="idea-content1-title">{{ $t('footer.copyrightInformation') }}</div>
         <div class="idea-content1-sub-title idea-content1-sub-title1">Copyright</div>
         <div class="idea-content1-box">
           1998-2020 REIFF Group. All rights reserved. All texts, images, graphs, audio, video and animation files in addition to their arrangements are subject to copyright and other laws for the protection of intellectual property. They may not be copied for commercial purposes or for circulation, or modified and used on other Internet pages. Some REIFF Group Internet pages also contain images subject to the copyright of those providing such images.<br>

@@ -6,13 +6,13 @@
       class="all-company-banner"
     />
     <div class="all-company-content">
-      <div class="all-company-title">集团公司一览</div>
+      <div class="all-company-title">{{ $t('footer.companies') }}</div>
       <div class="all-company-content1">
         <div class="all-company-content1-box all-company-content1-box-mid">
           <div class="all-company-content1-left all-company-content1-left-mid">
             <img src="../assets/images/footer/06.png" alt="">
             <div class="all-company-content1-left-text">
-              德国最大的工业零部件供应商之一。致力于提供符合现代工业要求的工业服务，集产品供应、技术服务、电子商务一体。<br>www.reiff-tp.de
+              {{ $t('GroupCompanies.largest') }}<br>{{ $t('GroupCompanies.reiff') }}
             </div>
           </div>
         </div>
@@ -20,13 +20,13 @@
           <div class="all-company-content1-left">
             <img src="../assets/images/footer/08.png" alt="">
             <div class="all-company-content1-left-text">
-              位于比利时和卢森堡等法语地区的工业零部件供应商，已有80年工业服务历史<br>www.gummi-roller.lu
+              {{ $t('GroupCompanies.ROLLER') }}<br>{{ $t('GroupCompanies.gummi') }}
             </div>
           </div>
           <div class="all-company-content1-left">
             <img src="../assets/images/footer/04.png" alt="">
             <div class="all-company-content1-left-text">
-              Kremer专业从事橡胶产品的开发、生产和服务，如密封、模压件、平面密封件以及各种塑料和弹性体，拥有超过50年的专业经验，是众多知名企业的指定供应商。<br>www.kremer-tec.de
+              {{ $t('GroupCompanies.specializes') }}<br>{{ $t('GroupCompanies.kremer') }}
             </div>
           </div>
         </div>

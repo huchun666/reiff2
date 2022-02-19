@@ -59,16 +59,16 @@ export default {
       const { innerHTML } = e.target;
       let path = "";
       let currentPath = this.$route.path;
-      if (innerHTML === "关于我们") {
+      if (innerHTML === "关于我们" || innerHTML === "About us") {
         this.setCurrentIndexFooter(1)
         path = "/history";
-      }else if (innerHTML === "集团公司一览") {
+      }else if (innerHTML === "集团公司一览" || innerHTML === "Companies") {
         this.setCurrentIndexFooter(2)
         path = "/all-company";
-      }else if (innerHTML === "合作伙伴") {
+      }else if (innerHTML === "合作伙伴" || innerHTML === "Cooperative partners") {
         this.setCurrentIndexFooter(3)
         path = "/cooperation";
-      }else if (innerHTML === "公司理念") {
+      }else if (innerHTML === "公司理念" || innerHTML === "Company philosophy") {
         this.setCurrentIndexFooter(4)
         path = "/idea";
       }
@@ -82,13 +82,13 @@ export default {
       const { innerHTML } = e.target;
       let path = "";
       let currentPath = this.$route.path;
-      if (innerHTML === "版权信息") {
+      if (innerHTML === "版权信息" || innerHTML === "Copyright information") {
         this.setCurrentIndexFooter(5)
         path = "/copyright";
-      }else if (innerHTML === "一般业务条款") {
+      }else if (innerHTML === "一般业务条款" || innerHTML === "General Terms of Business") {
         this.setCurrentIndexFooter(6)
         path = "/business-rule";
-      }else if (innerHTML === "数据保护声明") {
+      }else if (innerHTML === "数据保护声明" || innerHTML === "Data protection declaration") {
         this.setCurrentIndexFooter(7)
         path = "/data-statement";
       }

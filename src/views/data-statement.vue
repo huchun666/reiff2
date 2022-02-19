@@ -7,7 +7,7 @@
     />
     <div class="idea-content">
       <div class="idea-content1">
-        <div class="idea-content1-title">数据保护声明</div>
+        <div class="idea-content1-title">{{ $t('footer.dataProtectionDeclaration') }}</div>
         <div class="idea-content1-sub-title">Notes on data protection</div>
         <div class="idea-content1-box">
           REIFF Group thanks you for visiting our website and for your interest in our company and our products. We place great importance on protecting your privacy when processing your personal data. We process personal data collected from visitors to our website according to data protection laws. The REIFF Group Internet pages may contain links to the websites of other suppliers to whom this data protection declaration does not apply.

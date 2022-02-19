@@ -31,9 +31,9 @@
     "location": "Building 6-B, No.1835 Duhui Road, Shanghai",
     "postcode": "Postcode",
     "Tel": "Tel",
-    "TelValue": "+8621 6220 7582 ex 801",
+    "TelValue": "+86 21 6220 7582 ex 801",
     "Fax": "Fax",
-    "FaxValue": "+8621 6220 7589",
+    "FaxValue": "+86 21 6220 7589",
     "Email": "Email",
     "china": "China"
   },
@@ -283,5 +283,61 @@
     "EppleDocuments": "Epple documents",
     "01sealing": "01 Epple sealing products",
     "02products": "02 Epple bonding products"
+  },
+  "aboutUs": {
+    "REIFFCompany": "REIFF Company has a history of more than 100 years. As early as 1910, Albert REIFF established Albert REIFF KG in Reutlingen, Germany, which specialized in rubber products.",
+    "TodayBecome": "Today, REIFF has become one of the largest integrated suppliers of industrial products in Germany, with 122,000 square meters of warehouse space, over 80,000 articles, over 20 million Euro of real-time inventory and an average of 12,000 pallets shipped per month. REIFF has also extended its service area to a range of new applications such as e-Procurement system and customized supply chains. In Germany, more than 60,000 manufacturing companies cooperate with REIFF. 75% of the REIFF business is direct production materials.",
+    "REIFFTechnical": "REIFF Technical Products (Shanghai) Co., Ltd. is the wholly-owned subsidiary of REIFF Group in China and responsible for the business of Group's Industrial Parts Division, Kremer GmbH, Roller Luxembourg and Roller Belgium in China.",
+    "largeIntegrated": "REIFF is the large integrated supplier and offer high quality products from the global supply chain, including a full range of industrial products for transmission, sealing, conveying, bonding, rubber and plastic.",
+    "REIFFGroup": "REIFF Group has adopted the ISO9001 quality management system certification.",
+    "Employees": "500 Employees",
+    "GroupCompanies": "9 Group companies",
+    "Distribution": "Over 60 Distribution Brands",
+    "Products": "Over 140,000 Products",
+    "generation": "110 years and 4th generation",
+    "EuroSales": "210 million Euro Sales",
+    "Formation": "Formation of the company Albert REIFF KG.Started the business of industrial rubber products.",
+    "companyREIFF": "Formation of the company A. REIFF + Cie.Started the business of car spare parts.",
+    "BusinessExpansion": "Formation of the company REIFF +Cie., Business expansion of industry, car spare parts and rubber vulcanization.",
+    "startedLeading": "Günter Reiff started leading the REIFF Group.",
+    "administration": "The administration building was officially put into use.",
+    "Establishment": "Establishment of the factory fo the urban construction project in Reutlingen.",
+    "Rubber": "Rubber parts factory put into production.",
+    "ReiffJoined": "Eberhard Reiff joined REIFF management and lead the Tire Division.",
+    "Hubert": "Hubert Reiff joined REIFF management and lead the Industrial Division.",
+    "Logistics": "REIFF Logistics Center officially put into use.",
+    "Acquisition": "Acquisition of Kremer GmbH",
+    "RollerIndustrial": "Acquisition of Roller Industrial Technology",
+    "headquarter": "The rebuilt group headquarter office building put into use.",
+    "operation": "The R.E.T production line was officially brought into operation.",
+    "Celebration": "100th Anniversary Celebration of REIFF Group.",
+    "established": "REIFF Shanghai established.REIFF Bond was officially listed on the Frankfurt Stock Exchange.",
+    "management": "Acquisition of PICHA and DELTA. Tec Alec Reiff joined REIFF management.",
+    "subsidiary": "Optimization of the group product line. The subsidiary company R.E.T was sold."
+  },
+  "GroupCompanies": {
+    "largest": "One of the largest suppliers of industrial parts in Germany. Dedicated to providing industrial services that meet the requirements of modern industry, integrating product supply, technical service and e-commerce. ",
+    "reiff": "www.reiff-tp.de",
+    "ROLLER": "ROLLER is a supplier of industrial parts in the French-speaking regions of Belgium and Luxembourg, with a history of more than 80 years. ",
+    "gummi": "www.gummi-roller.lu",
+    "specializes": "Kremer specializes in the development, production and service of rubber products, such as seals, moulded parts, flat seals, and various plastics and elastomers. Kremer has over 50 years of professional experience and is the designated supplier of many well-known companies. ",
+    "kremer": "www.kremer-tec.de"
+  },
+  "CooperativePartners": {
+    "CooperativePartners": "Cooperative partners",
+    "more": "For more than 100 years, REIFF has built up excellent relationships with many well-known manufacturers and industry alliances, many of which can date back to the period when the market was just being established after World War 2. Through this extensive and intensive cooperation, REIFF has become a leading company in the industry, both in terms of the overall price-performance ratio of its product lines, and in terms of supply chain service.",
+    "Since": "Since entering the Chinese market, REIFF has deepened its collaboration with global partners in the region and expanded its local supply chain in China. Taking advantage of its traditional channels in Europe, many of the supply chain issues which have long plagued domestic customers have been solved. ",
+    "MULCO": "MULCO Group was founded in 1951, provide high quality polyurethane timing belts. REIFF was one of the four original founding members. In China, the three MULCO brands Breco, Brecoflex and Synchroflex are widely used in the precision machinery, food and pharmaceutical, tobacco and automotive industry, and are also common brands of timing belts in imported equipments.",
+    "K4plus": "K4plus is a purchasing and sales organization for engineering plastics consisting of four German companies, including REIFF. It has more than 10,000 customers in the German-speaking regions such as Germany, Switzerland and Austria. ",
+    "EDiS": "EDiS is an industry association covering Europe. The participating companies operate independently in their respective countries, but regularly exchange their experience, expertise and provide technical support to each other. The aim of this organization is to provide customers with better services as much as possible, such as unified production standards and optimized supply channels. ",
+    "VTH": "VTH is the industrial technology trade association of Germany and Austria, with a glorious history of one hundred years. ",
+    "European": "The European Sealing and Gasket Association (EUSGA) is an association of a series of companies specializing in sealing technology. Twenty-six companies from 23 European countries come together to exchange experiences, assist each other in procurement and communicate information on technological developments. REIFF is a founding member of this international association with a history of 11 years. "
+  },
+  "CompanyPhilosophy": {
+    "CompanyPhilosophy": "Company philosophy",
+    "PremiumService": "Premium service, this is the promise we make to our customers every day.",
+    "program": "With the program of over 140,000 products, REIFF is a strong partner for our customers in the field of industrial parts. We have the global sourcing channels, and have cooperated with many leading manufacturers for generations and provide customers with flexible supply chain solutions.",
+    "With": "With over 100 years of experience in the industry, we are always focused on our customers and constantly strive to improve our technical capabilities and channel strengths as well as our supply chain service levels.",
+    "Group": "REIFF Group has always been adhering to the tradition of family ownership, a unique flat management and more humane values."
   }
 }

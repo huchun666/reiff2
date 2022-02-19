@@ -7,7 +7,7 @@
     />
     <div class="idea-content">
       <div class="idea-content1">
-        <div class="idea-content1-title">一般业务条款</div>
+        <div class="idea-content1-title">{{ $t('footer.generalTermsOfBusiness') }}</div>
         <div class="idea-content1-sub-title">There are 1 file of General Terms and Conditions available:</div>
         <div class="idea-content1-title-content">
           <img src="../assets/images/product2/location.png" alt="">
