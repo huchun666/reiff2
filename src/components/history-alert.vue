@@ -10,84 +10,84 @@
         />
         <div class="contact-us-container-box">
           <div class="contact-us-container">
-            <div class="contact-us-title">MULCO集团历史</div>
+            <div class="contact-us-title">{{ $t('Driving.HistoryOfMULCO') }}</div>
             <div class="contact-us-boxx">
               <div class="contact-us-boxx-left">
                 <div class="contact-us--text-item1">
                   <div class="contact-us--text-item1-left">1951 -</div>
                   <div class="contact-us--text-item1-right">
-                    <div>Willhelm Herm. Müller研发出第一代可浇注聚氨酯齿形带</div>
-                    <div>以下4家企业在10月1日组成了Mulco集团：</div>
-                    <div>- Willhelm Herm. Müller</div>
-                    <div>- Hilger u. Kern</div>
-                    <div>- Reiff（睿服）</div>
-                    <div>- Rothermundt</div>
+                    <div>{{ $t('Innovations.October') }}</div>
+                    <div>{{ $t('Innovations.Founding') }}</div>
+                    <div>- {{ $t('Innovations.Willhelm') }}</div>
+                    <div>- {{ $t('Innovations.Hilger') }}</div>
+                    <div>- {{ $t('Innovations.Reutlingen') }}</div>
+                    <div>- {{ $t('Innovations.Rothermundt') }}</div>
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1954 -</div>
                   <div class="contact-us--text-item2-right">
-                    第一代双齿面PU齿形带问世
+                    {{ $t('Innovations.first') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1965 -</div>
                   <div class="contact-us--text-item2-right">
-                    委托Contitech代工在市场上推出T型材齿形带
+                    {{ $t('Innovations.CONTI') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1967 -</div>
                   <div class="contact-us--text-item2-right">
-                    委托Breco代工的第一代BRECO齿形带成功问世
+                    {{ $t('Innovations.BRECO') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1975 -</div>
                   <div class="contact-us--text-item2-right">
-                    委托Breco代工的BRECOFLEX生产工艺的研发并获得专利
+                    {{ $t('Innovations.Development') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1986 -</div>
                   <div class="contact-us--text-item2-right">
-                    研发出SFAT新型齿形带并获得专利
+                    {{ $t('Innovations.launches') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1992 -</div>
                   <div class="contact-us--text-item2-right">
-                    Contitech在市场上推出ATP型齿形带
+                    {{ $t('Innovations.patenting') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">1997 -</div>
                   <div class="contact-us--text-item2-right">
-                    研发出传输及运行性能显著提高的BAT弧形齿形带并申请专利
+                    {{ $t('Innovations.Further') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2000 -</div>
                   <div class="contact-us--text-item2-right">
-                    新型ATN输送带研发成功并申请专利
+                    {{ $t('Innovations.application') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2001 -</div>
                   <div class="contact-us--text-item2-right">
-                    进一步深化研发ATN模块化系统在市场上推出 ATN齿形带和传动带
+                    {{ $t('Innovations.performance') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2002 -</div>
                   <div class="contact-us--text-item2-right">
-                    在市场上推出新型高性能齿形带GEN III
+                    {{ $t('Innovations.Activation') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2003 -</div>
                   <div class="contact-us--text-item2-right">
-                    启用网页版产品目录，网页配有计算工具并可下载CAD图纸
+                    {{ $t('Innovations.BRECOFLEX') }}
                   </div>
                 </div>
               </div>
@@ -95,31 +95,25 @@
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2004 -</div>
                   <div class="contact-us--text-item2-right">
-                    Contitech在市场上推出ATP型齿形带
+                    {{ $t('Innovations.TIMING') }}
                   </div>
                 </div>
                 <div class="contact-us--text-item1">
                   <div class="contact-us--text-item1-left">2005 -</div>
                   <div class="contact-us--text-item1-right">
-                    <div>BRECOFLEX-齿形带型号StandartPlus 投入市场</div>
-                    <div>
-                      SYNCHROCHAIN作为GATES生产的Polychain的竞争对手进入市场
-                    </div>
+                    <div>{{ $t('Innovations.Introduction') }}</div>
                   </div>
                 </div>
                 <div class="contact-us--text-item1">
                   <div class="contact-us--text-item1-left">2007 -</div>
                   <div class="contact-us--text-item1-right">
-                    <div>为驱动技术和线性技术单独设计的新型齿形带ATS15面世</div>
-                    <div>
-                      新型小功率驱动的AT3 BRECOFLEX-齿形带进入市场
-                    </div>
+                    <div>{{ $t('Innovations.manufacturers') }}</div>
                   </div>
                 </div>
                 <div class="contact-us--text-item2">
                   <div class="contact-us--text-item2-left">2008 -</div>
                   <div class="contact-us--text-item2-right">
-                    MULCO将ROHS环保安全标准为MULCO标准。
+                    {{ $t('Innovations.blue') }}
                   </div>
                 </div>
               </div>
