@@ -11,7 +11,8 @@
           {{ $t('home.TheHeadquarter') }}<br><br>
           {{ $t('home.REIFFHas') }}<br><br>
           {{ $t('home.WeAreCommitted') }} <br><br>
-          {{ $t('home.REIFFGroup') }}
+          {{ $t('home.REIFFGroup') }} <br><br>
+          {{ $t('home.employees') }}
           <div class="home-main-contact-box">
             <div class="home-main-contact" @click="handleContactUs">{{ $t('home.ContactUs') }}</div>
           </div>

@@ -39,11 +39,12 @@
   },
   "home": {
     "wideRange": "Wide Range of Industrial Products",
-    "SupplyChain": "Supply Chain Total Solution",
-    "TheHeadquarter": "The headquarter of REIFF Group is located in Reutlingen, south of Stuttgart, Germany. Since 1910, over four generations, we have been providing high-quality components and modern supply chain services to more than 60,000 manufacturing companies. We are one of the most important sales channels and partners for many leading industrial manufactures. We meet our customers' procurement needs from bearings, linear components, drive belts, chemicals, rubber products, hoses, engineering plastics to precision assemblies. Our production lines allow for flexible product development and customization. The group company Kremer have over 50 years of experience in the design and production of technical sealing.",
-    "REIFFHas": "REIFF has a warehouse space of 122,000 square meters in Germany and more than 80,000 articles, a real-time inventory of more than 20 million Euro and an average of 12,000 pallets shipped per month, of which 75% are direct production materials.",
-    "WeAreCommitted": "We are committed to solving the problems faced by our customers when dealing with small and medium quantities of production materials, providing supply chain solutions that reduce the cost of the procurement process and improve overall efficiency. We have a wide range of products, established in accordance with German industry standards, and continue to optimize the localization in China, with the help of the logistics centers in both Germany and Shanghai.",
-    "REIFFGroup": "REIFF Group has 650 employees and annual sales of 210 million Euro.",
+    "SupplyChain": "360° Supply Chain Solution",
+    "TheHeadquarter": "REIFF headquarter is located in Reutlingen, south of Stuttgart, Germany. Since 1910, over four generations, we have been providing high-quality components and modern supply chain services to more than 60,000 manufacturing companies and are one of the key sales channels and partners of many leading international industrial brands; meeting our customers' sourcing needs for everything from bearings, transmission belts, chemicals, rubber products, hoses, engineering plastics to precision assemblies. Our own production lines allow for flexible product development and customization. The group company Kremer has over 50 years of experience in the design and production of professional rubber products.",
+    "REIFFHas": "With 122,000 square meters of warehouse space in Germany, REIFF has a standing inventory of over 80,000 units and a real time inventory of over RMB 200 million, shipping an average of 12,000 pallets per month, 75% of which are direct production materials.",
+    "WeAreCommitted": "We are committed to solving the problems faced by our customers when dealing with small to medium quantities of production materials, providing supply chain solutions that reduce the cost of the procurement process and improve overall efficiency.",
+    "REIFFGroup": "We have a wide range of products, developed in accordance with German industrial standards, which is continuously optimized locally in China, with the help of the logistics centers in both Germany and Shanghai.",
+    "employees": "With 540 employees and annual sales of €170 million, the REIFF Group is a leading supplier of technical products and services.",
     "ContactUs": "Contact us",
     "CoreProductLines": "Core Product Lines",
     "OfficialDistributor": "Official Distributor in Germany and China",
@@ -60,7 +61,7 @@
     "MaintenanceTools": "Maintenance Tools"
   },
   "Driving": {
-    "DrivingBeltsFrom": "Driving belts from European premium manufactures",
+    "DrivingBeltsFrom": "Driving belts from European premium manufacturers",
     "WeAreTheLarge": "We are the large sales organization of driving belts, the founding member of Mulco Group and one of the largest distributors of Optibelt and Continental in Germany. We provide our customers with a wide range of product solutions.",
     "BrecoBrecolex": "Breco, Brecolex, Contitech, Sychroflex Timing belts of Mulco Group",
     "ContitechTimingBelts": "Contitech Timing belts",
@@ -229,7 +230,7 @@
     "RubberSealing": "Rubber sealing products for dust, water and corrosion protection.",
     "AdhesivesAndSealants": "Adhesives and sealants.",
     "ProductDistribution": "Product Distribution",
-    "REIFFpartner": "REIFF is a key partner for many leading manufactures. Lots of these partnerships can be traced back to when the market was just established after World War 2.",
+    "REIFFpartner": "REIFF is a key partner for many leading manufacturers. Lots of these partnerships can be traced back to when the market was just established in 1950s.",
     "InGermany": "In Germany we have licenses for two major bearing brands, SKF (SKF) and Schaeffler (INA/FAG), and are one of the largest sellers of THK linear guide rails in Germany. In addition to the above products, we also offer Steinmeyer screws and Franke special bearings.",
     "ForTiming": "For timing belts and V-belts, we are authorized by Optibelt and Contitech and are one of the largest distributors of these two brands in Europe. We are the core member of the Mulco Group, which owns the Breco, Brecoflex and Synchroflex brands of timing belts and is the leading supplier in the industry, with a 35% market share of the entire polyurethane timing belt industry in Europe.",
     "chemicalBonding": "In chemical bonding, we are one of the largest distributors of Henkel Loctite in Germany and have authorizations in major cities in China. In addition, we are the exclusive sales channel of Epple and Technicoll for Chinese market."
@@ -260,7 +261,7 @@
     "title": "Supply Chain Service",
     "ContinuousSupply": "Continuous supply chain optimization is an important task for every manufacturing company.",
     "committed": "We are committed to solving the problems that our customers face when dealing with small to medium quantities of production materials. We provide the supply chain solutions that reduce the cost of the procurement process and increase overall efficiency. We have a wide range of products system, which is built according to German industrial standards and is continuously optimized locally based on our logistics centers in Germany and Shanghai.",
-    "extensive": "With our extensive experience and market position in the Europe, we offer international sourcing services to extend our customers' sourcing channels. For example, if a customer designates an overseas supplier, we could complete the entire process from enquiry, order placement, foreign currency payment, international logistics, import customs declaration, and deliver the product directly with RMB in China. We also provide domestic agent procurement services in response to the increasing demand for integration of local suppliers."
+    "extensive": "With our extensive experience and market position in Europe, we offer international sourcing services to extend our customers' sourcing channels. For example, if a customer designates an overseas supplier, we could complete the entire process from enquiry, order placement, foreign currency payment, international logistics, import customs declaration, and deliver the product directly with RMB in China. We also provide domestic agent procurement services in response to the increasing demand for integration of local suppliers."
   },
   "Download": {
     "title": "Download",

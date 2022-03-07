@@ -55,8 +55,8 @@
           </div>
         </div>
       </div>
-      <!-- <div class="product4-content2">
-        <div class="product4-content2-title">{{ $t('Rubber.Material') }}</div>
+      <div v-if="getStatus" class="product4-content2">
+        <div class="product4-content2-title">常用橡胶材料一览</div>
         <table cellpadding="0" pixels="0">
           <tr>
             <td>材料名称</td>
@@ -255,7 +255,7 @@
             <td>140°C 饱和蒸汽</td>
           </tr>
         </table>
-      </div> -->
+      </div>
       <div class="product4-content3">
         <div class="product4-content3-left">
           <div class="product4-content3-left-title">
@@ -371,13 +371,11 @@
 
 <script>
 export default {
-  data() {
-    return {};
+  computed: {
+    getStatus() {
+      return this.$i18n.locale === 'zh'
+    }
   },
-  created() {},
-  components: {},
-  methods: {},
-  mounted() {},
 };
 </script>
 

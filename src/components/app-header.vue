@@ -233,8 +233,7 @@ export default {
         display: flex;
         align-items: center;
         img {
-          width: 48px;
-          height: 18px;
+          width: 65px;
           cursor: pointer;
         }
       }

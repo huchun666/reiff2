@@ -332,7 +332,7 @@ export default {
           display: flex;
           align-items: center;
           font-size: 16px;
-          margin-right: 3.8vw;
+          margin-right: 3vw;
           a, span {
             margin-right: 8px;
             color: #000;
