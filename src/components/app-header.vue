@@ -1,17 +1,39 @@
 <template>
-  <div class='app-header'>
+  <div class="app-header">
     <div class="app-header-content">
       <div class="app-header-content-contanier">
-        <img src="../assets/images/header/logo.png" alt="" class="app-header-logo" @click="handleGoHome">
+        <img
+          src="../assets/images/header/breco_logo.jpg"
+          alt=""
+          class="app-header-breco-logo"
+          @click="handleGoHome"
+        />
+        <img
+          src="../assets/images/header/logo.png"
+          alt=""
+          class="app-header-logo"
+          @click="handleGoHome"
+        />
         <div class="app-header-tabs">
-          <div class="app-header-tabs-item" v-for="(item, index) in headerData" :key="index"
-            @mouseover="hoverIndex = index" 
-            @mouseout="hoverIndex = -1">
-            <div class="app-header-tabs-item-index"
-              :class="{'app-header-tabs-item-index-active': hoverIndex === index || currentIndex === index}"
+          <div
+            class="app-header-tabs-item"
+            v-for="(item, index) in headerData"
+            :key="index"
+            @mouseover="hoverIndex = index"
+            @mouseout="hoverIndex = -1"
+          >
+            <div
+              class="app-header-tabs-item-index"
+              :class="{
+                'app-header-tabs-item-index-active':
+                  hoverIndex === index || currentIndex === index,
+              }"
               @click="handleRouteTitleLink(item.data.length, item.url, index)"
-              >{{item.title}}</div>
-            <div class="app-header-tabs-item-content"
+            >
+              {{ item.title }}
+            </div>
+            <div
+              class="app-header-tabs-item-content"
               v-show="hoverIndex === index && item.data.length > 1"
             >
               <div
@@ -19,15 +41,21 @@
                 v-for="(childItem, childIndex) in item.data"
                 :key="childIndex"
                 @click="handleRouteLink(childItem.url, index, childIndex)"
-                :class="{'app-header-tabs-item-content-item-selected': currentChildIndex === childIndex && currentIndex === index}"
+                :class="{
+                  'app-header-tabs-item-content-item-selected':
+                    currentChildIndex === childIndex && currentIndex === index,
+                }"
               >
-                {{childItem.title}}
+                {{ childItem.title }}
               </div>
             </div>
           </div>
-          <div class="app-header-tabs-item app-header-lang">
-            <img v-if="isShowLang" src="../assets/images/home/icon-ch.png" alt="" @click="handleChange('zh')">
-            <img v-else src="../assets/images/home/icon-en.png" alt="" @click="handleChange('en')">
+          <div
+            class="app-header-tabs-item app-header-lang"
+            @click="handleLinkToOffical"
+          >
+            <img src="../assets/images/header/icon-logo.png" alt="" />
+            <span class="app-header-lang__text">睿服官网</span>
           </div>
         </div>
       </div>
@@ -36,7 +64,7 @@
 </template>
 
 <script>
-import { mapState, mapMutations } from 'vuex'
+import { mapState, mapMutations } from "vuex";
 export default {
   data() {
     return {
@@ -46,129 +74,101 @@ export default {
     };
   },
   computed: {
-    ...mapState(['currentIndex', 'currentChildIndex']),
+    ...mapState(["currentIndex", "currentChildIndex"]),
     headerData() {
       return [
         {
-          title: this.$t('menu.product'),
+          title: this.$t("footer.aboutUs"),
+          url: "/history",
           data: [
             {
-              title: this.$t('menu.bearing'),
-              url: '/product/1'
-            },
-            {
-              title: this.$t('menu.belt'),
-              url: '/product/2'
-            },
-            {
-              title: this.$t('menu.adhesive'),
-              url: '/product/3'
-            },
-            {
-              title: this.$t('menu.rubber'),
-              url: '/product/4'
-            },
-            {
-              title: this.$t('menu.industrial'),
-              url: '/product/5'
-            },
-            {
-              title: this.$t('menu.engineering'),
-              url: '/product/6'
+              title: this.$t("footer.aboutUs"),
+              url: "/history",
             },
           ],
         },
         {
-          title: this.$t('menu.applications'),
-          url: '/product2/1',
+          title: this.$t("menu.applications"),
+          url: "/product2/1",
           data: [
             {
-              title: this.$t('menu.applications'),
-              url: '/product2/1'
+              title: this.$t("menu.applications"),
+              url: "/product2/1",
             },
           ],
         },
         {
-          title: this.$t('menu.distribution'),
+          title: this.$t("menu.certificateOfAuthorization"),
+          url: "/product3/2",
           data: [
             {
-              title: this.$t('menu.productDistribution'),
-              url: '/product3/1'
+              title: this.$t("menu.certificateOfAuthorization"),
+              url: "/product3/2",
             },
-            {
-              title: this.$t('menu.certificateOfAuthorization'),
-              url: '/product3/2'
-            },
-          ]
+          ],
         },
         {
-          title: this.$t('menu.hazardous'),
+          title: this.$t("menu.download"),
+          url: "/product5/1",
           data: [
             {
-              title: this.$t('menu.hazardousChemical'),
-              url: '/product4/1'
+              title: this.$t("menu.download"),
+              url: "/product5/1",
             },
-            {
-              title: this.$t('menu.supplyChainService'),
-              url: '/product4/2'
-            },
-          ]
+          ],
         },
-        {
-          title: this.$t('menu.download'),
-          url: '/product5/1',
-          data: [
-            {
-              title: this.$t('menu.download'),
-              url: '/product5/1'
-            },
-          ]
-        },
-      ]
-    }
+      ];
+    },
   },
   methods: {
-    ...mapMutations(['setCurrentIndex', 'setCurrentIndexFooter', 'setCurrentChildIndex']),
+    ...mapMutations([
+      "setCurrentIndex",
+      "setCurrentIndexFooter",
+      "setCurrentChildIndex",
+    ]),
+    handleLinkToOffical() {
+      window.open('https://www.reiff-tp.cn', '_blank');
+    },
     handleChange(lang) {
-      if(lang === 'zh') {
-        localStorage.setItem('locale', 'zh')
-        this.$i18n.locale = localStorage.getItem('locale')
-        this.isShowLang = false
-      }else if(lang === 'en') {
-        localStorage.setItem('locale', 'en')
-        this.$i18n.locale = localStorage.getItem('locale')
-        this.isShowLang = true
+      if (lang === "zh") {
+        localStorage.setItem("locale", "zh");
+        this.$i18n.locale = localStorage.getItem("locale");
+        this.isShowLang = false;
+      } else if (lang === "en") {
+        localStorage.setItem("locale", "en");
+        this.$i18n.locale = localStorage.getItem("locale");
+        this.isShowLang = true;
       }
     },
     handleRouteTitleLink(length, url, index) {
       if (this.$route.path !== url && length === 1) {
-        this.setCurrentIndex(index)
-        this.setCurrentIndexFooter(-1)
-        scrollTo(0,0)
-        this.$router.push({path: url})
+        this.setCurrentIndex(index);
+        this.setCurrentIndexFooter(-1);
+        scrollTo(0, 0);
+        this.$router.push({ path: url });
       }
     },
     handleRouteLink(url, index, childIndex) {
       if (this.$route.path !== url) {
-        this.setCurrentIndex(index)
-        this.setCurrentChildIndex(childIndex)
-        this.setCurrentIndexFooter(-1)
-        scrollTo(0,0)
-        this.$router.push({path: url})
+        this.setCurrentIndex(index);
+        this.setCurrentChildIndex(childIndex);
+        this.setCurrentIndexFooter(-1);
+        scrollTo(0, 0);
+        this.$router.push({ path: url });
       }
     },
     handleClearStatus() {
-      this.setCurrentIndex(-1)
+      this.setCurrentIndex(-1);
     },
     handleGoHome() {
-      if (this.$route.path !== '/') {
-        this.handleClearStatus()
-        this.setCurrentIndexFooter(-1)
-        scrollTo(0,0)
-        this.$router.push({name: 'Home'})
+      if (this.$route.path !== "/") {
+        this.handleClearStatus();
+        this.setCurrentIndexFooter(-1);
+        scrollTo(0, 0);
+        this.$router.push({ name: "Home" });
       }
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -186,15 +186,21 @@ export default {
       display: flex;
       align-items: flex-end;
     }
+    .app-header-breco-logo {
+      width: 160px;
+      margin-bottom: -10px;
+      margin-right: 25px;
+    }
     .app-header-logo {
       width: 200px;
       height: 41px;
-      margin-right: 3vw;
+      margin-right: 10vw;
       cursor: pointer;
     }
     .app-header-tabs {
       display: flex;
       margin-bottom: -10px;
+      align-items: center;
       .app-header-tabs-item {
         position: relative;
         margin-left: 3.2vw;
@@ -213,10 +219,10 @@ export default {
             background: #fff;
           }
           .app-header-tabs-item-content-item-selected {
-            color: #DB2C15;
+            color: #db2c15;
           }
           .app-header-tabs-item-content-item:hover {
-            color: #DB2C15;
+            color: #db2c15;
           }
         }
         .app-header-tabs-item-index {
@@ -225,16 +231,25 @@ export default {
           padding: 10px 0;
         }
         .app-header-tabs-item-index-active {
-          color: #DB2C15;
+          color: #db2c15;
         }
       }
       .app-header-lang {
         margin-left: 3.8vw;
         display: flex;
         align-items: center;
+        border: 0.5px solid rgba(151,151,151,1);
+        border-radius: 11px;
+        padding: 0 10px;
+        height: 22px;
+        cursor: pointer;
         img {
-          width: 65px;
-          cursor: pointer;
+          width: 12px;
+        }
+        &__text {
+          font-size: 14px;
+          color: #484b52;
+          margin-left: 4px;
         }
       }
     }

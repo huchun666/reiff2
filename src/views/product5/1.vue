@@ -12,6 +12,15 @@
           </div>
         </li>
       </ul>
+      <div class="download-sub-title">Breco, Brecoflex, Synchroflex 产品手册</div>
+      <ul>
+        <li>
+          <img src="../../assets/images/product2/location.png" alt="" />
+          <div class="download-content2-box-text">
+            <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.1/产品手册_轴承和导轨.pdf" target="_blank" download="01 产品手册_轴承和导轨.pdf">Mulco 产品手册</a>
+          </div>
+        </li>
+      </ul>
       <div class="download-sub-title">{{ $t('Download.REIFFProductCatalog') }}</div>
       <ul>
         <li>
@@ -90,21 +99,6 @@
           <img src="../../assets/images/product2/location.png" alt="" />
           <div class="download-content2-box-text">
               <a href="http://www.reiff-tp.cn/download/产品一览&资料下载/1.5/产品手册_液压软管.pdf" target="_blank" download="13 产品手册_液压软管.pdf">{{ $t('Download.13') }}</a>
-          </div>
-        </li>
-      </ul>
-      <div class="download-sub-title">{{ $t('Download.EppleDocuments') }}</div>
-      <ul>
-        <li>
-          <img src="../../assets/images/product2/location.png" alt="" />
-          <div class="download-content2-box-text">
-              <a href="http://www.reiff-tp.cn/download/01 Epple密封产品.pdf" target="_blank" download="01 Epple密封产品.pdf">{{ $t('Download.01sealing') }}</a>
-          </div>
-        </li>
-        <li>
-          <img src="../../assets/images/product2/location.png" alt="" />
-          <div class="download-content2-box-text">
-              <a href="http://www.reiff-tp.cn/download/02 Epple粘合产品.pdf" target="_blank" download="02 Epple粘合产品.pdf">{{ $t('Download.02products') }}</a>
           </div>
         </li>
       </ul>
