@@ -127,7 +127,7 @@ export default {
       "setCurrentChildIndex",
     ]),
     handleLinkToOffical() {
-      window.open('https://www.reiff-tp.cn', '_blank');
+      window.open('http://www.reiff-tp.cn', '_blank');
     },
     handleChange(lang) {
       if (lang === "zh") {
