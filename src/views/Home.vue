@@ -8,7 +8,6 @@
     <div class="home-main-container">
       <div class="home-main-title">
         <p>{{ $t("home.wideRange") }}</p>
-        <p>{{ $t("home.SupplyChain") }}</p>
       </div>
       <div class="home-main-content">
         <div class="home-main-content-box">

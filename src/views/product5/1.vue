@@ -17,7 +17,7 @@
         <li>
           <img src="../../assets/images/product2/location.png" alt="" />
           <div class="download-content2-box-text">
-            <a href="http://www.reiff-tp.cn/download/Mulco 产品手册.pdf" target="_blank" download="Mulco 产品手册.pdf">Mulco 产品手册</a>
+            <a href="http://www.reiff-breco.cn/download/Mulco%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C.pdf" target="_blank" download="Mulco 产品手册.pdf">Mulco 产品手册</a>
           </div>
         </li>
       </ul>
